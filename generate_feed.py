@@ -119,8 +119,25 @@ GOOGLE_NEWS_QUERIES = build_google_queries()
 # Cómo obtenerlas: google.com/alerts → crea alerta → "Mostrar opciones"
 # → Enviar a: "Feed RSS" → copia la URL
 GOOGLE_ALERTS_URLS = [
-    # Pega aquí tus URLs de Google Alerts:
-    # "https://www.google.com/alerts/feeds/TU_ID/ALERTA_ID",
+    # Grupo 1 — QA/Test roles × sitios + remote
+    "https://www.google.com/alerts/feeds/10249602398417491184/11611437265442465505",
+    "https://www.google.com/alerts/feeds/10249602398417491184/12178066067736602236",
+    "https://www.google.com/alerts/feeds/10249602398417491184/2223651637235887985",
+    "https://www.google.com/alerts/feeds/10249602398417491184/13155169726062107205",
+    # Grupo 2 — Automation/Quality × sitios + remote
+    "https://www.google.com/alerts/feeds/10249602398417491184/7916913769787249035",
+    "https://www.google.com/alerts/feeds/10249602398417491184/10001309389220709605",
+    "https://www.google.com/alerts/feeds/10249602398417491184/10713089913937078173",
+    "https://www.google.com/alerts/feeds/10249602398417491184/1206722805401966609",
+    # Grupo 3 — Agile/Management × sitios + remote
+    "https://www.google.com/alerts/feeds/10249602398417491184/4970848268405658321",
+    "https://www.google.com/alerts/feeds/10249602398417491184/3277825465328383907",
+    "https://www.google.com/alerts/feeds/10249602398417491184/7916913769787249821",
+    "https://www.google.com/alerts/feeds/10249602398417491184/3277825465328382919",
+    # General — Madrid + Glassdoor
+    "https://www.google.com/alerts/feeds/10249602398417491184/395567329496222380",
+    "https://www.google.com/alerts/feeds/10249602398417491184/3463153044462255800",
+    "https://www.google.com/alerts/feeds/10249602398417491184/4970848268405658360",
 ]
 
 # ── INDEED RSS — feed directo por título ─────────────────────
