@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>QA Jobs Feed — Jose Baños Arroyo</title>
-    <description>Initializing feed... run the workflow to populate.</description>
-    <link>https://jbanos093.github.io/qa-jobs-feed/</link>
+    <link>https://Darumidas.github.io/qa-jobs-feed/</link>
+    <atom:link href="https://Darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>QA Lead · Senior QA · Test Manager · SDET Lead — Remote jobs in English</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Jun 2026 19:49:16 GMT</lastBuildDate>
+    <ttl>360</ttl>
+    <generator>JoseAI JobFeed v1.0</generator>
+    <managingEditor>jbanos093@gmail.com (Jose Banos Arroyo)</managingEditor>
+    <!-- 4 jobs found -->
+
+  <item>
+    <title>Machine Learning QA Engineer — Derq</title>
+    <link>https://remoteOK.com/remote-jobs/remote-machine-learning-qa-engineer-derq-1132718</link>
+    <description>Derq is an MIT spinoff building AI-powered traffic safety and smart infrastructure. Weâre a team of passionate innovators, leveraging the latest in AI and technology to transform the future of mobility. Our platform enhances road safety and traffic management by turning real-time data into actionable insights for cities and road operators. Our patented technology collects and analyzes data from ... [Fuente: RemoteOK]</description>
+    <pubDate>Tue, 02 Jun 2026 16:00:12 GMT</pubDate>
+    <guid isPermaLink="false">remoteok-1132718</guid>
+    <source url="https://remoteOK.com/remote-jobs/remote-machine-learning-qa-engineer-derq-1132718">RemoteOK</source>
+  </item>
+  <item>
+    <title>Projektkoordination Softwareprojekte (m/w/d) | Berlin-Mitte | Teilzeit/Vollzeit — TenMedia GmbH</title>
+    <link>https://www.arbeitnow.com/jobs/companies/tenmedia-gmbh/projektkoordination-softwareprojekte-berlin-mitte-teilzeit-vollzeit-164472</link>
+    <description>Seit über 14 Jahren entwickeln wir bei TenMedia Individualsoftware für Mittelstand, öffentliche Hand und KRITIS-Betreiber. Unsere Software läuft dort, wo Ausfälle keine Option sind: in Behörden, bei kritischen Infrastrukturen und im Mittelstand. Wir suchen dich für die ganzheitliche Betreuung unserer Projekte, von der Ausschreibung über das Angebot bis zur Abnahme. Du bist die organisatorische Sch... [Fuente: Arbeitnow]</description>
+    <pubDate>Thu, 04 Jun 2026 15:00:31 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-projektkoordination-softwareprojekte-berlin-mitte-teilzeit-vollzeit-164472</guid>
+    <source url="https://www.arbeitnow.com/jobs/companies/tenmedia-gmbh/projektkoordination-softwareprojekte-berlin-mitte-teilzeit-vollzeit-164472">Arbeitnow</source>
+  </item>
+  <item>
+    <title>Founding Engineering Team Lead (HandsOn) — Cygrid GmbH</title>
+    <link>https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/founding-engineering-team-lead-handson-berlin-140227</link>
+    <description>Berlin • Cybersecurity &amp;#x26; AI Startup • Recently Funded A newly funded cybersecurity startup in Berlin is looking for a Engineering Team Lead to join as a founding team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered risk management platform. We are an early-stage startup founded by experienced cybersecurity leaders with background... [Fuente: Arbeitnow]</description>
+    <pubDate>Thu, 04 Jun 2026 12:30:33 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-founding-engineering-team-lead-handson-berlin-140227</guid>
+    <source url="https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/founding-engineering-team-lead-handson-berlin-140227">Arbeitnow</source>
+  </item>
+  <item>
+    <title>Engineering Manager - Verification — SumUp</title>
+    <link>https://www.arbeitnow.com/jobs/companies/sumup/engineering-manager-verification-berlin-65279</link>
+    <description>SumUp builds financial solutions for millions of small businesses worldwide. Our Identity Lifecycle mission powers the systems that determine who can access those solutions, ensuring every merchant we onboard is verified accurately, compliantly, and at scale. As Engineering Manager for Verification , you will lead the squad responsible for identity checks across all of SumUp&#x27;s markets. This is a h... [Fuente: Arbeitnow]</description>
+    <pubDate>Thu, 04 Jun 2026 06:45:23 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-verification-berlin-65279</guid>
+    <source url="https://www.arbeitnow.com/jobs/companies/sumup/engineering-manager-verification-berlin-65279">Arbeitnow</source>
+  </item>
   </channel>
 </rss>
