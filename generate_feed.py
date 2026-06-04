@@ -38,14 +38,28 @@ KEYWORDS_BROAD = [
 ]
 
 EXCLUDE = [
-    # Seniority
+    # Seniority no deseada
     "junior", "jr.", "intern", "internship", "graduate", "entry level",
-    "entry-level", "trainee", "apprentice",
+    "entry-level", "trainee", "apprentice", "associate qa", "associate test",
+    # Roles de desarrollo (no QA/Agile)
+    "software developer", "software engineer", "frontend developer",
+    "backend developer", "full stack", "fullstack", "full-stack",
+    "mobile developer", "ios developer", "android developer",
+    "web developer", "react developer", "node developer",
+    "python developer", "java developer", ".net developer",
+    "devops engineer", "data engineer", "data scientist",
+    "machine learning engineer", "ml engineer", "ai engineer",
+    # Otros roles no relevantes
+    "sales", "account executive", "account manager", "marketing manager",
+    "recruiter", "hr manager", "finance manager", "designer",
+    # Presencial explícito
+    "on-site", "onsite", "on site", "in-office", "in office",
+    "must be in office", "office-based", "no remote", "not remote",
+    "presencial", "en oficina",
     # US-only
-    "us citizenship", "must be authorized to work in the u", "sponsorship not available",
-    "must be located in the us", "us only", "united states only",
-    # Irrelevant roles
-    "sales", "account executive", "marketing manager"
+    "us citizenship required", "must be authorized to work in the u",
+    "sponsorship not available", "must be located in the us",
+    "us only", "united states only", "eligible to work in the us",
 ]
 
 # Tags que identifican una oferta como remota
@@ -148,9 +162,12 @@ HEADERS = {
 }
 
 def matches(title: str, description: str = "", broad: bool = False) -> bool:
-    text = (title + " " + description).lower()
-    if any(ex in text for ex in EXCLUDE):
+    title_low = title.lower()
+    # Exclusiones solo contra el título (más preciso — descripción puede mencionar junior como req)
+    if any(ex in title_low for ex in EXCLUDE):
         return False
+    # Keywords contra título + descripción
+    text = (title_low + " " + description.lower())
     kw_list = KEYWORDS_BROAD if broad else KEYWORDS
     return any(kw in text for kw in kw_list)
 
