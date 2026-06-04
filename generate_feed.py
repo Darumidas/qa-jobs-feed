@@ -65,20 +65,14 @@ COLUMN_A_TITLES = [
     "Engineering Manager", "Quality Lead", "Test Delivery Lead", "Agile Coach",
 ]
 
-# Sitios de empleo accesibles (sin LinkedIn, sin auth)
-JOB_SITES = (
-    "site:indeed.com OR site:glassdoor.com OR site:adzuna.com "
-    "OR site:reed.co.uk OR site:totaljobs.com OR site:jobsite.co.uk "
-    "OR site:simplyhired.com OR site:dice.com OR site:infojobs.net "
-    "OR site:tecnoempleo.com OR site:jobrapido.com OR site:wellfound.com"
-)
-
-# Genera una query por cada título: busca en todos los job boards + remote/Madrid
+# Queries simples por título — sin site: (devuelve páginas agrupadas, no ofertas individuales)
+# Google News encuentra ofertas publicadas en múltiples fuentes
 def build_google_queries() -> list:
     queries = []
     for title in COLUMN_A_TITLES:
-        queries.append(f'"{title}" remote {JOB_SITES}')
-        queries.append(f'"{title}" Madrid {JOB_SITES}')
+        queries.append(f'"{title}" remote job opening')
+        queries.append(f'"{title}" "work from home" hiring')
+        queries.append(f'"{title}" Madrid oferta empleo')
     return queries
 
 GOOGLE_NEWS_QUERIES = build_google_queries()
@@ -363,25 +357,33 @@ def fetch_tecnoempleo() -> list:
 
 def fetch_adzuna(app_id: str, app_key: str) -> list:
     """Adzuna — agrega Glassdoor, Reed, Totaljobs y +300 sitios.
-    Requiere clave gratuita: developer.adzuna.com"""
+    Busca: remote worldwide (vía UK que tiene el mayor mercado EN)
+           + presencial Madrid/España."""
     if not app_id or not app_key:
         return []
+
+    import urllib.parse
     jobs = []
     seen = set()
-    # Busca en UK (mayor mercado remoto EN) + España
-    for country, what_list in [
-        ("gb", COLUMN_A_TITLES[:8]),   # UK — primeros 8 títulos
-        ("gb", COLUMN_A_TITLES[8:]),   # UK — siguientes 8
-        ("es", COLUMN_A_TITLES),       # España — todos
-    ]:
-        for title in what_list:
+
+    # Combinaciones: (país, where, label)
+    searches = [
+        ("gb", "Remote",  "🌐 Remote"),   # UK como proxy de remote EN mundial
+        ("es", "Madrid",  "📍 Madrid"),
+        ("es", "Spain",   "📍 Spain"),
+    ]
+
+    for country, where, label in searches:
+        for title in COLUMN_A_TITLES:
             try:
-                import urllib.parse
                 url = (
                     f"https://api.adzuna.com/v1/api/jobs/{country}/search/1"
                     f"?app_id={app_id}&app_key={app_key}"
-                    f"&what={urllib.parse.quote(title)}&where=remote"
-                    f"&results_per_page=20&content-type=application/json"
+                    f"&what={urllib.parse.quote(title)}"
+                    f"&where={urllib.parse.quote(where)}"
+                    f"&results_per_page=10"
+                    f"&sort_by=date"
+                    f"&content-type=application/json"
                 )
                 r = requests.get(url, headers=HEADERS, timeout=15)
                 if r.status_code != 200:
@@ -390,21 +392,20 @@ def fetch_adzuna(app_id: str, app_key: str) -> list:
                     uid = str(job.get("id", ""))
                     if uid in seen:
                         continue
-                    loc = job.get("location", {}).get("display_name", "")
-                    if not location_ok(loc, "", job.get("description", "")):
-                        continue
                     seen.add(uid)
+                    job_title = job.get("title", "")
+                    company   = job.get("company", {}).get("display_name", "")
                     jobs.append({
-                        "title": f"{job.get('title','')} — {job.get('company',{}).get('display_name','')}",
+                        "title": f"{job_title} — {company} [{label}]",
                         "link":  job.get("redirect_url", ""),
                         "desc":  clean(job.get("description", "")),
                         "date":  job.get("created", ""),
                         "source": "Adzuna 🔗",
                         "guid":  f"adzuna-{uid}"
                     })
-                time.sleep(0.5)
+                time.sleep(0.3)
             except Exception as e:
-                print(f"[Adzuna] Error ({title}/{country}): {e}")
+                print(f"[Adzuna] Error ({title}/{where}): {e}")
     return jobs
 
 
