@@ -135,6 +135,7 @@ GOOGLE_ALERTS_URLS = [
     "https://www.google.com/alerts/feeds/10249602398417491184/7916913769787249821",
     "https://www.google.com/alerts/feeds/10249602398417491184/3277825465328382919",
     # General — Madrid + Glassdoor
+    "https://www.google.com/alerts/feeds/10249602398417491184/9434042950324112243",
     "https://www.google.com/alerts/feeds/10249602398417491184/395567329496222380",
     "https://www.google.com/alerts/feeds/10249602398417491184/3463153044462255800",
     "https://www.google.com/alerts/feeds/10249602398417491184/4970848268405658360",
