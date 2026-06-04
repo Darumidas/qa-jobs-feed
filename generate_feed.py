@@ -354,4 +354,4 @@ if __name__ == "__main__":
     with open(os.path.join(base, "feed_all.xml"), "w", encoding="utf-8") as f:
         f.write(rss_broad)
 
-    print(f"\nDone. feed.xml ({len(filtered)} jobs) + feed_all.xml ({len(broad)} jobs)")
+    print(f"\nDone. feed.xml ({len(filtered)} jobs) + feed_all.xml ({len(broad_jobs)} jobs)")
