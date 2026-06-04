@@ -1,7 +1,8 @@
 """
 QA Jobs RSS Feed Generator — Jose Baños Arroyo
-Fuentes: RemoteOK, Remotive, Arbeitnow, WeWorkRemotely
-Output: feed.xml (RSS 2.0) → publicado en GitHub Pages
+Fuentes: RemoteOK, Remotive, Arbeitnow, WeWorkRemotely, Himalayas,
+         Google News RSS, Google Alerts RSS (custom)
+Output: feed.xml + feed_all.xml → publicado en GitHub Pages
 """
 
 import requests
@@ -54,6 +55,33 @@ LOCATIONS_BAD = [
     "manchester", "united kingdom", "uk only", "new york", "san francisco",
     "los angeles", "chicago", "toronto", "vancouver", "canada",
     "on-site only", "onsite only", "in-office only", "office required"
+]
+
+# ── GOOGLE NEWS RSS — queries de búsqueda de empleo ──────────
+# Formato: https://news.google.com/rss/search?q=QUERY&hl=en&gl=US&ceid=US:en
+# Añade más queries o pega aquí tus URLs de Google Alerts
+GOOGLE_NEWS_QUERIES = [
+    '"QA Lead" remote job',
+    '"Test Lead" remote job',
+    '"Test Manager" remote job',
+    '"QA Automation Lead" remote',
+    '"Senior QA Engineer" remote',
+    '"Scrum Master" remote job',
+    '"SDET" remote senior',
+    '"QA Lead" Madrid trabajo',
+    '"Test Manager" Madrid empleo',
+    '"Quality Lead" remote hiring',
+    '"Agile Lead" remote job',
+    '"Engineering Manager" QA remote',
+]
+
+# ── GOOGLE ALERTS RSS — pega aquí tus URLs ───────────────────
+# Cómo obtenerlas: google.com/alerts → crea alerta → "Mostrar opciones"
+# → Enviar a: "Feed RSS" → copia la URL
+# Ejemplo: https://www.google.com/alerts/feeds/12345678/9876543210
+GOOGLE_ALERTS_URLS = [
+    # Pega aquí tus URLs de Google Alerts:
+    # "https://www.google.com/alerts/feeds/TU_ID/ALERTA_ID",
 ]
 
 def location_ok(location: str, tags: str = "", description: str = "") -> bool:
@@ -309,6 +337,69 @@ def build_rss(jobs: list, title: str, filename: str, description: str, limit: in
 
 # ── MAIN ─────────────────────────────────────────────────────
 
+def fetch_google_rss() -> list:
+    """Lee Google News RSS + Google Alerts RSS.
+    No aplica filtro de keywords — Google ya filtra por la query.
+    Sí aplica filtro de ubicación."""
+    jobs = []
+    seen = set()
+
+    # Google News RSS
+    for query in GOOGLE_NEWS_QUERIES:
+        try:
+            import urllib.parse
+            url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=en&gl=US&ceid=US:en"
+            feed = feedparser.parse(url)
+            for entry in feed.entries:
+                title = entry.get("title", "")
+                link  = entry.get("link", "")
+                uid   = entry.get("id") or link
+                if uid in seen or not link:
+                    continue
+                summary = entry.get("summary", "")
+                # Filtro ubicación: acepta remote/Madrid, descarta ciudades no deseadas
+                if not location_ok(title, "", summary):
+                    continue
+                seen.add(uid)
+                jobs.append({
+                    "title": title,
+                    "link": link,
+                    "desc": clean(summary),
+                    "date": entry.get("published", ""),
+                    "source": "Google News 🔍",
+                    "guid": f"gnews-{uid}"
+                })
+            time.sleep(0.8)
+        except Exception as e:
+            print(f"[Google News] Error ({query[:30]}): {e}")
+
+    # Google Alerts RSS (URLs custom del usuario)
+    for url in GOOGLE_ALERTS_URLS:
+        try:
+            feed = feedparser.parse(url)
+            for entry in feed.entries:
+                title = entry.get("title", "")
+                link  = entry.get("link", "")
+                uid   = entry.get("id") or link
+                if uid in seen or not link:
+                    continue
+                if not location_ok(title, "", entry.get("summary", "")):
+                    continue
+                seen.add(uid)
+                jobs.append({
+                    "title": title,
+                    "link": link,
+                    "desc": clean(entry.get("summary", "")),
+                    "date": entry.get("published", ""),
+                    "source": "Google Alerts 🔔",
+                    "guid": f"galert-{uid}"
+                })
+        except Exception as e:
+            print(f"[Google Alerts] Error ({url[:40]}): {e}")
+
+    return jobs
+
+
 if __name__ == "__main__":
     base = os.path.dirname(__file__)
 
@@ -320,7 +411,13 @@ if __name__ == "__main__":
     filtered += fetch_weworkremotely(broad=False)
     filtered += fetch_jobicy(broad=False)
     filtered += fetch_himalayas(broad=False)
-    print(f"  Filtered: {len(filtered)} jobs")
+    print(f"  Job boards: {len(filtered)} jobs")
+
+    google = fetch_google_rss()
+    print(f"  Google RSS: {len(google)} results")
+    filtered += google
+
+    print(f"  Filtered total: {len(filtered)} jobs")
 
     print("Fetching jobs (all market)...")
     broad_jobs = []
@@ -330,6 +427,7 @@ if __name__ == "__main__":
     broad_jobs += fetch_weworkremotely(broad=True)
     broad_jobs += fetch_jobicy(broad=True)
     broad_jobs += fetch_himalayas(broad=True)
+    broad_jobs += google  # Google RSS va en ambos feeds
     print(f"  Broad: {len(broad_jobs)} jobs")
 
     # Feed filtrado — títulos exactos de tu Job Titles sheet
