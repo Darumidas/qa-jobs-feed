@@ -30,17 +30,24 @@ KEYWORDS = [
     "staff qa", "staff test", "qa automation lead", "senior sdet"
 ]
 
-EXCLUDE = ["junior", "intern", "graduate", "entry level", "entry-level"]
+KEYWORDS_BROAD = [
+    "qa", "quality assurance", "test", "sdet", "scrum", "agile",
+    "automation engineer", "delivery manager", "product owner",
+    "engineering manager", "agile coach", "release manager"
+]
+
+EXCLUDE = ["junior", "intern", "graduate", "entry level", "entry-level", "trainee"]
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; JobFeedBot/1.0; +https://github.com/jbanos093/qa-jobs-feed)"
 }
 
-def matches(title: str, description: str = "") -> bool:
+def matches(title: str, description: str = "", broad: bool = False) -> bool:
     text = (title + " " + description).lower()
     if any(ex in text for ex in EXCLUDE):
         return False
-    return any(kw in text for kw in KEYWORDS)
+    kw_list = KEYWORDS_BROAD if broad else KEYWORDS
+    return any(kw in text for kw in kw_list)
 
 def clean(text: str) -> str:
     text = re.sub(r'<[^>]+>', ' ', text or '')
@@ -65,7 +72,7 @@ def rss_date(dt=None) -> str:
 
 # ── FUENTES ──────────────────────────────────────────────────
 
-def fetch_remoteok() -> list:
+def fetch_remoteok(broad=False) -> list:
     jobs = []
     try:
         r = requests.get("https://remoteok.com/api", headers=HEADERS, timeout=15)
@@ -74,7 +81,7 @@ def fetch_remoteok() -> list:
             if not isinstance(job, dict) or not job.get("position"):
                 continue
             title = job.get("position", "")
-            if not matches(title, " ".join(job.get("tags", []))):
+            if not matches(title, " ".join(job.get("tags", [])), broad):
                 continue
             jobs.append({
                 "title": f"{title} — {job.get('company', '')}",
@@ -88,7 +95,7 @@ def fetch_remoteok() -> list:
         print(f"[RemoteOK] Error: {e}")
     return jobs
 
-def fetch_remotive() -> list:
+def fetch_remotive(broad=False) -> list:
     jobs = []
     try:
         r = requests.get(
@@ -98,7 +105,7 @@ def fetch_remotive() -> list:
         data = r.json().get("jobs", [])
         for job in data:
             title = job.get("title", "")
-            if not matches(title, job.get("candidate_required_location", "")):
+            if not matches(title, job.get("candidate_required_location", ""), broad):
                 continue
             jobs.append({
                 "title": f"{title} — {job.get('company_name', '')}",
@@ -112,7 +119,7 @@ def fetch_remotive() -> list:
         print(f"[Remotive] Error: {e}")
     return jobs
 
-def fetch_arbeitnow() -> list:
+def fetch_arbeitnow(broad=False) -> list:
     jobs = []
     try:
         r = requests.get(
@@ -122,7 +129,7 @@ def fetch_arbeitnow() -> list:
         data = r.json().get("data", [])
         for job in data:
             title = job.get("title", "")
-            if not matches(title, job.get("description", "")):
+            if not matches(title, job.get("description", ""), broad):
                 continue
             jobs.append({
                 "title": f"{title} — {job.get('company_name', '')}",
@@ -136,7 +143,7 @@ def fetch_arbeitnow() -> list:
         print(f"[Arbeitnow] Error: {e}")
     return jobs
 
-def fetch_weworkremotely() -> list:
+def fetch_weworkremotely(broad=False) -> list:
     jobs = []
     urls = [
         "https://weworkremotely.com/categories/remote-programming-jobs.rss",
@@ -147,7 +154,7 @@ def fetch_weworkremotely() -> list:
             feed = feedparser.parse(url)
             for entry in feed.entries:
                 title = entry.get("title", "")
-                if not matches(title, entry.get("summary", "")):
+                if not matches(title, entry.get("summary", ""), broad):
                     continue
                 jobs.append({
                     "title": title,
@@ -162,7 +169,7 @@ def fetch_weworkremotely() -> list:
         time.sleep(1)
     return jobs
 
-def fetch_jobicy() -> list:
+def fetch_jobicy(broad=False) -> list:
     jobs = []
     try:
         r = requests.get(
@@ -172,7 +179,7 @@ def fetch_jobicy() -> list:
         feed = feedparser.parse(r.text)
         for entry in feed.entries:
             title = entry.get("title", "")
-            if not matches(title, entry.get("summary", "")):
+            if not matches(title, entry.get("summary", ""), broad):
                 continue
             jobs.append({
                 "title": title,
@@ -188,7 +195,7 @@ def fetch_jobicy() -> list:
 
 # ── GENERAR XML ──────────────────────────────────────────────
 
-def build_rss(jobs: list) -> str:
+def build_rss(jobs: list, title: str, filename: str, description: str, limit: int = 150) -> str:
     seen = set()
     unique = []
     for job in jobs:
@@ -196,36 +203,33 @@ def build_rss(jobs: list) -> str:
             seen.add(job["guid"])
             unique.append(job)
 
-    # Ordenar por fecha (más recientes primero)
     unique.sort(key=lambda j: str(j.get("date", "")), reverse=True)
 
     items = []
-    for job in unique[:80]:  # máx 80 items en el feed
+    for job in unique[:limit]:
         items.append(f"""
   <item>
     <title>{html.escape(job['title'])}</title>
     <link>{html.escape(job['link'])}</link>
-    <description>{job['desc']} [Fuente: {job['source']}]</description>
+    <description>{job['desc']} [{job['source']}]</description>
     <pubDate>{rss_date(job['date'])}</pubDate>
     <guid isPermaLink="false">{html.escape(job['guid'])}</guid>
-    <source url="{html.escape(job['link'])}">{job['source']}</source>
   </item>""")
 
     now = rss_date()
-    count = len(unique)
+    base = "https://darumidas.github.io/qa-jobs-feed"
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>QA Jobs Feed — Jose Baños Arroyo</title>
-    <link>https://Darumidas.github.io/qa-jobs-feed/</link>
-    <atom:link href="https://Darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>QA Lead · Senior QA · Test Manager · SDET Lead — Remote jobs in English</description>
+    <title>{html.escape(title)}</title>
+    <link>{base}/</link>
+    <atom:link href="{base}/{filename}" rel="self" type="application/rss+xml"/>
+    <description>{html.escape(description)}</description>
     <language>en</language>
     <lastBuildDate>{now}</lastBuildDate>
-    <ttl>360</ttl>
-    <generator>JoseAI JobFeed v1.0</generator>
-    <managingEditor>jbanos093@gmail.com (Jose Banos Arroyo)</managingEditor>
-    <!-- {count} jobs found -->
+    <ttl>240</ttl>
+    <generator>JoseAI JobFeed v2.0</generator>
+    <!-- {len(unique)} jobs -->
 {''.join(items)}
   </channel>
 </rss>"""
@@ -233,18 +237,46 @@ def build_rss(jobs: list) -> str:
 # ── MAIN ─────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    print("Fetching jobs...")
-    all_jobs = []
-    all_jobs += fetch_remoteok();   print(f"  RemoteOK:       {len(all_jobs)} so far")
-    all_jobs += fetch_remotive();   print(f"  Remotive:       {len(all_jobs)} so far")
-    all_jobs += fetch_arbeitnow();  print(f"  Arbeitnow:      {len(all_jobs)} so far")
-    all_jobs += fetch_weworkremotely(); print(f"  WeWorkRemotely: {len(all_jobs)} so far")
-    all_jobs += fetch_jobicy();     print(f"  Jobicy:         {len(all_jobs)} so far")
+    base = os.path.dirname(__file__)
 
-    rss = build_rss(all_jobs)
+    print("Fetching jobs (filtered)...")
+    filtered = []
+    filtered += fetch_remoteok(broad=False)
+    filtered += fetch_remotive(broad=False)
+    filtered += fetch_arbeitnow(broad=False)
+    filtered += fetch_weworkremotely(broad=False)
+    filtered += fetch_jobicy(broad=False)
+    print(f"  Filtered: {len(filtered)} jobs")
 
-    out_path = os.path.join(os.path.dirname(__file__), "feed.xml")
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(rss)
+    print("Fetching jobs (all market)...")
+    broad = []
+    broad += fetch_remoteok(broad=True)
+    broad += fetch_remotive(broad=True)
+    broad += fetch_arbeitnow(broad=True)
+    broad += fetch_weworkremotely(broad=True)
+    broad += fetch_jobicy(broad=True)
+    print(f"  Broad: {len(broad)} jobs")
 
-    print(f"\nDone. {len(all_jobs)} raw jobs → feed.xml written.")
+    # Feed filtrado — títulos exactos de tu Job Titles sheet
+    rss_filtered = build_rss(
+        filtered,
+        title="QA Jobs — Filtered (Jose Baños)",
+        filename="feed.xml",
+        description="QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote, English",
+        limit=150
+    )
+    with open(os.path.join(base, "feed.xml"), "w", encoding="utf-8") as f:
+        f.write(rss_filtered)
+
+    # Feed amplio — todo el mercado QA/tech/agile
+    rss_broad = build_rss(
+        broad,
+        title="QA Jobs — All Market (Jose Baños)",
+        filename="feed_all.xml",
+        description="All QA · Agile · Testing · Automation remote jobs — broad market view",
+        limit=300
+    )
+    with open(os.path.join(base, "feed_all.xml"), "w", encoding="utf-8") as f:
+        f.write(rss_broad)
+
+    print(f"\nDone. feed.xml ({len(filtered)} jobs) + feed_all.xml ({len(broad)} jobs)")

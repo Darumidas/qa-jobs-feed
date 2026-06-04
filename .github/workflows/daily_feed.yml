@@ -2,7 +2,7 @@ name: Generate QA Jobs Feed
 
 on:
   schedule:
-    - cron: '0 7 * * *'   # 07:00 UTC = 09:00 hora España (CET+1)
+    - cron: '0 7,11,15,19 * * *'  # 4 veces al día: 09h, 13h, 17h, 21h hora España
   workflow_dispatch:        # permite ejecutar manualmente desde GitHub
 
 permissions:
@@ -27,10 +27,10 @@ jobs:
       - name: Generate feed.xml
         run: python generate_feed.py
 
-      - name: Commit and push feed.xml
+      - name: Commit and push feeds
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml
-          git diff --staged --quiet || git commit -m "chore: update feed $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git add feed.xml feed_all.xml
+          git diff --staged --quiet || git commit -m "chore: update feeds $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push

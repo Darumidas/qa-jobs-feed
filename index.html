@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QA Jobs Feed</title>
+  <style>
+    :root {
+      --bg: #02020c; --surface: #08080f; --surface2: #0e0e1a;
+      --border: #1a1a2e; --green: #00ff66; --cyan: #00e5ff;
+      --purple: #bf5fff; --pink: #ff2d78; --text: #d4d4e8; --dim: #404060;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Roboto', system-ui, sans-serif; min-height: 100vh; padding: 16px; }
+    h1 { font-size: 20px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      background: linear-gradient(90deg, #00ff66, #00e5ff, #bf5fff);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      margin-bottom: 4px; }
+    .sub { font-size: 11px; color: var(--dim); letter-spacing: 1.5px; margin-bottom: 16px; }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; align-items: center; }
+    input[type=text] {
+      flex: 1; min-width: 200px; padding: 10px 14px; background: var(--surface2);
+      border: 1px solid var(--border); border-radius: 6px; color: var(--text);
+      font-size: 13px; outline: none;
+    }
+    input[type=text]:focus { border-color: rgba(0,229,255,0.4); }
+    input::placeholder { color: var(--dim); }
+    .btn {
+      padding: 10px 16px; border-radius: 6px; border: none; cursor: pointer;
+      font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      white-space: nowrap; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+    }
+    .btn-refresh { background: linear-gradient(135deg, #00ff66, #00e5ff); color: #000; }
+    .btn-filter  { background: var(--surface2); color: var(--cyan); border: 1px solid rgba(0,229,255,0.3); }
+    .btn-filter.active { background: rgba(0,229,255,0.1); border-color: var(--cyan); }
+    .tabs { display: flex; gap: 4px; margin-bottom: 16px; }
+    .tab {
+      padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 12px;
+      font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+      background: var(--surface2); border: 1px solid var(--border); color: var(--dim);
+    }
+    .tab.active { border-color: var(--purple); color: var(--purple); background: rgba(191,95,255,0.08); }
+    #count { font-size: 11px; color: var(--dim); margin-bottom: 12px; letter-spacing: 1px; }
+    .job { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+      padding: 14px; margin-bottom: 10px; transition: border-color 0.15s; position: relative; }
+    .job:hover { border-color: rgba(0,229,255,0.25); }
+    .job-title { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 4px; line-height: 1.4; }
+    .job-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+    .badge { font-size: 10px; padding: 2px 8px; border-radius: 3px; font-weight: 700; letter-spacing: 1px; }
+    .badge-source { background: rgba(191,95,255,0.15); color: var(--purple); border: 1px solid rgba(191,95,255,0.25); }
+    .badge-date   { background: rgba(0,229,255,0.1);  color: var(--cyan);   border: 1px solid rgba(0,229,255,0.2); }
+    .job-desc { font-size: 12px; color: var(--dim); line-height: 1.6; margin-bottom: 10px; }
+    .job-actions { display: flex; gap: 8px; }
+    .job-link { flex: 1; padding: 8px; border-radius: 5px; text-align: center; font-size: 11px;
+      font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; cursor: pointer; border: none; }
+    .btn-open { background: rgba(0,229,255,0.12); color: var(--cyan); border: 1px solid rgba(0,229,255,0.3); }
+    .btn-copy { background: rgba(0,255,102,0.08); color: var(--green); border: 1px solid rgba(0,255,102,0.25); cursor: pointer; }
+    .btn-copy.copied { background: rgba(0,255,102,0.15); border-color: var(--green); }
+    .loading { text-align: center; padding: 40px; color: var(--dim); font-size: 13px; letter-spacing: 2px; }
+    .updated { font-size: 10px; color: var(--dim); margin-top: 16px; text-align: center; letter-spacing: 1px; }
+    .corner { position: absolute; width: 10px; height: 10px; border-style: solid; }
+    .corner-tl { top: -1px; left: -1px; border-color: rgba(0,255,102,0.3); border-width: 1.5px 0 0 1.5px; }
+    .corner-tr { top: -1px; right: -1px; border-color: rgba(0,229,255,0.3); border-width: 1.5px 1.5px 0 0; }
+    .corner-br { bottom: -1px; right: -1px; border-color: rgba(191,95,255,0.3); border-width: 0 1.5px 1.5px 0; }
+    .corner-bl { bottom: -1px; left: -1px; border-color: rgba(255,45,120,0.3); border-width: 0 0 1.5px 1.5px; }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>QA Jobs Feed</h1>
+  <div class="sub">Jose Baños Arroyo · Remote · English</div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Filtrar por título, empresa..." oninput="render()">
+    <a class="btn btn-refresh" href="https://github.com/Darumidas/qa-jobs-feed/actions/workflows/daily_feed.yml" target="_blank">
+      ↻ Refresh
+    </a>
+    <a class="btn btn-filter" href="feed.xml" target="_blank">RSS Filtrado</a>
+    <a class="btn btn-filter" href="feed_all.xml" target="_blank">RSS Todo</a>
+  </div>
+
+  <div class="tabs">
+    <div class="tab active" id="tab-filtered" onclick="switchFeed('feed.xml', 'tab-filtered')">⚡ Mis roles</div>
+    <div class="tab" id="tab-all" onclick="switchFeed('feed_all.xml', 'tab-all')">🌐 Todo el mercado</div>
+  </div>
+
+  <div id="count"></div>
+  <div id="jobs"><div class="loading">Cargando ofertas...</div></div>
+  <div class="updated" id="updated"></div>
+
+  <script>
+    let allJobs = [];
+    let currentFeed = 'feed.xml';
+
+    async function loadFeed(url) {
+      document.getElementById('jobs').innerHTML = '<div class="loading">Cargando...</div>';
+      try {
+        const r = await fetch(url + '?t=' + Date.now());
+        const text = await r.text();
+        const xml = new DOMParser().parseFromString(text, 'application/xml');
+        const items = xml.querySelectorAll('item');
+        const buildDate = xml.querySelector('lastBuildDate')?.textContent || '';
+        allJobs = Array.from(items).map(item => ({
+          title: item.querySelector('title')?.textContent || '',
+          link: item.querySelector('link')?.textContent || '',
+          desc: item.querySelector('description')?.textContent || '',
+          date: item.querySelector('pubDate')?.textContent || '',
+        }));
+        document.getElementById('updated').textContent = buildDate ? '⏱ Actualizado: ' + new Date(buildDate).toLocaleString('es-ES') : '';
+        render();
+      } catch(e) {
+        document.getElementById('jobs').innerHTML = '<div class="loading">Error cargando el feed. Inténtalo de nuevo.</div>';
+      }
+    }
+
+    function switchFeed(url, tabId) {
+      currentFeed = url;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      document.getElementById('search').value = '';
+      loadFeed(url);
+    }
+
+    function render() {
+      const q = document.getElementById('search').value.toLowerCase();
+      const jobs = allJobs.filter(j =>
+        !q || j.title.toLowerCase().includes(q) || j.desc.toLowerCase().includes(q)
+      );
+      document.getElementById('count').textContent = `${jobs.length} oferta${jobs.length !== 1 ? 's' : ''}`;
+      if (!jobs.length) {
+        document.getElementById('jobs').innerHTML = '<div class="loading">Sin resultados.</div>';
+        return;
+      }
+      document.getElementById('jobs').innerHTML = jobs.map((job, i) => {
+        const src = job.desc.match(/\[([^\]]+)\]$/)?.[1] || '';
+        const dateStr = job.date ? new Date(job.date).toLocaleDateString('es-ES', {day:'2-digit', month:'short'}) : '';
+        const desc = job.desc.replace(/\s*\[[^\]]+\]$/, '').trim();
+        return `
+          <div class="job">
+            <div class="corner corner-tl"></div><div class="corner corner-tr"></div>
+            <div class="corner corner-br"></div><div class="corner corner-bl"></div>
+            <div class="job-title">${esc(job.title)}</div>
+            <div class="job-meta">
+              ${src ? `<span class="badge badge-source">${esc(src)}</span>` : ''}
+              ${dateStr ? `<span class="badge badge-date">${dateStr}</span>` : ''}
+            </div>
+            ${desc ? `<div class="job-desc">${esc(desc)}</div>` : ''}
+            <div class="job-actions">
+              <a class="job-link btn-open" href="${esc(job.link)}" target="_blank">🔗 Ver oferta</a>
+              <button class="job-link btn-copy" onclick="copyLink(this, '${esc(job.link)}')" data-idx="${i}">📋 Copiar URL</button>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    function copyLink(btn, url) {
+      navigator.clipboard.writeText(url).then(() => {
+        btn.textContent = '✓ Copiado';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = '📋 Copiar URL'; btn.classList.remove('copied'); }, 2000);
+      });
+    }
+
+    function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+    loadFeed(currentFeed);
+  </script>
+</body>
+</html>
