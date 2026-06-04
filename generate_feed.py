@@ -37,24 +37,39 @@ KEYWORDS_BROAD = [
     "engineering manager", "agile coach", "release manager", "devops"
 ]
 
-EXCLUDE = ["junior", "intern", "graduate", "entry level", "entry-level", "trainee"]
+EXCLUDE = [
+    # Seniority
+    "junior", "jr.", "intern", "internship", "graduate", "entry level",
+    "entry-level", "trainee", "apprentice",
+    # US-only
+    "us citizenship", "must be authorized to work in the u", "sponsorship not available",
+    "must be located in the us", "us only", "united states only",
+    # Irrelevant roles
+    "sales", "account executive", "marketing manager"
+]
 
 # Tags que identifican una oferta como remota
 REMOTE_TAGS = [
     "remote", "remote-first", "remote work", "remotework", "work from home",
     "wfh", "fully remote", "100% remote", "distributed", "worldwide",
-    "anywhere", "global", "trabajo remoto", "teletrabajo"
+    "anywhere", "global", "trabajo remoto", "teletrabajo", "hybrid remote"
 ]
 # Ubicaciones presenciales aceptadas
-ONSITE_OK = ["madrid", "spain", "españa", "barcelona"]
-# Ubicaciones a descartar (solo si no hay tag remoto)
+ONSITE_OK = ["madrid", "spain", "españa", "barcelona", "europe", "emea"]
+# Ubicaciones a descartar si no hay tag remoto
 LOCATIONS_BAD = [
-    "berlin", "munich", "münchen", "hamburg", "frankfurt", "cologne", "köln",
-    "germany", "deutschland", "paris", "lyon", "france", "amsterdam", "rotterdam",
-    "netherlands", "zürich", "zurich", "geneva", "switzerland", "london",
-    "manchester", "united kingdom", "uk only", "new york", "san francisco",
-    "los angeles", "chicago", "toronto", "vancouver", "canada",
-    "on-site only", "onsite only", "in-office only", "office required"
+    # USA
+    "denver", "colorado", "california", "texas", "new york", "florida",
+    "washington", "chicago", "boston", "seattle", "austin", "atlanta",
+    "united states", "usa", ", co", ", ca", ", tx", ", ny", ", fl",
+    # Canada
+    "toronto", "vancouver", "canada",
+    # Europa no España (solo si no es remote)
+    "berlin", "munich", "münchen", "hamburg", "frankfurt", "germany", "deutschland",
+    "paris", "lyon", "france", "amsterdam", "netherlands",
+    "zürich", "zurich", "switzerland",
+    # Presencial duro
+    "on-site only", "onsite only", "in-office only", "office required", "no remote"
 ]
 
 # ── TÍTULOS COLUMNA A — Job Titles sheet ─────────────────────
@@ -518,53 +533,45 @@ def fetch_google_rss() -> list:
 if __name__ == "__main__":
     base = os.path.dirname(__file__)
 
-    print("Fetching jobs (filtered)...")
+    # ── Fuentes que devuelven ofertas INDIVIDUALES reales ──
+    print("Fetching jobs...")
     filtered = []
-    filtered += fetch_remoteok(broad=False)
-    filtered += fetch_remotive(broad=False)
-    filtered += fetch_arbeitnow(broad=False)
-    filtered += fetch_weworkremotely(broad=False)
-    filtered += fetch_jobicy(broad=False)
-    filtered += fetch_himalayas(broad=False)
-    print(f"  Job boards: {len(filtered)} jobs")
 
-    google = fetch_google_rss()
-    print(f"  Google RSS:   {len(google)} results")
+    src = fetch_remoteok(broad=False);      print(f"  RemoteOK:      {len(src)}"); filtered += src
+    src = fetch_remotive(broad=False);      print(f"  Remotive:      {len(src)}"); filtered += src
+    src = fetch_weworkremotely(broad=False);print(f"  WWRemotely:    {len(src)}"); filtered += src
+    src = fetch_himalayas(broad=False);     print(f"  Himalayas:     {len(src)}"); filtered += src
+    src = fetch_arbeitnow(broad=False);     print(f"  Arbeitnow:     {len(src)}"); filtered += src
+    src = fetch_jobicy(broad=False);        print(f"  Jobicy:        {len(src)}"); filtered += src
+    src = fetch_tecnoempleo();              print(f"  Tecnoempleo:   {len(src)}"); filtered += src
 
-    indeed = fetch_indeed_rss()
-    print(f"  Indeed RSS:   {len(indeed)} results")
-
-    tecno = fetch_tecnoempleo()
-    print(f"  Tecnoempleo:  {len(tecno)} results")
-
-    # Adzuna — activo si hay claves en variables de entorno
     adzuna = fetch_adzuna(
         os.environ.get("ADZUNA_APP_ID", ""),
         os.environ.get("ADZUNA_APP_KEY", "")
-    )
-    print(f"  Adzuna:       {len(adzuna)} results")
+    );                                      print(f"  Adzuna:        {len(adzuna)}"); filtered += adzuna
 
-    filtered += google + indeed + tecno + adzuna
-    print(f"  Filtered total: {len(filtered)} jobs")
+    # Google RSS y Indeed RSS eliminados — devuelven páginas de búsqueda, no ofertas individuales
+    print(f"  TOTAL: {len(filtered)} jobs antes de deduplicar")
 
-    print("Fetching jobs (all market)...")
+    # Feed amplio — mismas fuentes sin filtro de keywords
+    print("Fetching broad market...")
     broad_jobs = []
-    broad_jobs += fetch_remoteok(broad=True)
-    broad_jobs += fetch_remotive(broad=True)
-    broad_jobs += fetch_arbeitnow(broad=True)
-    broad_jobs += fetch_weworkremotely(broad=True)
-    broad_jobs += fetch_jobicy(broad=True)
-    broad_jobs += fetch_himalayas(broad=True)
-    broad_jobs += google + indeed + tecno + adzuna
-    print(f"  Broad: {len(broad_jobs)} jobs")
+    src = fetch_remoteok(broad=True);       broad_jobs += src
+    src = fetch_remotive(broad=True);       broad_jobs += src
+    src = fetch_weworkremotely(broad=True); broad_jobs += src
+    src = fetch_himalayas(broad=True);      broad_jobs += src
+    src = fetch_arbeitnow(broad=True);      broad_jobs += src
+    src = fetch_jobicy(broad=True);         broad_jobs += src
+    broad_jobs += adzuna
+    print(f"  Broad total: {len(broad_jobs)}")
 
-    # Feed filtrado — títulos exactos de tu Job Titles sheet
+    # Feed filtrado — máx 50 ofertas relevantes del día
     rss_filtered = build_rss(
         filtered,
         title="QA Jobs — Filtered (Jose Baños)",
         filename="feed.xml",
-        description="QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote, English",
-        limit=150
+        description="QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote / Madrid",
+        limit=50
     )
     with open(os.path.join(base, "feed.xml"), "w", encoding="utf-8") as f:
         f.write(rss_filtered)
