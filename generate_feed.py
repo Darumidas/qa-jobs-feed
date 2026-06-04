@@ -558,6 +558,82 @@ def fetch_themuse() -> list:
     return jobs
 
 
+def fetch_grabjobs() -> list:
+    """GrabJobs — scraper de su endpoint público de búsqueda.
+    Cubre España (Madrid/remote) y ofertas globales."""
+    jobs = []
+    seen = set()
+    import urllib.parse
+
+    searches = [
+        # (keywords, country_code, location_label)
+        ("QA Lead",             "spain",  "📍 Spain"),
+        ("Test Manager",        "spain",  "📍 Spain"),
+        ("Scrum Master",        "spain",  "📍 Spain"),
+        ("QA Manager",          "spain",  "📍 Spain"),
+        ("Test Lead",           "spain",  "📍 Spain"),
+        ("Agile Lead",          "spain",  "📍 Spain"),
+        ("Engineering Manager", "spain",  "📍 Spain"),
+        ("QA Lead",             "remote", "🌐 Remote"),
+        ("Test Manager",        "remote", "🌐 Remote"),
+        ("Scrum Master",        "remote", "🌐 Remote"),
+    ]
+
+    for keyword, country, label in searches:
+        try:
+            url = (
+                f"https://grabjobs.co/{country}/jobs"
+                f"?search_keyword={urllib.parse.quote(keyword)}"
+                f"&employment_type=full-time"
+                f"&working_location={'remote' if 'Remote' in label else 'all'}"
+                f"&sort_by=recent"
+            )
+            r = requests.get(url, headers={
+                **HEADERS,
+                "Accept": "application/json, text/html",
+                "X-Requested-With": "XMLHttpRequest"
+            }, timeout=15)
+
+            if r.status_code != 200:
+                continue
+
+            # Intenta parsear JSON si existe
+            try:
+                data = r.json()
+                job_list = data.get("data", data.get("jobs", []))
+            except Exception:
+                # Si devuelve HTML, no lo procesamos (sin BeautifulSoup)
+                continue
+
+            for job in job_list:
+                uid    = str(job.get("id", "") or job.get("job_id", ""))
+                jtitle = job.get("title", "") or job.get("job_title", "")
+                jlink  = job.get("url", "") or job.get("job_url", "") or f"https://grabjobs.co/job/{uid}"
+                if uid in seen or not jtitle:
+                    continue
+                if not matches(jtitle, job.get("description", "")):
+                    continue
+                # Descarta cerradas
+                if job.get("is_closed") or job.get("status") == "closed":
+                    continue
+                seen.add(uid)
+                company = job.get("company_name", "") or job.get("company", {}).get("name", "")
+                jobs.append({
+                    "title": f"{jtitle} — {company} [{label}]",
+                    "link":  jlink,
+                    "desc":  clean(job.get("description", "") or job.get("snippet", "")),
+                    "date":  job.get("posted_at", "") or job.get("created_at", ""),
+                    "source": "GrabJobs 🟣",
+                    "guid":  f"grabjobs-{uid}"
+                })
+            time.sleep(0.5)
+        except Exception as e:
+            print(f"[GrabJobs] Error ({keyword}/{country}): {e}")
+
+    print(f"  GrabJobs raw: {len(jobs)}")
+    return jobs
+
+
 def fetch_google_rss() -> list:
     """Lee Google News RSS + Google Alerts RSS.
     No aplica filtro de keywords — Google ya filtra por la query.
@@ -636,6 +712,7 @@ if __name__ == "__main__":
     src = fetch_jobicy(broad=False);        print(f"  Jobicy:        {len(src)}"); filtered += src
     src = fetch_tecnoempleo();              print(f"  Tecnoempleo:   {len(src)}"); filtered += src
     src = fetch_themuse();                  print(f"  The Muse:      {len(src)}"); filtered += src
+    src = fetch_grabjobs();                 print(f"  GrabJobs:      {len(src)}"); filtered += src
 
     adzuna = fetch_adzuna(
         os.environ.get("ADZUNA_APP_ID", ""),
@@ -654,7 +731,7 @@ if __name__ == "__main__":
     src = fetch_himalayas(broad=True);      broad_jobs += src
     src = fetch_arbeitnow(broad=True);      broad_jobs += src
     src = fetch_jobicy(broad=True);         broad_jobs += src
-    broad_jobs += adzuna + fetch_themuse()
+    broad_jobs += adzuna + fetch_themuse() + fetch_grabjobs()
     print(f"  Broad total: {len(broad_jobs)}")
 
     # Feed filtrado — máx 50 ofertas relevantes del día
