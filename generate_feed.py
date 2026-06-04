@@ -49,9 +49,12 @@ EXCLUDE = [
     "python developer", "java developer", ".net developer",
     "devops engineer", "data engineer", "data scientist",
     "machine learning engineer", "ml engineer", "ai engineer",
+    # Contrato/jornada no deseada
+    "part-time", "part time", "freelance only", "temporary", "contract only",
     # Otros roles no relevantes
     "sales", "account executive", "account manager", "marketing manager",
     "recruiter", "hr manager", "finance manager", "designer",
+    "head of office", "office manager",
     # Presencial explícito
     "on-site", "onsite", "on site", "in-office", "in office",
     "must be in office", "office-based", "no remote", "not remote",
@@ -421,16 +424,31 @@ def fetch_adzuna(app_id: str, app_key: str) -> list:
                 if r.status_code != 200:
                     continue
                 for job in r.json().get("results", []):
-                    uid = str(job.get("id", ""))
+                    uid       = str(job.get("id", ""))
+                    job_title = job.get("title", "")
+                    desc      = job.get("description", "")
+                    loc_raw   = job.get("location", {}).get("display_name", "")
                     if uid in seen:
                         continue
+                    # Filtro de keywords y exclusiones
+                    if not matches(job_title, desc):
+                        continue
+                    # Para España: verificar que no sea on-site fuera de Madrid
+                    if country == "es":
+                        loc_low = (loc_raw + " " + desc[:300]).lower()
+                        spain_bad = [
+                            "málaga", "malaga", "granada", "sevilla", "seville",
+                            "barcelona", "valencia", "bilbao", "zaragoza",
+                            "alicante", "murcia", "vigo", "on-site"
+                        ]
+                        if any(b in loc_low for b in spain_bad) and "remote" not in loc_low:
+                            continue
                     seen.add(uid)
-                    job_title = job.get("title", "")
-                    company   = job.get("company", {}).get("display_name", "")
+                    company = job.get("company", {}).get("display_name", "")
                     jobs.append({
                         "title": f"{job_title} — {company} [{label}]",
                         "link":  job.get("redirect_url", ""),
-                        "desc":  clean(job.get("description", "")),
+                        "desc":  clean(desc),
                         "date":  job.get("created", ""),
                         "source": "Adzuna 🔗",
                         "guid":  f"adzuna-{uid}"
