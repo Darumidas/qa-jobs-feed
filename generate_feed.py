@@ -195,7 +195,7 @@ def build_rss(jobs: list) -> str:
             unique.append(job)
 
     # Ordenar por fecha (más recientes primero)
-    unique.sort(key=lambda j: j.get("date", ""), reverse=True)
+    unique.sort(key=lambda j: str(j.get("date", "")), reverse=True)
 
     items = []
     for job in unique[:80]:  # máx 80 items en el feed
