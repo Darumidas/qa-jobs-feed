@@ -333,6 +333,81 @@ def fetch_jobicy(broad=False) -> list:
         print(f"[Jobicy] Error: {e}")
     return jobs
 
+def fetch_tecnoempleo() -> list:
+    """Tecnoempleo — portal español, sin auth, RSS directo."""
+    jobs = []
+    seen = set()
+    for title in COLUMN_A_TITLES:
+        try:
+            import urllib.parse
+            url = f"https://www.tecnoempleo.com/ofertas-trabajo/rss.php?te={urllib.parse.quote(title)}&pais=es"
+            feed = feedparser.parse(url)
+            for entry in feed.entries:
+                uid = entry.get("id") or entry.get("link", "")
+                if uid in seen or not entry.get("link"):
+                    continue
+                seen.add(uid)
+                jobs.append({
+                    "title": entry.get("title", ""),
+                    "link":  entry.get("link", ""),
+                    "desc":  clean(entry.get("summary", "")),
+                    "date":  entry.get("published", ""),
+                    "source": "Tecnoempleo 📍",
+                    "guid":  f"tecno-{uid}"
+                })
+            time.sleep(0.4)
+        except Exception as e:
+            print(f"[Tecnoempleo] Error ({title}): {e}")
+    return jobs
+
+
+def fetch_adzuna(app_id: str, app_key: str) -> list:
+    """Adzuna — agrega Glassdoor, Reed, Totaljobs y +300 sitios.
+    Requiere clave gratuita: developer.adzuna.com"""
+    if not app_id or not app_key:
+        return []
+    jobs = []
+    seen = set()
+    # Busca en UK (mayor mercado remoto EN) + España
+    for country, what_list in [
+        ("gb", COLUMN_A_TITLES[:8]),   # UK — primeros 8 títulos
+        ("gb", COLUMN_A_TITLES[8:]),   # UK — siguientes 8
+        ("es", COLUMN_A_TITLES),       # España — todos
+    ]:
+        for title in what_list:
+            try:
+                import urllib.parse
+                url = (
+                    f"https://api.adzuna.com/v1/api/jobs/{country}/search/1"
+                    f"?app_id={app_id}&app_key={app_key}"
+                    f"&what={urllib.parse.quote(title)}&where=remote"
+                    f"&results_per_page=20&content-type=application/json"
+                )
+                r = requests.get(url, headers=HEADERS, timeout=15)
+                if r.status_code != 200:
+                    continue
+                for job in r.json().get("results", []):
+                    uid = str(job.get("id", ""))
+                    if uid in seen:
+                        continue
+                    loc = job.get("location", {}).get("display_name", "")
+                    if not location_ok(loc, "", job.get("description", "")):
+                        continue
+                    seen.add(uid)
+                    jobs.append({
+                        "title": f"{job.get('title','')} — {job.get('company',{}).get('display_name','')}",
+                        "link":  job.get("redirect_url", ""),
+                        "desc":  clean(job.get("description", "")),
+                        "date":  job.get("created", ""),
+                        "source": "Adzuna 🔗",
+                        "guid":  f"adzuna-{uid}"
+                    })
+                time.sleep(0.5)
+            except Exception as e:
+                print(f"[Adzuna] Error ({title}/{country}): {e}")
+    return jobs
+
+
 # ── GENERAR XML ──────────────────────────────────────────────
 
 def build_rss(jobs: list, title: str, filename: str, description: str, limit: int = 150) -> str:
@@ -453,12 +528,22 @@ if __name__ == "__main__":
     print(f"  Job boards: {len(filtered)} jobs")
 
     google = fetch_google_rss()
-    print(f"  Google RSS:  {len(google)} results")
+    print(f"  Google RSS:   {len(google)} results")
 
     indeed = fetch_indeed_rss()
-    print(f"  Indeed RSS:  {len(indeed)} results")
+    print(f"  Indeed RSS:   {len(indeed)} results")
 
-    filtered += google + indeed
+    tecno = fetch_tecnoempleo()
+    print(f"  Tecnoempleo:  {len(tecno)} results")
+
+    # Adzuna — activo si hay claves en variables de entorno
+    adzuna = fetch_adzuna(
+        os.environ.get("ADZUNA_APP_ID", ""),
+        os.environ.get("ADZUNA_APP_KEY", "")
+    )
+    print(f"  Adzuna:       {len(adzuna)} results")
+
+    filtered += google + indeed + tecno + adzuna
     print(f"  Filtered total: {len(filtered)} jobs")
 
     print("Fetching jobs (all market)...")
@@ -469,7 +554,7 @@ if __name__ == "__main__":
     broad_jobs += fetch_weworkremotely(broad=True)
     broad_jobs += fetch_jobicy(broad=True)
     broad_jobs += fetch_himalayas(broad=True)
-    broad_jobs += google + indeed  # Google RSS e Indeed van en ambos feeds
+    broad_jobs += google + indeed + tecno + adzuna
     print(f"  Broad: {len(broad_jobs)} jobs")
 
     # Feed filtrado — títulos exactos de tu Job Titles sheet
