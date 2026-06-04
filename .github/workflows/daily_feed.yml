@@ -25,6 +25,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate feed.xml
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: python generate_feed.py
 
       - name: Commit and push feeds
