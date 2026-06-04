@@ -57,32 +57,71 @@ LOCATIONS_BAD = [
     "on-site only", "onsite only", "in-office only", "office required"
 ]
 
-# ── GOOGLE NEWS RSS — queries de búsqueda de empleo ──────────
-# Formato: https://news.google.com/rss/search?q=QUERY&hl=en&gl=US&ceid=US:en
-# Añade más queries o pega aquí tus URLs de Google Alerts
-GOOGLE_NEWS_QUERIES = [
-    '"QA Lead" remote job',
-    '"Test Lead" remote job',
-    '"Test Manager" remote job',
-    '"QA Automation Lead" remote',
-    '"Senior QA Engineer" remote',
-    '"Scrum Master" remote job',
-    '"SDET" remote senior',
-    '"QA Lead" Madrid trabajo',
-    '"Test Manager" Madrid empleo',
-    '"Quality Lead" remote hiring',
-    '"Agile Lead" remote job',
-    '"Engineering Manager" QA remote',
+# ── TÍTULOS COLUMNA A — Job Titles sheet ─────────────────────
+COLUMN_A_TITLES = [
+    "Test Lead", "QA Lead", "Test Automation Lead", "Senior QA Engineer",
+    "Senior Test Engineer", "QA Tech Lead", "Test Manager", "QA Manager",
+    "Scrum Master", "Delivery Manager", "Agile Lead", "IT Manager",
+    "Engineering Manager", "Quality Lead", "Test Delivery Lead", "Agile Coach",
 ]
+
+# Sitios de empleo accesibles (sin LinkedIn, sin auth)
+JOB_SITES = (
+    "site:indeed.com OR site:glassdoor.com OR site:adzuna.com "
+    "OR site:reed.co.uk OR site:totaljobs.com OR site:jobsite.co.uk "
+    "OR site:simplyhired.com OR site:dice.com OR site:infojobs.net "
+    "OR site:tecnoempleo.com OR site:jobrapido.com OR site:wellfound.com"
+)
+
+# Genera una query por cada título: busca en todos los job boards + remote/Madrid
+def build_google_queries() -> list:
+    queries = []
+    for title in COLUMN_A_TITLES:
+        queries.append(f'"{title}" remote {JOB_SITES}')
+        queries.append(f'"{title}" Madrid {JOB_SITES}')
+    return queries
+
+GOOGLE_NEWS_QUERIES = build_google_queries()
 
 # ── GOOGLE ALERTS RSS — pega aquí tus URLs ───────────────────
 # Cómo obtenerlas: google.com/alerts → crea alerta → "Mostrar opciones"
 # → Enviar a: "Feed RSS" → copia la URL
-# Ejemplo: https://www.google.com/alerts/feeds/12345678/9876543210
 GOOGLE_ALERTS_URLS = [
     # Pega aquí tus URLs de Google Alerts:
     # "https://www.google.com/alerts/feeds/TU_ID/ALERTA_ID",
 ]
+
+# ── INDEED RSS — feed directo por título ─────────────────────
+def fetch_indeed_rss() -> list:
+    """Indeed RSS — un feed por título de columna A."""
+    jobs = []
+    seen = set()
+    for title in COLUMN_A_TITLES:
+        for location in ["Remote", "Madrid"]:
+            try:
+                import urllib.parse
+                url = (
+                    f"https://www.indeed.com/rss?q={urllib.parse.quote(title)}"
+                    f"&l={urllib.parse.quote(location)}&sort=date&fromage=14"
+                )
+                feed = feedparser.parse(url)
+                for entry in feed.entries:
+                    uid = entry.get("id") or entry.get("link", "")
+                    if uid in seen or not entry.get("link"):
+                        continue
+                    seen.add(uid)
+                    jobs.append({
+                        "title": f"{entry.get('title', '')}",
+                        "link":  entry.get("link", ""),
+                        "desc":  clean(entry.get("summary", "")),
+                        "date":  entry.get("published", ""),
+                        "source": f"Indeed 📋 ({location})",
+                        "guid":  f"indeed-{uid}"
+                    })
+                time.sleep(0.5)
+            except Exception as e:
+                print(f"[Indeed] Error ({title}/{location}): {e}")
+    return jobs
 
 def location_ok(location: str, tags: str = "", description: str = "") -> bool:
     """True si remoto o Madrid/España. False si presencial en ciudad no deseada."""
@@ -414,9 +453,12 @@ if __name__ == "__main__":
     print(f"  Job boards: {len(filtered)} jobs")
 
     google = fetch_google_rss()
-    print(f"  Google RSS: {len(google)} results")
-    filtered += google
+    print(f"  Google RSS:  {len(google)} results")
 
+    indeed = fetch_indeed_rss()
+    print(f"  Indeed RSS:  {len(indeed)} results")
+
+    filtered += google + indeed
     print(f"  Filtered total: {len(filtered)} jobs")
 
     print("Fetching jobs (all market)...")
@@ -427,7 +469,7 @@ if __name__ == "__main__":
     broad_jobs += fetch_weworkremotely(broad=True)
     broad_jobs += fetch_jobicy(broad=True)
     broad_jobs += fetch_himalayas(broad=True)
-    broad_jobs += google  # Google RSS va en ambos feeds
+    broad_jobs += google + indeed  # Google RSS e Indeed van en ambos feeds
     print(f"  Broad: {len(broad_jobs)} jobs")
 
     # Feed filtrado — títulos exactos de tu Job Titles sheet
