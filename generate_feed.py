@@ -426,6 +426,7 @@ def fetch_adzuna(app_id: str, app_key: str) -> list:
                     f"&where={urllib.parse.quote(where)}"
                     f"&results_per_page=10"
                     f"&sort_by=date"
+                    f"&max_days_old=21"
                     f"&content-type=application/json"
                 )
                 r = requests.get(url, headers=HEADERS, timeout=15)
@@ -510,6 +511,51 @@ def build_rss(jobs: list, title: str, filename: str, description: str, limit: in
 
 # ── MAIN ─────────────────────────────────────────────────────
 
+def fetch_jooble() -> list:
+    """Jooble — agregador global con API JSON gratuita.
+    Registro en jooble.org/api para obtener la clave."""
+    api_key = os.environ.get("JOOBLE_API_KEY", "")
+    if not api_key:
+        return []
+    jobs = []
+    seen = set()
+    locations = ["remote", "Madrid, Spain"]
+    for title in COLUMN_A_TITLES:
+        for loc in locations:
+            try:
+                r = requests.post(
+                    f"https://jooble.org/api/{api_key}",
+                    json={"keywords": title, "location": loc, "page": 1},
+                    headers=HEADERS, timeout=15
+                )
+                if r.status_code != 200:
+                    continue
+                for job in r.json().get("jobs", []):
+                    uid   = str(job.get("id", ""))
+                    jtitle = job.get("title", "")
+                    jloc   = job.get("location", "")
+                    if uid in seen or not job.get("link"):
+                        continue
+                    if not matches(jtitle, job.get("snippet", "")):
+                        continue
+                    if not location_ok(jloc, "", job.get("snippet", "")):
+                        continue
+                    seen.add(uid)
+                    label = "🌐 Remote" if "remote" in loc.lower() else f"📍 {jloc}"
+                    jobs.append({
+                        "title": f"{jtitle} — {job.get('company', '')} [{label}]",
+                        "link":  job.get("link", ""),
+                        "desc":  clean(job.get("snippet", "")),
+                        "date":  job.get("updated", ""),
+                        "source": "Jooble 🔍",
+                        "guid":  f"jooble-{uid}"
+                    })
+                time.sleep(0.4)
+            except Exception as e:
+                print(f"[Jooble] Error ({title}/{loc}): {e}")
+    return jobs
+
+
 def fetch_google_rss() -> list:
     """Lee Google News RSS + Google Alerts RSS.
     No aplica filtro de keywords — Google ya filtra por la query.
@@ -587,6 +633,7 @@ if __name__ == "__main__":
     src = fetch_arbeitnow(broad=False);     print(f"  Arbeitnow:     {len(src)}"); filtered += src
     src = fetch_jobicy(broad=False);        print(f"  Jobicy:        {len(src)}"); filtered += src
     src = fetch_tecnoempleo();              print(f"  Tecnoempleo:   {len(src)}"); filtered += src
+    src = fetch_jooble();                   print(f"  Jooble:        {len(src)}"); filtered += src
 
     adzuna = fetch_adzuna(
         os.environ.get("ADZUNA_APP_ID", ""),
@@ -605,7 +652,7 @@ if __name__ == "__main__":
     src = fetch_himalayas(broad=True);      broad_jobs += src
     src = fetch_arbeitnow(broad=True);      broad_jobs += src
     src = fetch_jobicy(broad=True);         broad_jobs += src
-    broad_jobs += adzuna
+    broad_jobs += adzuna + fetch_jooble()
     print(f"  Broad total: {len(broad_jobs)}")
 
     # Feed filtrado — máx 50 ofertas relevantes del día
