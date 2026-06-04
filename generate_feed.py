@@ -50,16 +50,18 @@ def clean(text: str) -> str:
 def rss_date(dt=None) -> str:
     if dt is None:
         return formatdate(usegmt=True)
-    if isinstance(dt, str):
+    if isinstance(dt, (int, float)):
+        return formatdate(float(dt), usegmt=True)
+    if isinstance(dt, str) and dt:
         for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d"):
             try:
                 dt = datetime.strptime(dt[:19], fmt).replace(tzinfo=timezone.utc)
-                break
+                return formatdate(dt.timestamp(), usegmt=True)
             except ValueError:
                 continue
-        else:
-            return formatdate(usegmt=True)
-    return formatdate(dt.timestamp(), usegmt=True)
+    if isinstance(dt, datetime):
+        return formatdate(dt.timestamp(), usegmt=True)
+    return formatdate(usegmt=True)
 
 # ── FUENTES ──────────────────────────────────────────────────
 
