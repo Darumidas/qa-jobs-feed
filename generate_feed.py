@@ -15,26 +15,32 @@ import time
 import html
 import os
 
-# ── KEYWORDS a buscar (case insensitive) ─────────────────────
+# ── KEYWORDS — derivados directamente de Columna A de Job Titles ─────────
+# Feed filtrado: solo matchea contra ESTOS títulos exactos en el título del puesto
+# Incluye variantes mínimas (Senior X, X Lead, Head of X) pero nada genérico
 KEYWORDS = [
-    # Col A — Sogeti titles
+    # Exactos columna A
     "test lead", "qa lead", "test automation lead", "senior qa engineer",
     "senior test engineer", "qa tech lead", "test manager", "qa manager",
     "scrum master", "delivery manager", "agile lead", "engineering manager",
     "quality lead", "test delivery lead", "agile coach",
-    # Col C — Sopra titles
-    "qa automation engineer", "test automation engineer", "qa engineer",
-    "software test engineer", "quality engineer", "quality manager",
-    "release manager", "sdet",
-    # Variantes generales
-    "senior qa", "lead qa", "head of qa", "head of quality", "principal qa",
-    "staff qa", "staff test", "qa automation lead", "senior sdet"
+    # Variantes directas aceptables (mismo rol, distinto prefijo)
+    "senior test lead", "lead test engineer", "qa team lead",
+    "head of qa", "head of quality", "head of testing",
+    "principal test", "staff test", "qa automation lead",
+    "senior scrum master", "certified scrum master",
+    "senior delivery manager", "senior engineering manager",
+    "senior agile", "agile delivery", "agile delivery manager",
+    "testing manager", "quality assurance manager", "quality assurance lead",
+    "senior quality", "quality engineering manager",
 ]
 
+# Feed amplio: términos más generales para "todo el mercado"
 KEYWORDS_BROAD = [
-    "qa", "quality assurance", "tester", "test engineer", "sdet", "scrum", "agile",
-    "automation engineer", "delivery manager", "product owner",
-    "engineering manager", "agile coach", "release manager", "devops"
+    "qa engineer", "quality assurance", "test engineer", "automation engineer",
+    "sdet", "scrum master", "agile coach", "delivery manager",
+    "engineering manager", "product owner", "release manager",
+    "quality manager", "test analyst"
 ]
 
 EXCLUDE = [
@@ -166,13 +172,15 @@ HEADERS = {
 
 def matches(title: str, description: str = "", broad: bool = False) -> bool:
     title_low = title.lower()
-    # Exclusiones solo contra el título (más preciso — descripción puede mencionar junior como req)
+    # Exclusiones siempre contra el título
     if any(ex in title_low for ex in EXCLUDE):
         return False
-    # Keywords contra título + descripción
-    text = (title_low + " " + description.lower())
-    kw_list = KEYWORDS_BROAD if broad else KEYWORDS
-    return any(kw in text for kw in kw_list)
+    if broad:
+        # Feed amplio: title + descripción
+        return any(kw in (title_low + " " + description.lower()) for kw in KEYWORDS_BROAD)
+    else:
+        # Feed filtrado: SOLO el título del puesto — más preciso, evita falsos positivos
+        return any(kw in title_low for kw in KEYWORDS)
 
 def clean(text: str) -> str:
     text = re.sub(r'<[^>]+>', ' ', text or '')
