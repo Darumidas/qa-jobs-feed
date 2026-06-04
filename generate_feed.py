@@ -511,48 +511,50 @@ def build_rss(jobs: list, title: str, filename: str, description: str, limit: in
 
 # ── MAIN ─────────────────────────────────────────────────────
 
-def fetch_jooble() -> list:
-    """Jooble — agregador global con API JSON gratuita.
-    Registro en jooble.org/api para obtener la clave."""
-    api_key = os.environ.get("JOOBLE_API_KEY", "")
-    if not api_key:
-        return []
+def fetch_themuse() -> list:
+    """The Muse — API pública sin auth, empresas tech globales, fuerte en remote.
+    Endpoint: themuse.com/api/public/jobs"""
     jobs = []
     seen = set()
-    locations = ["remote", "Madrid, Spain"]
-    for title in COLUMN_A_TITLES:
-        for loc in locations:
-            try:
-                r = requests.post(
-                    f"https://jooble.org/api/{api_key}",
-                    json={"keywords": title, "location": loc, "page": 1},
-                    headers=HEADERS, timeout=15
+    # Categorías relevantes en The Muse
+    categories = ["QA & Testing", "Project Management", "Agile & Scrum"]
+    levels      = ["Senior Level", "Manager", "Lead"]
+    try:
+        import urllib.parse
+        for category in categories:
+            for level in levels:
+                url = (
+                    f"https://www.themuse.com/api/public/jobs"
+                    f"?category={urllib.parse.quote(category)}"
+                    f"&level={urllib.parse.quote(level)}"
+                    f"&location=Flexible+%2F+Remote"
+                    f"&page=1&descending=true"
                 )
+                r = requests.get(url, headers=HEADERS, timeout=15)
                 if r.status_code != 200:
                     continue
-                for job in r.json().get("jobs", []):
-                    uid   = str(job.get("id", ""))
-                    jtitle = job.get("title", "")
-                    jloc   = job.get("location", "")
-                    if uid in seen or not job.get("link"):
+                for job in r.json().get("results", []):
+                    uid    = str(job.get("id", ""))
+                    jtitle = job.get("name", "")
+                    if uid in seen or not jtitle:
                         continue
-                    if not matches(jtitle, job.get("snippet", "")):
-                        continue
-                    if not location_ok(jloc, "", job.get("snippet", "")):
+                    if not matches(jtitle, job.get("contents", "")):
                         continue
                     seen.add(uid)
-                    label = "🌐 Remote" if "remote" in loc.lower() else f"📍 {jloc}"
+                    company = job.get("company", {}).get("name", "")
+                    link    = job.get("refs", {}).get("landing_page", "")
+                    pub     = job.get("publication_date", "")
                     jobs.append({
-                        "title": f"{jtitle} — {job.get('company', '')} [{label}]",
-                        "link":  job.get("link", ""),
-                        "desc":  clean(job.get("snippet", "")),
-                        "date":  job.get("updated", ""),
-                        "source": "Jooble 🔍",
-                        "guid":  f"jooble-{uid}"
+                        "title": f"{jtitle} — {company} [🌐 Remote]",
+                        "link":  link,
+                        "desc":  clean(job.get("contents", "")),
+                        "date":  pub,
+                        "source": "The Muse 🌐",
+                        "guid":  f"muse-{uid}"
                     })
                 time.sleep(0.4)
-            except Exception as e:
-                print(f"[Jooble] Error ({title}/{loc}): {e}")
+    except Exception as e:
+        print(f"[The Muse] Error: {e}")
     return jobs
 
 
@@ -633,7 +635,7 @@ if __name__ == "__main__":
     src = fetch_arbeitnow(broad=False);     print(f"  Arbeitnow:     {len(src)}"); filtered += src
     src = fetch_jobicy(broad=False);        print(f"  Jobicy:        {len(src)}"); filtered += src
     src = fetch_tecnoempleo();              print(f"  Tecnoempleo:   {len(src)}"); filtered += src
-    src = fetch_jooble();                   print(f"  Jooble:        {len(src)}"); filtered += src
+    src = fetch_themuse();                  print(f"  The Muse:      {len(src)}"); filtered += src
 
     adzuna = fetch_adzuna(
         os.environ.get("ADZUNA_APP_ID", ""),
@@ -652,7 +654,7 @@ if __name__ == "__main__":
     src = fetch_himalayas(broad=True);      broad_jobs += src
     src = fetch_arbeitnow(broad=True);      broad_jobs += src
     src = fetch_jobicy(broad=True);         broad_jobs += src
-    broad_jobs += adzuna + fetch_jooble()
+    broad_jobs += adzuna + fetch_themuse()
     print(f"  Broad total: {len(broad_jobs)}")
 
     # Feed filtrado — máx 50 ofertas relevantes del día
