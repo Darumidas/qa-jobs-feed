@@ -31,34 +31,41 @@ KEYWORDS = [
 ]
 
 KEYWORDS_BROAD = [
-    "qa", "quality assurance", "test", "sdet", "scrum", "agile",
+    "qa", "quality assurance", "tester", "test engineer", "sdet", "scrum", "agile",
     "automation engineer", "delivery manager", "product owner",
-    "engineering manager", "agile coach", "release manager"
+    "engineering manager", "agile coach", "release manager", "devops"
 ]
 
 EXCLUDE = ["junior", "intern", "graduate", "entry level", "entry-level", "trainee"]
 
-# Ubicaciones aceptadas: remote o Madrid/España
-LOCATIONS_OK  = ["remote", "worldwide", "anywhere", "global", "madrid", "spain", "españa", "distributed"]
-# Ciudades/países a descartar si la oferta no dice remote
+# Tags que identifican una oferta como remota
+REMOTE_TAGS = [
+    "remote", "remote-first", "remote work", "remotework", "work from home",
+    "wfh", "fully remote", "100% remote", "distributed", "worldwide",
+    "anywhere", "global", "trabajo remoto", "teletrabajo"
+]
+# Ubicaciones presenciales aceptadas
+ONSITE_OK = ["madrid", "spain", "españa", "barcelona"]
+# Ubicaciones a descartar (solo si no hay tag remoto)
 LOCATIONS_BAD = [
-    "berlin", "munich", "münchen", "hamburg", "frankfurt", "cologne", "köln", "germany", "deutschland",
-    "paris", "france", "amsterdam", "netherlands", "zürich", "zurich", "switzerland",
-    "london", "united kingdom", "uk only", "new york", "san francisco", "toronto",
-    "on-site", "onsite", "in-office", "office only"
+    "berlin", "munich", "münchen", "hamburg", "frankfurt", "cologne", "köln",
+    "germany", "deutschland", "paris", "lyon", "france", "amsterdam", "rotterdam",
+    "netherlands", "zürich", "zurich", "geneva", "switzerland", "london",
+    "manchester", "united kingdom", "uk only", "new york", "san francisco",
+    "los angeles", "chicago", "toronto", "vancouver", "canada",
+    "on-site only", "onsite only", "in-office only", "office required"
 ]
 
-def location_ok(location: str, description: str = "") -> bool:
-    """Devuelve True si la oferta es remota o está en Madrid/España."""
-    loc = (location + " " + description[:500]).lower()
-    # Si menciona una ubicación buena → OK
-    if any(l in loc for l in LOCATIONS_OK):
+def location_ok(location: str, tags: str = "", description: str = "") -> bool:
+    """True si remoto o Madrid/España. False si presencial en ciudad no deseada."""
+    combined = (location + " " + tags + " " + description[:800]).lower()
+    if any(r in combined for r in REMOTE_TAGS):
         return True
-    # Si menciona una ubicación mala sin remote → descarta
-    if any(l in loc for l in LOCATIONS_BAD):
+    if any(o in combined for o in ONSITE_OK):
+        return True
+    if any(b in combined for b in LOCATIONS_BAD):
         return False
-    # Sin info de ubicación → aceptar (la mayoría son remote)
-    return True
+    return True  # sin info → aceptar
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; JobFeedBot/1.0; +https://github.com/jbanos093/qa-jobs-feed)"
@@ -144,21 +151,18 @@ def fetch_remotive(broad=False) -> list:
     return jobs
 
 def fetch_arbeitnow(broad=False) -> list:
-    # Arbeitnow mezcla remote y presencial → filtrar por ubicación
     jobs = []
     try:
-        r = requests.get(
-            "https://arbeitnow.com/api/job-board-api",
-            headers=HEADERS, timeout=15
-        )
+        r = requests.get("https://arbeitnow.com/api/job-board-api", headers=HEADERS, timeout=15)
         data = r.json().get("data", [])
         for job in data:
             title = job.get("title", "")
+            tags  = " ".join(job.get("tags", []))
+            loc   = job.get("location", "")
+            is_remote = job.get("remote", False) or "remote" in tags.lower()
             if not matches(title, job.get("description", ""), broad):
                 continue
-            loc = job.get("location", "")
-            is_remote = job.get("remote", False)
-            if not is_remote and not location_ok(loc, job.get("description", "")):
+            if not is_remote and not location_ok(loc, tags, job.get("description", "")):
                 continue
             loc_label = "🌐 Remote" if is_remote else f"📍 {loc}"
             jobs.append({
@@ -171,6 +175,41 @@ def fetch_arbeitnow(broad=False) -> list:
             })
     except Exception as e:
         print(f"[Arbeitnow] Error: {e}")
+    return jobs
+
+
+def fetch_himalayas(broad=False) -> list:
+    """Himalayas.app — 100% remote jobs"""
+    jobs = []
+    queries = KEYWORDS[:8] if not broad else ["qa", "test", "scrum", "agile", "sdet"]
+    seen = set()
+    for q in queries:
+        try:
+            r = requests.get(
+                f"https://himalayas.app/jobs/api?q={requests.utils.quote(q)}&limit=20",
+                headers=HEADERS, timeout=15
+            )
+            if r.status_code != 200:
+                continue
+            for job in r.json().get("jobs", []):
+                title = job.get("title", "")
+                uid   = job.get("id") or job.get("slug") or title
+                if uid in seen:
+                    continue
+                if not matches(title, job.get("description", ""), broad):
+                    continue
+                seen.add(uid)
+                jobs.append({
+                    "title": f"{title} — {job.get('company', {}).get('name', '')}",
+                    "link": job.get("applicationUrl") or job.get("url") or "",
+                    "desc": clean(job.get("description", "")),
+                    "date": job.get("createdAt", ""),
+                    "source": "Himalayas 🌐",
+                    "guid": f"himalayas-{uid}"
+                })
+            time.sleep(0.5)
+        except Exception as e:
+            print(f"[Himalayas] Error ({q}): {e}")
     return jobs
 
 def fetch_weworkremotely(broad=False) -> list:
@@ -280,16 +319,18 @@ if __name__ == "__main__":
     filtered += fetch_arbeitnow(broad=False)
     filtered += fetch_weworkremotely(broad=False)
     filtered += fetch_jobicy(broad=False)
+    filtered += fetch_himalayas(broad=False)
     print(f"  Filtered: {len(filtered)} jobs")
 
     print("Fetching jobs (all market)...")
-    broad = []
-    broad += fetch_remoteok(broad=True)
-    broad += fetch_remotive(broad=True)
-    broad += fetch_arbeitnow(broad=True)
-    broad += fetch_weworkremotely(broad=True)
-    broad += fetch_jobicy(broad=True)
-    print(f"  Broad: {len(broad)} jobs")
+    broad_jobs = []
+    broad_jobs += fetch_remoteok(broad=True)
+    broad_jobs += fetch_remotive(broad=True)
+    broad_jobs += fetch_arbeitnow(broad=True)
+    broad_jobs += fetch_weworkremotely(broad=True)
+    broad_jobs += fetch_jobicy(broad=True)
+    broad_jobs += fetch_himalayas(broad=True)
+    print(f"  Broad: {len(broad_jobs)} jobs")
 
     # Feed filtrado — títulos exactos de tu Job Titles sheet
     rss_filtered = build_rss(
@@ -304,7 +345,7 @@ if __name__ == "__main__":
 
     # Feed amplio — todo el mercado QA/tech/agile
     rss_broad = build_rss(
-        broad,
+        broad_jobs,
         title="QA Jobs — All Market (Jose Baños)",
         filename="feed_all.xml",
         description="All QA · Agile · Testing · Automation remote jobs — broad market view",
