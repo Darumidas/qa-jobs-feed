@@ -38,6 +38,28 @@ KEYWORDS_BROAD = [
 
 EXCLUDE = ["junior", "intern", "graduate", "entry level", "entry-level", "trainee"]
 
+# Ubicaciones aceptadas: remote o Madrid/España
+LOCATIONS_OK  = ["remote", "worldwide", "anywhere", "global", "madrid", "spain", "españa", "distributed"]
+# Ciudades/países a descartar si la oferta no dice remote
+LOCATIONS_BAD = [
+    "berlin", "munich", "münchen", "hamburg", "frankfurt", "cologne", "köln", "germany", "deutschland",
+    "paris", "france", "amsterdam", "netherlands", "zürich", "zurich", "switzerland",
+    "london", "united kingdom", "uk only", "new york", "san francisco", "toronto",
+    "on-site", "onsite", "in-office", "office only"
+]
+
+def location_ok(location: str, description: str = "") -> bool:
+    """Devuelve True si la oferta es remota o está en Madrid/España."""
+    loc = (location + " " + description[:500]).lower()
+    # Si menciona una ubicación buena → OK
+    if any(l in loc for l in LOCATIONS_OK):
+        return True
+    # Si menciona una ubicación mala sin remote → descarta
+    if any(l in loc for l in LOCATIONS_BAD):
+        return False
+    # Sin info de ubicación → aceptar (la mayoría son remote)
+    return True
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; JobFeedBot/1.0; +https://github.com/jbanos093/qa-jobs-feed)"
 }
@@ -73,6 +95,7 @@ def rss_date(dt=None) -> str:
 # ── FUENTES ──────────────────────────────────────────────────
 
 def fetch_remoteok(broad=False) -> list:
+    # RemoteOK = 100% remote por definición, no hace falta filtrar ubicación
     jobs = []
     try:
         r = requests.get("https://remoteok.com/api", headers=HEADERS, timeout=15)
@@ -88,7 +111,7 @@ def fetch_remoteok(broad=False) -> list:
                 "link": job.get("url", f"https://remoteok.com/remote-jobs/{job.get('id','')}"),
                 "desc": clean(job.get("description", "")),
                 "date": job.get("date", ""),
-                "source": "RemoteOK",
+                "source": "RemoteOK 🌐",
                 "guid": f"remoteok-{job.get('id', title)}"
             })
     except Exception as e:
@@ -96,6 +119,7 @@ def fetch_remoteok(broad=False) -> list:
     return jobs
 
 def fetch_remotive(broad=False) -> list:
+    # Remotive = 100% remote
     jobs = []
     try:
         r = requests.get(
@@ -112,7 +136,7 @@ def fetch_remotive(broad=False) -> list:
                 "link": job.get("url", ""),
                 "desc": clean(job.get("description", "")),
                 "date": job.get("publication_date", ""),
-                "source": "Remotive",
+                "source": "Remotive 🌐",
                 "guid": f"remotive-{job.get('id', title)}"
             })
     except Exception as e:
@@ -120,6 +144,7 @@ def fetch_remotive(broad=False) -> list:
     return jobs
 
 def fetch_arbeitnow(broad=False) -> list:
+    # Arbeitnow mezcla remote y presencial → filtrar por ubicación
     jobs = []
     try:
         r = requests.get(
@@ -131,8 +156,13 @@ def fetch_arbeitnow(broad=False) -> list:
             title = job.get("title", "")
             if not matches(title, job.get("description", ""), broad):
                 continue
+            loc = job.get("location", "")
+            is_remote = job.get("remote", False)
+            if not is_remote and not location_ok(loc, job.get("description", "")):
+                continue
+            loc_label = "🌐 Remote" if is_remote else f"📍 {loc}"
             jobs.append({
-                "title": f"{title} — {job.get('company_name', '')}",
+                "title": f"{title} — {job.get('company_name', '')} [{loc_label}]",
                 "link": job.get("url", ""),
                 "desc": clean(job.get("description", "")),
                 "date": job.get("created_at", ""),
@@ -144,6 +174,7 @@ def fetch_arbeitnow(broad=False) -> list:
     return jobs
 
 def fetch_weworkremotely(broad=False) -> list:
+    # WeWorkRemotely = 100% remote
     jobs = []
     urls = [
         "https://weworkremotely.com/categories/remote-programming-jobs.rss",
@@ -161,7 +192,7 @@ def fetch_weworkremotely(broad=False) -> list:
                     "link": entry.get("link", ""),
                     "desc": clean(entry.get("summary", "")),
                     "date": entry.get("published", ""),
-                    "source": "WeWorkRemotely",
+                    "source": "WeWorkRemotely 🌐",
                     "guid": f"wwr-{entry.get('id', title)}"
                 })
         except Exception as e:
@@ -179,14 +210,17 @@ def fetch_jobicy(broad=False) -> list:
         feed = feedparser.parse(r.text)
         for entry in feed.entries:
             title = entry.get("title", "")
-            if not matches(title, entry.get("summary", ""), broad):
+            summary = entry.get("summary", "")
+            if not matches(title, summary, broad):
+                continue
+            if not location_ok("", summary):
                 continue
             jobs.append({
                 "title": title,
                 "link": entry.get("link", ""),
-                "desc": clean(entry.get("summary", "")),
+                "desc": clean(summary),
                 "date": entry.get("published", ""),
-                "source": "Jobicy",
+                "source": "Jobicy 🌐",
                 "guid": f"jobicy-{entry.get('id', title)}"
             })
     except Exception as e:
