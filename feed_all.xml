@@ -6,16 +6,23 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 23:32:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 16:37:35 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 19 jobs -->
+    <!-- 18 jobs -->
 
+  <item>
+    <title>Mitek Systems: Product Owner - Machine Learning</title>
+    <link>https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</link>
+    <description>Headquarters: United States Mitek &amp;nbsp; (NASDAQ: MITK) is a global leader in digital &amp;amp; biometric identity authentication, fraud prevention, and mobile deposit solutions. Our verified identity platform and advanced image capture solutions are built on the latest advancements in biometric recognition, artificial intelligence, computer vision and machine learning, and trusted by over 7,500 organ... [WeWorkRemotely 🌐]</description>
+    <pubDate>Fri, 05 Jun 2026 16:37:35 GMT</pubDate>
+    <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</guid>
+  </item>
   <item>
     <title>Centralreach: Director, AI Product Development</title>
     <link>https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</link>
     <description>Headquarters: Remote - US CentralReach is a leading provider of autism and IDD care software for Applied Behavior Analysis (ABA), multidisciplinary therapy, and special education. Trusted by more than 200,000 users, we enable therapy providers, educators, and employers to scale the way they deliver ABA and related therapies with innovative technology, market-leading industry expertise, and world-c... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 04 Jun 2026 23:32:11 GMT</pubDate>
+    <pubDate>Fri, 05 Jun 2026 16:37:35 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</guid>
   </item>
   <item>
@@ -66,13 +73,6 @@
     <description>Derq is an MIT spinoff building AI-powered traffic safety and smart infrastructure. Weâre a team of passionate innovators, leveraging the latest in AI and technology to transform the future of mobility. Our platform enhances road safety and traffic management by turning real-time data into actionable insights for cities and road operators. Our patented technology collects and analyzes data from ... [RemoteOK 🌐]</description>
     <pubDate>Tue, 02 Jun 2026 16:00:12 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1132718</guid>
-  </item>
-  <item>
-    <title>Copywriter — YO IT Consulting</title>
-    <link>https://remoteOK.com/remote-jobs/remote-copywriter-yo-it-consulting-1132757</link>
-    <description>Job Type: Contract, Part-time Location: Remote Role Description In this hourly, remote contractor role, you will work as a Copywriting &amp;amp; Content Subject Matter Expert (SME) to review AI-generated marketing/content-writing outputs and/or create expert copy and content, evaluating reasoning quality, intent alignment, and step-by-step writing decisions while providing precise written feedback. Yo... [RemoteOK 🌐]</description>
-    <pubDate>Tue, 02 Jun 2026 01:47:11 GMT</pubDate>
-    <guid isPermaLink="false">remoteok-1132757</guid>
   </item>
   <item>
     <title>QA Lead — ADEREN [📍 Madrid]</title>
@@ -136,13 +136,6 @@
     <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. LI-Onsite QA Manager - Madrid - Please only apply in English with an English Resume. JOIN OUR QA STUDIO IN MADRID! Founded in 2005, 2K Games is a global video game company, publishing titles develo... [Adzuna 🔗]</description>
     <pubDate>Sat, 16 May 2026 02:24:29 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5730859186</guid>
-  </item>
-  <item>
-    <title>Engineering Manager - Verification — SumUp [📍 Berlin, Berlin, Germany]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/sumup/engineering-manager-verification-berlin-65279</link>
-    <description>SumUp builds financial solutions for millions of small businesses worldwide. Our Identity Lifecycle mission powers the systems that determine who can access those solutions, ensuring every merchant we onboard is verified accurately, compliantly, and at scale. As Engineering Manager for Verification , you will lead the squad responsible for identity checks across all of SumUp&#x27;s markets. This is a h... [Arbeitnow]</description>
-    <pubDate>Thu, 04 Jun 2026 06:45:23 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-engineering-manager-verification-berlin-65279</guid>
   </item>
   </channel>
 </rss>
