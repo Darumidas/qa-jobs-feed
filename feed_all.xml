@@ -6,7 +6,7 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 16:37:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 22:49:56 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
     <!-- 18 jobs -->
@@ -15,14 +15,14 @@
     <title>Mitek Systems: Product Owner - Machine Learning</title>
     <link>https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</link>
     <description>Headquarters: United States Mitek &amp;nbsp; (NASDAQ: MITK) is a global leader in digital &amp;amp; biometric identity authentication, fraud prevention, and mobile deposit solutions. Our verified identity platform and advanced image capture solutions are built on the latest advancements in biometric recognition, artificial intelligence, computer vision and machine learning, and trusted by over 7,500 organ... [WeWorkRemotely 🌐]</description>
-    <pubDate>Fri, 05 Jun 2026 16:37:35 GMT</pubDate>
+    <pubDate>Fri, 05 Jun 2026 22:49:56 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</guid>
   </item>
   <item>
     <title>Centralreach: Director, AI Product Development</title>
     <link>https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</link>
     <description>Headquarters: Remote - US CentralReach is a leading provider of autism and IDD care software for Applied Behavior Analysis (ABA), multidisciplinary therapy, and special education. Trusted by more than 200,000 users, we enable therapy providers, educators, and employers to scale the way they deliver ABA and related therapies with innovative technology, market-leading industry expertise, and world-c... [WeWorkRemotely 🌐]</description>
-    <pubDate>Fri, 05 Jun 2026 16:37:35 GMT</pubDate>
+    <pubDate>Fri, 05 Jun 2026 22:49:56 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</guid>
   </item>
   <item>
@@ -66,13 +66,6 @@
     <description>Job Description We are looking for an IT Service Delivery Manager with a strong background in BI, DWH, and data platforms. The role requires a combination of technical expertise, IT operations, and service delivery management to ensure reliable and high-quality data services. The position involves ownership of service delivery, including SLA management, incident handling, stakeholder communication... [Adzuna 🔗]</description>
     <pubDate>Wed, 03 Jun 2026 06:49:48 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5750128634</guid>
-  </item>
-  <item>
-    <title>Machine Learning QA Engineer — Derq</title>
-    <link>https://remoteOK.com/remote-jobs/remote-machine-learning-qa-engineer-derq-1132718</link>
-    <description>Derq is an MIT spinoff building AI-powered traffic safety and smart infrastructure. Weâre a team of passionate innovators, leveraging the latest in AI and technology to transform the future of mobility. Our platform enhances road safety and traffic management by turning real-time data into actionable insights for cities and road operators. Our patented technology collects and analyzes data from ... [RemoteOK 🌐]</description>
-    <pubDate>Tue, 02 Jun 2026 16:00:12 GMT</pubDate>
-    <guid isPermaLink="false">remoteok-1132718</guid>
   </item>
   <item>
     <title>QA Lead — ADEREN [📍 Madrid]</title>
@@ -136,6 +129,13 @@
     <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. LI-Onsite QA Manager - Madrid - Please only apply in English with an English Resume. JOIN OUR QA STUDIO IN MADRID! Founded in 2005, 2K Games is a global video game company, publishing titles develo... [Adzuna 🔗]</description>
     <pubDate>Sat, 16 May 2026 02:24:29 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5730859186</guid>
+  </item>
+  <item>
+    <title>AI Enablement Engineer (m/f/d) — syte GmbH [🌐 Remote]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/syte-gmbh/ai-enablement-engineer-munster-444879</link>
+    <description>Your mission Become more efficient at working with AI — and help shape the internal processes of a fast-growing PropTech company. We are syte — a PropTech company based in Münster that develops AI-powered software providing the decision-making foundation for real estate development. Our platform replaces weeks of expert consultations with instant, AI-driven analyses: project developers, property d... [Arbeitnow]</description>
+    <pubDate>Fri, 05 Jun 2026 16:00:29 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-ai-enablement-engineer-munster-444879</guid>
   </item>
   </channel>
 </rss>
