@@ -6,24 +6,45 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 18:09:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 23:48:37 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 12 jobs -->
+    <!-- 15 jobs -->
 
   <item>
     <title>Mitek Systems: Product Owner - Machine Learning</title>
     <link>https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</link>
     <description>Headquarters: United States Mitek &amp;nbsp; (NASDAQ: MITK) is a global leader in digital &amp;amp; biometric identity authentication, fraud prevention, and mobile deposit solutions. Our verified identity platform and advanced image capture solutions are built on the latest advancements in biometric recognition, artificial intelligence, computer vision and machine learning, and trusted by over 7,500 organ... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 08 Jun 2026 18:09:48 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 23:48:37 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</guid>
   </item>
   <item>
     <title>Centralreach: Director, AI Product Development</title>
     <link>https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</link>
     <description>Headquarters: Remote - US CentralReach is a leading provider of autism and IDD care software for Applied Behavior Analysis (ABA), multidisciplinary therapy, and special education. Trusted by more than 200,000 users, we enable therapy providers, educators, and employers to scale the way they deliver ABA and related therapies with innovative technology, market-leading industry expertise, and world-c... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 08 Jun 2026 18:09:48 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 23:48:37 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</guid>
+  </item>
+  <item>
+    <title>Senior Qa Engineer — VORTECH PCI GROUP [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5756562246?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>ACERCA DE LA POSICIÓN SENIOR QA ENGINEEREn Vortech PCI Group buscamos un/a Senior QA Engineer para un proyecto remoto dentro del sector Banking &amp; Financial Services.Buscamos un perfil QA técnico con experiencia en testing manual y automatización, orientado a aplicaciones front-end desplegadas sobre Pega Cloud.La persona seleccionada participará en la validación de aplicaciones cloud, asegurando la... [Adzuna 🔗]</description>
+    <pubDate>Mon, 08 Jun 2026 22:38:18 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5756562246</guid>
+  </item>
+  <item>
+    <title>Senior Quality Assurance Engineer — RED Global [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5756560798?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>RED deliver SAP Professionals to our customers globally. At present one of our customers is in need of a QA for an initial 6 months contract based in Madrid - 2 days on site Required Skills &amp; Qualifications: Strong hands-on experience withKarate Framework(API Testing, BDD, Karate Gatling). Proven experience testingmicroservices architectures, including REST APIs and service-to-service integrations... [Adzuna 🔗]</description>
+    <pubDate>Mon, 08 Jun 2026 22:38:12 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5756560798</guid>
+  </item>
+  <item>
+    <title>Senior Qa Engineer — VORTECH PCI GROUP [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5756559779?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>ACERCA DE LA POSICIÓN SENIOR QA ENGINEER En Vortech PCI Group buscamos un/a Senior QA Engineer para un proyecto remoto dentro del sector Banking &amp; Financial Services. Buscamos un perfil QA técnico con experiencia en testing manual y automatización, orientado a aplicaciones front-end desplegadas sobre Pega Cloud. La persona seleccionada participará en la validación de aplicaciones cloud, asegurando... [Adzuna 🔗]</description>
+    <pubDate>Mon, 08 Jun 2026 22:38:07 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5756559779</guid>
   </item>
   <item>
     <title>Associate Delivery Manager — Nymbus</title>
