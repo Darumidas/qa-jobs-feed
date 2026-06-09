@@ -6,7 +6,7 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
     <description>QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote / Madrid</description>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 23:48:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 16:51:21 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
     <!-- 10 jobs -->
@@ -47,13 +47,6 @@
     <guid isPermaLink="false">adzuna-5751600733</guid>
   </item>
   <item>
-    <title>IT Service Delivery Manager (Data management) — Miratech [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5750128634?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Job Description We are looking for an IT Service Delivery Manager with a strong background in BI, DWH, and data platforms. The role requires a combination of technical expertise, IT operations, and service delivery management to ensure reliable and high-quality data services. The position involves ownership of service delivery, including SLA management, incident handling, stakeholder communication... [Adzuna 🔗]</description>
-    <pubDate>Wed, 03 Jun 2026 06:49:48 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5750128634</guid>
-  </item>
-  <item>
     <title>QA Lead — ADEREN [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5743677809?utm_medium=api&amp;utm_source=521e0734</link>
     <description>SEEKING : QA Lead We are looking for a QA Lead to define and drive the quality strategy across a complex backend-oriented, multi-squad technology project. This person will coordinate QA activities across the programme, ensuring consistent standards, clear visibility of quality risks, and alignment between testing, delivery, and governance expectations. This role requires a strong mix of QA leaders... [Adzuna 🔗]</description>
@@ -80,6 +73,13 @@
     <description>At Goodweek, we&#x27;re building a next-generation AI tool designed to revolutionize business productivity. We are focusing on delivering a secure, scalable, and reliable system that supports real business use cases across different departments. The goal is to make AI practical, controlled, and truly embedded in how modern organizations operate. Our team spans across France, Spain, and the United State... [Adzuna 🔗]</description>
     <pubDate>Tue, 19 May 2026 17:15:04 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5734122237</guid>
+  </item>
+  <item>
+    <title>Senior QA Manager - Mobile Games - Fully Remote — SOFTGAMES [📍 Berlin]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/softgames/senior-qa-manager-mobile-games-fully-remote-berlin-304095</link>
+    <description>We’re looking for a hands-on Senior QA Manager - Mobile Games to join our talented and passionate team. You’ll play a key role in ensuring every release meets the highest quality standards, from early concept to global launch. As the quality owner for one of our largest mobile puzzle games, you’ll drive release quality across iOS and Android, establish scalable QA processes, push test automation f... [Arbeitnow]</description>
+    <pubDate>Tue, 09 Jun 2026 13:20:13 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-qa-manager-mobile-games-fully-remote-berlin-304095</guid>
   </item>
   </channel>
 </rss>
