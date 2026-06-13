@@ -6,7 +6,7 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Jun 2026 12:19:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 20:08:39 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
     <!-- 17 jobs -->
@@ -15,14 +15,14 @@
     <title>Mitek Systems: Product Owner - Machine Learning</title>
     <link>https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</link>
     <description>Headquarters: United States Mitek &amp;nbsp; (NASDAQ: MITK) is a global leader in digital &amp;amp; biometric identity authentication, fraud prevention, and mobile deposit solutions. Our verified identity platform and advanced image capture solutions are built on the latest advancements in biometric recognition, artificial intelligence, computer vision and machine learning, and trusted by over 7,500 organ... [WeWorkRemotely 🌐]</description>
-    <pubDate>Sat, 13 Jun 2026 12:19:59 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 20:08:39 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/mitek-systems-product-owner-machine-learning</guid>
   </item>
   <item>
     <title>Centralreach: Director, AI Product Development</title>
     <link>https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</link>
     <description>Headquarters: Remote - US CentralReach is a leading provider of autism and IDD care software for Applied Behavior Analysis (ABA), multidisciplinary therapy, and special education. Trusted by more than 200,000 users, we enable therapy providers, educators, and employers to scale the way they deliver ABA and related therapies with innovative technology, market-leading industry expertise, and world-c... [WeWorkRemotely 🌐]</description>
-    <pubDate>Sat, 13 Jun 2026 12:19:59 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 20:08:39 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development</guid>
   </item>
   <item>
@@ -66,6 +66,13 @@
     <description>Job Description We are looking for a Software Engineering Manager to lead a team within our innovative Agentic Commerce Program at zooplus. In this role, you will be instrumental in bringing new, AI-driven features to life for over 9 million customers, while championing modern agile and technical practices. Reporting to the Domain Engineering Manager , you will be responsible for efficient product... [Adzuna 🔗]</description>
     <pubDate>Fri, 12 Jun 2026 07:14:05 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5761005858</guid>
+  </item>
+  <item>
+    <title>Quality Assurance Rater - German (Germany) — TELUS Digital</title>
+    <link>https://remotive.com/remote-jobs/all-others/quality-assurance-rater-german-germany-2090988</link>
+    <description>Join our elite team of Senior Raters as a critical contributor to high-quality validation data that directly influences product development and quality assurance for leading search engines and AI technologies. This flexible, remote opportunity allows you to apply your analytical and research skills to evaluate search results and AI-generated content while contributing to the development of high-qu... [Remotive 🌐]</description>
+    <pubDate>Thu, 11 Jun 2026 14:07:01 GMT</pubDate>
+    <guid isPermaLink="false">remotive-2090988</guid>
   </item>
   <item>
     <title>Technical Scrum Master - RDT Identity &amp; Access Management — Roche [📍 Madrid]</title>
@@ -122,13 +129,6 @@
     <description>We are seeking a Senior Integration Developer with expertise in the MuleSoft Anypoint Platform and Seeburger BIS to support a high-level integration project for a public sector initiative. This role bridges the gap between development and architecture, focusing on the end-to-end delivery of complex API-led connectivity solutions within a remote-first European team environment. Key Facts Start: 29.... [Arbeitnow]</description>
     <pubDate>Fri, 12 Jun 2026 16:00:30 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-mulesoft-integration-architect-refnr-47027-munich-420335</guid>
-  </item>
-  <item>
-    <title>Senior Product Manager — Energy Utility Platform (m/f/d) — 1KOMMA5˚ [🌐 Remote]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/1komma50/senior-product-manager-energy-utility-platform-berlin-450189</link>
-    <description>1KOMMA5° At 1KOMMA5° , we pursue a clear vision: Living on wind and sunlight forever for free . To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it? We bring together regional craftsmanship and scalable software: We don&#x27;t think of solar, batteries, heat pumps, and e-mobility as isolated components, but control them as an intelligent, int... [Arbeitnow]</description>
-    <pubDate>Fri, 12 Jun 2026 13:30:37 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-product-manager-energy-utility-platform-berlin-450189</guid>
   </item>
   </channel>
 </rss>
