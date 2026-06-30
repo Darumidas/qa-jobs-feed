@@ -6,30 +6,37 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 22:41:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 13:30:41 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 17 jobs -->
+    <!-- 19 jobs -->
 
   <item>
     <title>Adoreal: Web Development Manager (Marketing &amp; Webflow)</title>
     <link>https://weworkremotely.com/remote-jobs/adoreal-web-development-manager-marketing-webflow</link>
     <description>Headquarters: Uruguay URL: http://adoreal.com Description Who We Are&amp;nbsp; We are a fast-growing vertical SaaS company that leverages innovation and disruptive technologies to improve consumer experiences, outcomes, and predictability in elective medicine. Our team thrives on challenges, embraces change, and is dedicated to transforming our industry.&amp;nbsp; About the Role We&#x27;re seeking an experienc... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 29 Jun 2026 22:41:05 GMT</pubDate>
+    <pubDate>Tue, 30 Jun 2026 13:30:41 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/adoreal-web-development-manager-marketing-webflow</guid>
   </item>
   <item>
     <title>Charles River: Senior InfoSec Engineer (SecDevOps) - (REMOTE)</title>
     <link>https://weworkremotely.com/remote-jobs/charles-river-senior-infosec-engineer-secdevops-remote</link>
     <description>Headquarters: India URL: http://criver.com For 75 years, Charles River employees have worked together to assist in the discovery, development and safe manufacture of new drug therapies. When you join our family, you will have a significant impact on the health and well-being of people across the globe. Whether your background is in life sciences, finance, IT, sales or another area, your skills wil... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 29 Jun 2026 22:41:05 GMT</pubDate>
+    <pubDate>Tue, 30 Jun 2026 13:30:41 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/charles-river-senior-infosec-engineer-secdevops-remote</guid>
+  </item>
+  <item>
+    <title>AHU Technologies: GxP Instrument Systems Engineer- Norwood, MA</title>
+    <link>https://weworkremotely.com/remote-jobs/ahu-technologies-gxp-instrument-systems-engineer-norwood-ma</link>
+    <description>Headquarters: Fully Remote - US URL: http://ahutech.com Replies within 24 hours Job Description &amp;nbsp; CONTEXT The qualified GxP Instrument Systems Engineer / Senior Project Engineer will be responsible for the design, deployment and management of automation and digital enterprise instrumentation systems that support Quality Control laboratories and system integration with connected Digital platfo... [WeWorkRemotely 🌐]</description>
+    <pubDate>Tue, 30 Jun 2026 13:30:41 GMT</pubDate>
+    <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/ahu-technologies-gxp-instrument-systems-engineer-norwood-ma</guid>
   </item>
   <item>
     <title>Akamai: Senior Software Development Engineer in Test II - Automation</title>
     <link>https://weworkremotely.com/remote-jobs/akamai-senior-software-development-engineer-in-test-ii-automation</link>
     <description>Headquarters: United States URL: http://akamai.com Description Are you excited to work on innovative enterprise security products? Do you enjoy collaborating with developers and impacting products touching life online for millions of users billions times a day? Join Our Team Our team operates within the Zero Trust Security Group, developing advanced security solutions for government and defense cu... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 29 Jun 2026 22:41:05 GMT</pubDate>
+    <pubDate>Tue, 30 Jun 2026 13:30:41 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/akamai-senior-software-development-engineer-in-test-ii-automation</guid>
   </item>
   <item>
@@ -117,18 +124,25 @@
     <guid isPermaLink="false">remotive-2090988</guid>
   </item>
   <item>
+    <title>Product Owner - Cybersecurity (m/f/d) — Hornetsecurity [📍 Hanover]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/hornetsecurity/product-owner-cybersecurity-hanover-479947</link>
+    <description>The Hornetsecurity Group is the leading cloud security provider in Europe, which protects the IT infrastructure, digital communication and data of companies and organizations of all sizes. For our Headquarter in Hanover we are looking for a motivated Product Owner (m/f/d) for 40 hours/week to start immediately or as soon as possible. Tasks You act as the primary point of contact between stakeholde... [Arbeitnow]</description>
+    <pubDate>Tue, 30 Jun 2026 10:01:09 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-product-owner-cybersecurity-hanover-479947</guid>
+  </item>
+  <item>
+    <title>Senior Data &amp; Analytics Engineer (Europe, 100% remote) — LimeFlight [📍 Berlin]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/limeflight/senior-data-analytics-engineer-europe-100-remote-berlin-281998</link>
+    <description>Join our fully remote, mission-driven team dedicated to pioneering sustainable inflight service management . Work on innovative technology solutions with global impact, collaborate within a diverse, international environment, and continuously enhance your skills through ongoing learning opportunities. Headquartered in Zurich, Switzerland with team members across 11 countries, we offer a dynamic an... [Arbeitnow]</description>
+    <pubDate>Tue, 30 Jun 2026 09:20:12 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-data-analytics-engineer-europe-100-remote-berlin-281998</guid>
+  </item>
+  <item>
     <title>Engineering Manager Heartbeat AI (m/f/d) — 1KOMMA5˚ [🌐 Remote]</title>
     <link>https://www.arbeitnow.com/jobs/companies/1komma50/engineering-manager-heartbeat-ai-berlin-482604</link>
     <description>1KOMMA5° At 1KOMMA5° , we pursue a clear vision: Living on wind and sunlight forever for free . To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it? We bring together regional craftsmanship and scalable software: We don&#x27;t think of solar, batteries, heat pumps, and e-mobility as isolated components, but control them as an intelligent, int... [Arbeitnow]</description>
     <pubDate>Mon, 29 Jun 2026 17:30:27 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-engineering-manager-heartbeat-ai-berlin-482604</guid>
-  </item>
-  <item>
-    <title>Product Manager - Contact Center &amp; Conversational AI (w/m/d) — tecRacer Germany GmbH [🌐 Remote]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/tecracer-germany-gmbh/product-manager-contact-center-conversational-ai-hanover-136798</link>
-    <description>Jobbeschreibung Das sind wir tecRacer ist einer der führenden AWS Premier Consulting Partner in Deutschland. Seit über 20 Jahren begleiten wir Unternehmen bei ihrer Cloud-Transformation – mit echtem Tiefgang, direktem AWS-Zugang und einem Team, das Cloud nicht nur versteht, sondern lebt. Wir sind kein Konzern, aber auch kein Startup: Wir sind ein erfahrenes, bodenständiges Unternehmen mit kurzen E... [Arbeitnow]</description>
-    <pubDate>Mon, 29 Jun 2026 12:30:43 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-product-manager-contact-center-conversational-ai-hanover-136798</guid>
   </item>
   </channel>
 </rss>
