@@ -6,106 +6,127 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 12:21:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 16:45:00 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 26 jobs -->
+    <!-- 29 jobs -->
 
   <item>
     <title>SailPoint: Manager, DevOps</title>
     <link>https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</link>
     <description>Headquarters: Remote (Colorado, USA) URL: http://sailpoint.com About the Team &amp;nbsp; Our CI/CD team sets clear delivery and release standards, providing the necessary tools, systems, and hands-on developer support to safely and securely release software assets for SailPoint&#x27;s SaaS business and supporting functionality. By managing platforms that enable developers to deliver secure code in an incre... [WeWorkRemotely 🌐]</description>
-    <pubDate>Fri, 24 Jul 2026 12:21:17 GMT</pubDate>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</guid>
   </item>
   <item>
     <title>PPG: IT Team Manager (DevOps) (m/f/x)</title>
     <link>https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</link>
     <description>Headquarters: POL - Wrocław URL: http://ppg.com As IT Manager, you will define and architect the deployment, automation, and management of our cloud applications portfolio and infrastructure. The DevOps team works closely with platform engineering teams, infrastructure architects, product owners, and stakeholders to establish and maintain efficient CI/CD pipelines, deployments. Supports the DevOps... [WeWorkRemotely 🌐]</description>
-    <pubDate>Fri, 24 Jul 2026 12:21:17 GMT</pubDate>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</guid>
   </item>
   <item>
     <title>Khibraty: Product Manager / QA Analyst (Full-Time Remote Contractor)</title>
     <link>https://weworkremotely.com/remote-jobs/khibraty-product-manager-qa-analyst-full-time-remote-contractor</link>
     <description>Headquarters: Amman, Amman Governorate, Jordan Our client is looking for a versatile, detail-oriented Product Manager / QA Analyst to join us as a full-time remote contractor in a dual role that shapes the future of the product while ensuring its reliability. You’ll report to the CTO and work closely with the Founder to define requirements, write user stories and acceptance criteria, support agile... [WeWorkRemotely 🌐]</description>
-    <pubDate>Fri, 24 Jul 2026 12:21:17 GMT</pubDate>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/khibraty-product-manager-qa-analyst-full-time-remote-contractor</guid>
   </item>
   <item>
     <title>Senior QA Engineer /区块链测试工程师</title>
     <link>https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we areMantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines institutional-grade... [Jobicy 🌐]</description>
-    <pubDate>Fri, 24 Jul 2026 12:21:17 GMT</pubDate>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/145577-senior-qa-engineer</link>
     <description>We build the tech that moves industries forward. We have our eyes set on AI, energy, logistics, sports and other complex and exciting segments. We believe in an innovative approach to... [Jobicy 🌐]</description>
-    <pubDate>Fri, 24 Jul 2026 12:21:17 GMT</pubDate>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/145577-senior-qa-engineer</guid>
+  </item>
+  <item>
+    <title>QA Automation Engineer – Pro</title>
+    <link>https://jobicy.com/jobs/144513-qa-automation-engineer-pro</link>
+    <description>Building the Future of Crypto Our Krakenites are a world-class team with crypto conviction, united by our desire to discover and unlock the potential of crypto and blockchain technology.What makes us... [Jobicy 🌐]</description>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
+    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/144513-qa-automation-engineer-pro</guid>
+  </item>
+  <item>
+    <title>Senior Quality Assurance Automation Engineer</title>
+    <link>https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</link>
+    <description>Company DescriptionExperian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness,... [Jobicy 🌐]</description>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
+    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</guid>
   </item>
   <item>
     <title>Senior QA Automation Engineer</title>
     <link>https://jobicy.com/jobs/146790-senior-qa-automation-engineer-3</link>
     <description>The company and our mission: Zartis is a global AI transformation and technology consulting partner where talented engineers and technologists work on cutting edge innovation. We partner with ambitious organizations... [Jobicy 🌐]</description>
-    <pubDate>Fri, 24 Jul 2026 12:21:17 GMT</pubDate>
+    <pubDate>Fri, 24 Jul 2026 16:45:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/146790-senior-qa-automation-engineer-3</guid>
+  </item>
+  <item>
+    <title>Gestionnaire administratif et financier F H — UniversitÃ© de Bordeaux</title>
+    <link>https://remoteOK.com/remote-jobs/remote-gestionnaire-administratif-et-financier-f-h-universite-de-bordeaux-1135352</link>
+    <description>Accueil Offres d&#x27;emploi Gestionnaire administratif et financier F/H TÃ©lÃ©chargerPDF â 27.2Ko Gestionnaire administratif et financier F/H Partager la page Veuillez pour partager sur Facebook, Twitter et LinkedIn. Partager sur Facebook Partager sur X (anciennement Twitter) - nouvelle fenÃªtre Partager sur LinkedIn Partager par email RÃ©f. RÃ©fÃ©rence : 2026-2360285 Fonction publique : Fonction pu... [RemoteOK 🌐]</description>
+    <pubDate>Thu, 23 Jul 2026 14:13:56 GMT</pubDate>
+    <guid isPermaLink="false">remoteok-1135352</guid>
   </item>
   <item>
     <title>Consultor para estrategia de SBC de Primera Infancia Programme Effectiveness Quito Ecuador Remoto 7 meses Nacional — UNICEF Bangladesh</title>
     <link>https://remoteOK.com/remote-jobs/remote-consultor-para-estrategia-de-sbc-de-primera-infancia-programme-effectiveness-quito-ecuador-remoto-7-meses-nacional-unicef-bangladesh-1135260</link>
-    <description>Publicado: 16:21:19. Apply now Job no: 594636Contract type: ConsultantDuty Station: QuitoLevel: ConsultancyLocation:â¦Ve este y otros empleos similares en LinkedIn. Please mention the word **ETHICAL** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these words to fi... [RemoteOK 🌐]</description>
+    <description>Publicado: 16:21:19. Apply now Job no: 594636Contract type: ConsultantDuty Station: QuitoLevel: ConsultancyLocation:â¦Ve este y otros empleos similares en LinkedIn. Please mention the word **ETHICAL** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these words to fi... [RemoteOK 🌐]</description>
     <pubDate>Thu, 23 Jul 2026 03:16:36 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135260</guid>
   </item>
   <item>
     <title>CoordenaÃ§Ã£o de Tecnologia I CloudOps — Aurum</title>
     <link>https://remoteOK.com/remote-jobs/remote-coordenacao-de-tecnologia-i-cloudops-aurum-1135258</link>
-    <description>Anunciada 10:40:23. Em primeiro lugar, queremos te contar um pouco mais sobre quem somos. Vamos lÃ¡?Muito prazer, nÃ³sâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **BRILLIANCES** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these ... [RemoteOK 🌐]</description>
+    <description>Anunciada 10:40:23. Em primeiro lugar, queremos te contar um pouco mais sobre quem somos. Vamos lÃ¡?Muito prazer, nÃ³sâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **BRILLIANCES** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these ... [RemoteOK 🌐]</description>
     <pubDate>Thu, 23 Jul 2026 03:12:22 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135258</guid>
   </item>
   <item>
     <title>Appointment Setter — Everlast Bathrooms</title>
     <link>https://remoteOK.com/remote-jobs/remote-appointment-setter-everlast-bathrooms-1135256</link>
-    <description>Company DescriptionEverlast Bathrooms is South Floridaâs trusted name in bathroom remodelingâ¦ Please mention the word **SENSIBLE** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they&#x27;re human. [RemoteOK 🌐]</description>
+    <description>Company DescriptionEverlast Bathrooms is South Floridaâs trusted name in bathroom remodelingâ¦ Please mention the word **SENSIBLE** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they&#x27;re human. [RemoteOK 🌐]</description>
     <pubDate>Thu, 23 Jul 2026 03:09:36 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135256</guid>
   </item>
   <item>
     <title>Analista de Atendimento TEMPORÃRIO Remoto — Melhor Envio</title>
     <link>https://remoteOK.com/remote-jobs/remote-analista-de-atendimento-temporario-remoto-melhor-envio-1135251</link>
-    <description>Anunciada 00:00:00. Com senso de dono e colaboraÃ§Ã£o, unimos forÃ§as para remover barreiras e impulsionarnegÃ³cios. NÃ£oâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **GENIAL** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these wo... [RemoteOK 🌐]</description>
+    <description>Anunciada 00:00:00. Com senso de dono e colaboraÃ§Ã£o, unimos forÃ§as para remover barreiras e impulsionarnegÃ³cios. NÃ£oâ¦ - veja esta vaga e outras semelhantes no LinkedIn. Please mention the word **GENIAL** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these wo... [RemoteOK 🌐]</description>
     <pubDate>Thu, 23 Jul 2026 03:05:34 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135251</guid>
   </item>
   <item>
     <title>Programa de EstÃ¡gio Atendimento Remoto — Nibo</title>
     <link>https://remoteOK.com/remote-jobs/remote-programa-de-estagio-atendimento-remoto-nibo-1135250</link>
-    <description>Nosso time de Atendimento Ã© essencial para garantir a satisfaÃ§Ã£o contÃ­nua e construirâ¦ Please mention the word **OVERTAKE** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they&#x27;re human. [RemoteOK 🌐]</description>
+    <description>Nosso time de Atendimento Ã© essencial para garantir a satisfaÃ§Ã£o contÃ­nua e construirâ¦ Please mention the word **OVERTAKE** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they&#x27;re human. [RemoteOK 🌐]</description>
     <pubDate>Thu, 23 Jul 2026 03:05:10 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135250</guid>
   </item>
   <item>
     <title>VP Strategic Finance — Emergence (Automotive Group)</title>
     <link>https://remoteOK.com/remote-jobs/remote-vp-strategic-finance-emergence-automotive-group-1135243</link>
-    <description>Posted 5:13:22 PM. VP, Strategic Finance Emergence (Automotive Group) Location Remote, U.S. and Canadaâ¦See this and similar jobs on LinkedIn. Please mention the word **GLORIOUS** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that re... [RemoteOK 🌐]</description>
+    <description>Posted 5:13:22 PM. VP, Strategic Finance Emergence (Automotive Group) Location Remote, U.S. and Canadaâ¦See this and similar jobs on LinkedIn. Please mention the word **GLORIOUS** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that re... [RemoteOK 🌐]</description>
     <pubDate>Wed, 22 Jul 2026 22:10:32 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135243</guid>
   </item>
   <item>
     <title>Director of IT — Emergence</title>
     <link>https://remoteOK.com/remote-jobs/remote-director-of-it-emergence-1135241</link>
-    <description>Emergence Director of IT, Emergence | Remote, U.S.-based | Full-Time About the roleEmergence isâ¦ Please mention the word **REVEL** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they&#x27;re human. [RemoteOK 🌐]</description>
+    <description>Emergence Director of IT, Emergence | Remote, U.S.-based | Full-Time About the roleEmergence isâ¦ Please mention the word **REVEL** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they&#x27;re human. [RemoteOK 🌐]</description>
     <pubDate>Wed, 22 Jul 2026 22:08:16 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135241</guid>
   </item>
   <item>
     <title>Human Resources Generalist — FIT Solutions, LLC</title>
     <link>https://remoteOK.com/remote-jobs/remote-human-resources-generalist-fit-solutions-llc-1135239</link>
-    <description>HR GeneralistReports to: HR ManagerStatus: Regular, Full-Time, Non-ExemptLocation: Remote, Unitedâ¦See this and similar jobs on LinkedIn. Please mention the word **OUTPERFORMS** and tag RNTIuMTg4LjE5OC4xMDI= when applying to show you read the job post completely (#RNTIuMTg4LjE5OC4xMDI=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read... [RemoteOK 🌐]</description>
+    <description>HR GeneralistReports to: HR ManagerStatus: Regular, Full-Time, Non-ExemptLocation: Remote, Unitedâ¦See this and similar jobs on LinkedIn. Please mention the word **OUTPERFORMS** and tag RMTcyLjIxMi4xNTcuMTky when applying to show you read the job post completely (#RMTcyLjIxMi4xNTcuMTky). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read... [RemoteOK 🌐]</description>
     <pubDate>Wed, 22 Jul 2026 22:05:42 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1135239</guid>
   </item>
@@ -145,13 +166,6 @@
     <guid isPermaLink="false">remoteok-1135240</guid>
   </item>
   <item>
-    <title>Manual QA Engineer — Seeking Alpha</title>
-    <link>https://remoteOK.com/remote-jobs/remote-manual-qa-engineer-seeking-alpha-1135351</link>
-    <description>Join a Company That Invests In You Seeking Alpha is the worldâs leading community of engaged investors. Weâre the go-to destination for investors looking for actionable stock market opinions, real-time market analysis, and unique financial insights. At the same time, weâre also dedicated to creating a workplace where our team thrives. Weâre passionate about fostering a flexible, balanced e... [RemoteOK 🌐]</description>
-    <pubDate>Tue, 21 Jul 2026 17:47:19 GMT</pubDate>
-    <guid isPermaLink="false">remoteok-1135351</guid>
-  </item>
-  <item>
     <title>Scrum Master — Irium [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5804095223?utm_medium=api&amp;utm_source=521e0734</link>
     <description>En IRIUM nos preocupamos porque no dejes de perseguir tus sueños. Prepárate para conquistar tus metas y disfruta del camino. Actualmente buscamos un/a Scrum Master / Agile Coach para incorporarse a un proyecto estratégico dentro del sector financiero. El objetivo es coordinar desarrollos en el área de Fábrica Retail para un cliente líder del sector bancario, facilitando ceremonias Agile, gestionan... [Adzuna 🔗]</description>
@@ -185,6 +199,13 @@
     <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. Senior QA Manager - Madrid - All resumes in English please Role Overview To manage the QA Department for assigned projects &amp; staff: managing test process &amp; submissions, planning of resources intern... [Adzuna 🔗]</description>
     <pubDate>Fri, 17 Jul 2026 03:07:24 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5804077010</guid>
+  </item>
+  <item>
+    <title>Product Compliance &amp; Quality Manager (m/w/d) — GORNATION GmbH [📍 Münster]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/gornation-gmbh/product-compliance-quality-manager-munster-160622</link>
+    <description>Du willst mit deiner Arbeit etwas bewegen - nicht nur in Theorien oder Reports, sondern an echten Produkten? Du suchst ein Umfeld, in dem Ambition zählt, nicht Hierarchie? Wir sind GORNATION - eine Sportmarke aus Münster, gegründet 2015 mit der Mission, den Calisthenics-Sport zu stärken und die Fitness von Menschen weltweit voranzubringen. Heute nutzen hunderttausende Sportler*innen aller Niveaus ... [Arbeitnow]</description>
+    <pubDate>Fri, 24 Jul 2026 13:30:48 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-product-compliance-quality-manager-munster-160622</guid>
   </item>
   <item>
     <title>Senior Product Manager (Fintech/Insurance) — Techbiz Global [📍 Berlin]</title>
