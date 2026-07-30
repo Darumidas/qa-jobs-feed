@@ -6,45 +6,80 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
     <description>QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote / Madrid</description>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 20:14:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 09:33:07 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 15 jobs -->
+    <!-- 17 jobs -->
 
   <item>
     <title>QA Automation Lead [gn] Data Intelligence</title>
     <link>https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</link>
     <description>The QA Automation Team is the ultimate guardian of our platform’s reliability, scalability, and deployment velocity. In a complex, data-heavy ecosystem, manual testing is a bottleneck; continuous, intelligent, and bulletproof... [Jobicy 🌐]</description>
-    <pubDate>Wed, 29 Jul 2026 20:14:34 GMT</pubDate>
+    <pubDate>Thu, 30 Jul 2026 09:33:07 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</guid>
   </item>
   <item>
     <title>Senior QA Engineer /区块链测试工程师</title>
     <link>https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we areMantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines institutional-grade... [Jobicy 🌐]</description>
-    <pubDate>Wed, 29 Jul 2026 20:14:34 GMT</pubDate>
+    <pubDate>Thu, 30 Jul 2026 09:33:07 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
-  </item>
-  <item>
-    <title>Senior QA Engineer</title>
-    <link>https://jobicy.com/jobs/145577-senior-qa-engineer</link>
-    <description>We build the tech that moves industries forward. We have our eyes set on AI, energy, logistics, sports and other complex and exciting segments. We believe in an innovative approach to... [Jobicy 🌐]</description>
-    <pubDate>Wed, 29 Jul 2026 20:14:34 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/145577-senior-qa-engineer</guid>
   </item>
   <item>
     <title>Senior Quality Assurance Automation Engineer</title>
     <link>https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</link>
     <description>Company DescriptionExperian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness,... [Jobicy 🌐]</description>
-    <pubDate>Wed, 29 Jul 2026 20:14:34 GMT</pubDate>
+    <pubDate>Thu, 30 Jul 2026 09:33:07 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</guid>
   </item>
   <item>
     <title>Senior Quality Engineer</title>
     <link>https://jobicy.com/jobs/147511-senior-quality-engineer</link>
     <description>Senior Quality EngineerAbout LawnStarterLawnStarter is the nation’s leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We’re expanding beyond lawn care to become the... [Jobicy 🌐]</description>
-    <pubDate>Wed, 29 Jul 2026 20:14:34 GMT</pubDate>
+    <pubDate>Thu, 30 Jul 2026 09:33:07 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/147511-senior-quality-engineer</guid>
+  </item>
+  <item>
+    <title>Senior Qa Manager - Remote, Global Release Quality Lead — Scopely [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5820252984?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Scopely is looking for a Senior QA Manager to join our Star Trek Fleet Command team within our Midcore division, in Barcelona, Dublin, or the UK, on a remote basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team o... [Adzuna 🔗]</description>
+    <pubDate>Wed, 29 Jul 2026 23:41:39 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5820252984</guid>
+  </item>
+  <item>
+    <title>Engineering Manager - Foundations — Perk [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5820253197?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Engineering Manager – Application Enablement As an Engineering Manager for the Application Enablement team, you will lead experienced engineers building shared infrastructure underlying Perk&#x27;s web, iOS, and Android platforms. You will manage a team that spans multiple platforms, partner with staff engineers, product teams, and stakeholders to deliver high?impact foundational work across synthetic ... [Adzuna 🔗]</description>
+    <pubDate>Wed, 29 Jul 2026 23:41:39 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5820253197</guid>
+  </item>
+  <item>
+    <title>Engineering Manager (Apple) - Barcelona — Proton [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5820252421?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Purpose of the role As the Engineering Manager for Proton VPN, for the i OS and mac OS team, you lead a team of engineers dedicated to fostering continuous innovation in our applications. Reporting to the Engineering Manager, you collaborate with cross?functional teams across Proton. Your primary objective is to raise the quality and reliability of our Apple platform products, while ensuring Proto... [Adzuna 🔗]</description>
+    <pubDate>Wed, 29 Jul 2026 23:41:36 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5820252421</guid>
+  </item>
+  <item>
+    <title>Engineering Manager - Runtime Platform — N26 [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5820252376?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>About the Opportunity We are seeking an experienced Engineering Manager to lead our Cloud Foundations team within Platform Engineering domain, Runtime Platform segment. The Runtime Platform segment&#x27;s mission is to provide intuitive, self-service platforms that empower product and feature engineering teams across the organization to seamlessly build, deploy, run and monitor their business applicati... [Adzuna 🔗]</description>
+    <pubDate>Wed, 29 Jul 2026 23:41:36 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5820252376</guid>
+  </item>
+  <item>
+    <title>European Payroll Service Delivery Manager — Ramboll [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5820251734?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>European Payroll Service Delivery Manager Full-time Location: Europe (Hybrid / Remote) Reporting to: Global Head of Payroll &amp; Benefits Are you motivated by ensuring employees are paid accurately, compliantly, and on time across multiple countries? Are you excited by building scalable payroll service governance, strong vendor partnerships, and technology-enabled ways of working? Are you a collabora... [Adzuna 🔗]</description>
+    <pubDate>Wed, 29 Jul 2026 23:41:33 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5820251734</guid>
+  </item>
+  <item>
+    <title>Senior Quality Assurance Engineer — Breakthrough Talent [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5820249785?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>We are hiring a Senior Agile QA Engineer to join a high-performing product squad within a modern, cloud-based engineering environment. This is a hands-on QA role , embedded directly into the squad, focusing on shift-left quality, automation, and AI-enhanced testing practices . If you enjoy being the quality voice in an autonomous team, use AI to accelerate your workflow, and want real ownership ov... [Adzuna 🔗]</description>
+    <pubDate>Wed, 29 Jul 2026 23:41:23 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5820249785</guid>
   </item>
   <item>
     <title>QA Test Lead — Knowmad Mood [📍 Madrid]</title>
@@ -68,18 +103,18 @@
     <guid isPermaLink="false">adzuna-5804094294</guid>
   </item>
   <item>
-    <title>QA Manager — 2k [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5804077003?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. LI-Onsite QA Manager - Madrid - Please only apply in English with an English Resume. JOIN OUR QA STUDIO IN MADRID! Founded in 2005, 2K Games is a global video game company, publishing titles develo... [Adzuna 🔗]</description>
-    <pubDate>Fri, 17 Jul 2026 03:07:24 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5804077003</guid>
-  </item>
-  <item>
     <title>Senior QA Manager — 2k [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5804077010?utm_medium=api&amp;utm_source=521e0734</link>
     <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. Senior QA Manager - Madrid - All resumes in English please Role Overview To manage the QA Department for assigned projects &amp; staff: managing test process &amp; submissions, planning of resources intern... [Adzuna 🔗]</description>
     <pubDate>Fri, 17 Jul 2026 03:07:24 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5804077010</guid>
+  </item>
+  <item>
+    <title>QA Manager — 2k [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5804077003?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. LI-Onsite QA Manager - Madrid - Please only apply in English with an English Resume. JOIN OUR QA STUDIO IN MADRID! Founded in 2005, 2K Games is a global video game company, publishing titles develo... [Adzuna 🔗]</description>
+    <pubDate>Fri, 17 Jul 2026 03:07:24 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5804077003</guid>
   </item>
   <item>
     <title>Engineering Manager, Guest &amp; Host — airbnb [📍 London]</title>
@@ -94,27 +129,6 @@
     <description>Help Build Europe&#x27;s Hypersonic Capability &amp;nbsp; At Hypersonica , we’re redefining what’s possible in European defence technology. We exist to deliver speed, resilience, and technological independence at a pace that sets a new standard. We are a small, elite team working on problems that matter, and solving them fast. &amp;nbsp; By joining Hypersonica , you’re not stepping into a predefined role. You’... [Arbeitnow]</description>
     <pubDate>Wed, 29 Jul 2026 14:24:13 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-senior-quality-engineer-london-218946</guid>
-  </item>
-  <item>
-    <title>Scrum Master (m/w/d) — citema systems GmbH [📍 Stuttgart]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/citema-systems-gmbh/scrum-master-stuttgart-349871</link>
-    <description>Driving Digital Technologies. Den digitalen Wandel begleiten und aktiv mitgestalten – unsere Mission bei citema. Mit unseren innovativen Ansätzen beraten und unterstützen wir unsere Kunden in den Technologiefeldern Cyber Security, KI und Blockchain. Ebenso gehört die Umsetzung system- und sicherheitsrelevanter Softwareprojekte zu unserem Portfolio. So verbinden wir die neuen Technologien mit der k... [Arbeitnow]</description>
-    <pubDate>Wed, 29 Jul 2026 12:30:34 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-scrum-master-stuttgart-349871</guid>
-  </item>
-  <item>
-    <title>Technical Engineering Manager – Robotics — ocadogroup [📍 Welwyn Garden City]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/ocadogroup/technical-engineering-manager-robotics-welwyn-garden-city-204083</link>
-    <description>&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p data-path-to-node=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;strong data-path-to-node=&amp;quot;0&amp;quot; data-index-in-node=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;iframe src=&amp;quot;https://www.youtube.com/embed/bY0nNPT75xY&amp;quot; width=&amp;quot;560&amp;quot; height=&amp;quot;314&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Technical Engineering Manager 2 | Robotic Hardware | Hybrid Working |... [Arbeitnow]</description>
-    <pubDate>Wed, 29 Jul 2026 02:57:25 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-technical-engineering-manager-robotics-welwyn-garden-city-204083</guid>
-  </item>
-  <item>
-    <title>Robotics Hardware Engineering Manager — ocadogroup [📍 Welwyn Garden City]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/ocadogroup/robotics-hardware-engineering-manager-welwyn-garden-city-281060</link>
-    <description>&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p data-path-to-node=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;strong data-path-to-node=&amp;quot;0&amp;quot; data-index-in-node=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;iframe src=&amp;quot;https://www.youtube.com/embed/bY0nNPT75xY&amp;quot; width=&amp;quot;560&amp;quot; height=&amp;quot;314&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Engineering Manager 2 | Robotic Hardware | Hybrid Working | Welywn Ga... [Arbeitnow]</description>
-    <pubDate>Wed, 29 Jul 2026 02:57:25 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-robotics-hardware-engineering-manager-welwyn-garden-city-281060</guid>
   </item>
   </channel>
 </rss>
