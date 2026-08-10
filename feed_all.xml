@@ -6,52 +6,59 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Aug 2026 19:35:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 08:28:40 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 14 jobs -->
+    <!-- 12 jobs -->
 
   <item>
     <title>SailPoint: Manager, DevOps</title>
     <link>https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</link>
     <description>Headquarters: Remote (Colorado, USA) URL: http://sailpoint.com About the Team &amp;nbsp; Our CI/CD team sets clear delivery and release standards, providing the necessary tools, systems, and hands-on developer support to safely and securely release software assets for SailPoint&#x27;s SaaS business and supporting functionality. By managing platforms that enable developers to deliver secure code in an incre... [WeWorkRemotely 🌐]</description>
-    <pubDate>Sun, 09 Aug 2026 19:35:16 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 08:28:40 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</guid>
   </item>
   <item>
     <title>PPG: IT Team Manager (DevOps) (m/f/x)</title>
     <link>https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</link>
     <description>Headquarters: POL - Wrocław URL: http://ppg.com As IT Manager, you will define and architect the deployment, automation, and management of our cloud applications portfolio and infrastructure. The DevOps team works closely with platform engineering teams, infrastructure architects, product owners, and stakeholders to establish and maintain efficient CI/CD pipelines, deployments. Supports the DevOps... [WeWorkRemotely 🌐]</description>
-    <pubDate>Sun, 09 Aug 2026 19:35:16 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 08:28:40 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</guid>
   </item>
   <item>
     <title>Cortes 23: Senior QA Engineer</title>
     <link>https://weworkremotely.com/remote-jobs/cortes-23-senior-qa-engineer-2</link>
     <description>Headquarters: Remote URL: https://cortes23.com Are you an experienced QA engineer with a proven record of success, looking for a new and exciting challenge? Do you want to be part of an industry disruptor? If so, we could have the opportunity for you. &amp;nbsp; The role requires an experienced QA engineer who can tackle technical challenges in a fast moving environment. You will work closely with the... [WeWorkRemotely 🌐]</description>
-    <pubDate>Sun, 09 Aug 2026 19:35:16 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 08:28:40 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/cortes-23-senior-qa-engineer-2</guid>
   </item>
   <item>
     <title>QA Engineer</title>
     <link>https://jobicy.com/jobs/149743-qa-engineer-4</link>
     <description>Skylum allows millions of photographers to make incredible images. Our award-winning software automates photo editing with the power of AI yet leaves all the creative control in the hands of... [Jobicy 🌐]</description>
-    <pubDate>Sun, 09 Aug 2026 19:35:16 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 08:28:40 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/149743-qa-engineer-4</guid>
   </item>
   <item>
     <title>Senior QA Engineer /区块链测试工程师</title>
     <link>https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we areMantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines institutional-grade... [Jobicy 🌐]</description>
-    <pubDate>Sun, 09 Aug 2026 19:35:16 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 08:28:40 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
   </item>
   <item>
     <title>Senior Quality Assurance Automation Engineer</title>
     <link>https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</link>
     <description>Company DescriptionExperian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness,... [Jobicy 🌐]</description>
-    <pubDate>Sun, 09 Aug 2026 19:35:16 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 08:28:40 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</guid>
+  </item>
+  <item>
+    <title>Sr Associate Cloud Services Delivery Manager — SAS [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5835005478?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>: Sr Associate Cloud Services Deliver Manager - Hybrid - Madrid, Spain We&#x27;re a leader in data and AI. Through our software and services, we inspire customers around the world to transform data into intelligence - and questions into answers. If you&#x27;re looking for a dynamic, fulfilling career with flexibility and a world-class employee experience, you&#x27;ll find it here. We&#x27;re recognized around the wor... [Adzuna 🔗]</description>
+    <pubDate>Sun, 09 Aug 2026 23:45:21 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5835005478</guid>
   </item>
   <item>
     <title>Sr Associate Cloud Services Delivery Manager — SAS [📍 Madrid]</title>
@@ -75,39 +82,18 @@
     <guid isPermaLink="false">adzuna-5819144115</guid>
   </item>
   <item>
+    <title>Senior Security Consultant — Tenableinc [📍 Netherlands - Remote, Italy - Remote]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/tenableinc/remote-senior-security-consultant-328302</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Who is Tenable?&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Tenable® is the Exposure Management company. Over 40,000 organizations around the globe rely on Tenable to understand and reduce cyber risk. Our global employees support 65 percent of the Fortune 500, 50 percent of the Global 2000, and large government agencies. Come be part of our j... [Arbeitnow]</description>
+    <pubDate>Sun, 09 Aug 2026 23:55:25 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-remote-senior-security-consultant-328302</guid>
+  </item>
+  <item>
     <title>Software Test Engineer (m/w/d) — FoxTalent [📍 Nuremberg]</title>
     <link>https://www.arbeitnow.com/jobs/companies/foxtalent/software-test-engineer-nuremberg-68217</link>
     <description>Tasks ▪ Du unterstützt das Team im Bereich Software-Testing und Software-Qualitätssicherung ▪ Du bist verantwortlich für die Sicherstellung unseres hohen Software-Qualitätsanspruchs hinsichtlich Funktionalität, UX, Sicherheit, Performance und Zuverlässigkeit ▪ Du führst manuelle und automatisierte Software-Tests (Unit, Integration, End-to-End, System, Regression) basierend auf Anforderungen sowie ... [Arbeitnow]</description>
     <pubDate>Sun, 09 Aug 2026 17:30:28 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-software-test-engineer-nuremberg-68217</guid>
-  </item>
-  <item>
-    <title>Energy Nerd / Developer - Freiburg im Breisgau — greenventory GmbH [📍 Freiburg im Breisgau]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/greenventory-gmbh/energy-nerd-developer-freiburg-im-breisgau-28468</link>
-    <description>“We design the infrastructure systems of tomorrow!” – With you? We are convinced that the transformation towards sustainable, resilient and efficient infrastructures does not have to be complicated. We provide municipalities, utilities, grid operators and other infrastructure stakeholders with the data, analyses and decision-making tools they need for integrated infrastructure and energy system pl... [Arbeitnow]</description>
-    <pubDate>Sun, 09 Aug 2026 11:00:24 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-energy-nerd-developer-freiburg-im-breisgau-28468</guid>
-  </item>
-  <item>
-    <title>Senior Test Engineer - M/F/D — Navflex [📍 Munich]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/navflex/senior-test-engineer-munich-69542</link>
-    <description>About Navflex At Navflex, we&#x27;re pioneering the future of logistics automation through cutting-edge AI and robotics. Our autonomous mobile robots (AMRs) are transforming the way goods are loaded and unloaded, enabling plug-and-play solutions that streamline operations and enhance efficiency across the global supply chain for some of the world’s most demanding warehouse Environments. Our internation... [Arbeitnow]</description>
-    <pubDate>Sun, 09 Aug 2026 08:40:13 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-test-engineer-munich-69542</guid>
-  </item>
-  <item>
-    <title>Doctors and Medical Experts required for AI research Projects (open/rolling applications) — Aptura [📍 London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/aptura/doctors-and-medical-experts-required-for-ai-research-projects-open-rolling-applications-london-397100</link>
-    <description>We are looking for doctors to join our growing community of experts who are available to be matched on an on-going basis to new innovative AI projects with the world&#x27;s leading AI labs and companies that are bringing to life AI in healthcare. Your medical expertise will shape the way AI understands and processes real-world clinical interactions, workflows, consultations including the delivery of ca... [Arbeitnow]</description>
-    <pubDate>Sun, 09 Aug 2026 06:40:12 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-doctors-and-medical-experts-required-for-ai-research-projects-open-rolling-applications-london-397100</guid>
-  </item>
-  <item>
-    <title>German speaking Support Specialist — Lightspeedhq [📍 Belfast]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/lightspeedhq/german-speaking-support-specialist-belfast-426216</link>
-    <description>Hi there! Thanks for stopping by 👋 Are you actively looking for a new opportunity? Or just checking the market? Well… you might just be in the right place! As part of Lightspeed’s Support team, you will be the first point of contact for our customers who need assistance, helping with a wide variety of requests all the way from general education to hardware/software investigation and everything in ... [Arbeitnow]</description>
-    <pubDate>Sat, 08 Aug 2026 21:40:16 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-german-speaking-support-specialist-belfast-426216</guid>
   </item>
   </channel>
 </rss>
