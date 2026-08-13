@@ -6,45 +6,52 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 16:00:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 19:56:46 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 16 jobs -->
+    <!-- 15 jobs -->
 
   <item>
     <title>SailPoint: Manager, DevOps</title>
     <link>https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</link>
     <description>Headquarters: Remote (Colorado, USA) URL: http://sailpoint.com About the Team &amp;nbsp; Our CI/CD team sets clear delivery and release standards, providing the necessary tools, systems, and hands-on developer support to safely and securely release software assets for SailPoint&#x27;s SaaS business and supporting functionality. By managing platforms that enable developers to deliver secure code in an incre... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 13 Aug 2026 16:00:52 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 19:56:46 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</guid>
   </item>
   <item>
     <title>PPG: IT Team Manager (DevOps) (m/f/x)</title>
     <link>https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</link>
     <description>Headquarters: POL - Wrocław URL: http://ppg.com As IT Manager, you will define and architect the deployment, automation, and management of our cloud applications portfolio and infrastructure. The DevOps team works closely with platform engineering teams, infrastructure architects, product owners, and stakeholders to establish and maintain efficient CI/CD pipelines, deployments. Supports the DevOps... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 13 Aug 2026 16:00:52 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 19:56:46 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</guid>
   </item>
   <item>
     <title>Senior QA Engineer /区块链测试工程师</title>
     <link>https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we areMantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines institutional-grade... [Jobicy 🌐]</description>
-    <pubDate>Thu, 13 Aug 2026 16:00:52 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 19:56:46 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
   </item>
   <item>
     <title>QA Engineer</title>
     <link>https://jobicy.com/jobs/149743-qa-engineer-4</link>
     <description>Skylum allows millions of photographers to make incredible images. Our award-winning software automates photo editing with the power of AI yet leaves all the creative control in the hands of... [Jobicy 🌐]</description>
-    <pubDate>Thu, 13 Aug 2026 16:00:52 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 19:56:46 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/149743-qa-engineer-4</guid>
   </item>
   <item>
     <title>Senior Quality Assurance Automation Engineer</title>
     <link>https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</link>
     <description>Company DescriptionExperian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness,... [Jobicy 🌐]</description>
-    <pubDate>Thu, 13 Aug 2026 16:00:52 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 19:56:46 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</guid>
+  </item>
+  <item>
+    <title>Senior QA Lead — ADEREN [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5839269349?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>SEEKING : QA Lead We are looking for a QA Lead to define and drive the quality strategy across a complex backend-oriented, multi-squad technology project. This person will coordinate QA activities across the programme, ensuring consistent standards, clear visibility of quality risks, and alignment between testing, delivery, and governance expectations. This role requires a strong mix of QA leaders... [Adzuna 🔗]</description>
+    <pubDate>Thu, 13 Aug 2026 04:31:04 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5839269349</guid>
   </item>
   <item>
     <title>Sr Associate Cloud Services Delivery Manager — SAS [📍 Madrid]</title>
@@ -75,6 +82,27 @@
     <guid isPermaLink="false">adzuna-5825367377</guid>
   </item>
   <item>
+    <title>QA Test Lead — Knowmad Mood [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5819144115?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>We are knowmad mood! Somos una compañía líder en transformación digital, en constante evolución y a la vanguardia de la tecnología. Nacimos para provocar un cambio real a través de la innovación y el desarrollo sostenible, con la misión de aportar valor a los clientes e impulsar nuestro talento. Formado por más de 3.000 personas creativas, digitales e innovadoras conectadas a un propósito y capace... [Adzuna 🔗]</description>
+    <pubDate>Wed, 29 Jul 2026 03:28:24 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5819144115</guid>
+  </item>
+  <item>
+    <title>Automation Engineer - Wet Lab — Level Zero Health [📍 London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/level-zero-health/automation-engineer-wet-lab-london-212958</link>
+    <description>About Level Zero Level Zero is pioneering next-generation biosensor technology for precise, real-time monitoring of critical endocrine biomarkers. Recognised as one of the top 20 startups across all categories worldwide at TechCrunch Disrupt 2024 - and backed by top-tier organisations like SOSV and Entrepreneur First - we’re pushing the boundaries of biochemistry and nanotechnology to revolutioniz... [Arbeitnow]</description>
+    <pubDate>Thu, 13 Aug 2026 18:04:42 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-automation-engineer-wet-lab-london-212958</guid>
+  </item>
+  <item>
+    <title>Senior Electronics Developer - Power Electronics (m/w/x) — K-tronik GmbH [📍 Nuremberg]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/k-tronik-gmbh/senior-electronics-developer-power-electronics-nuremberg-445542</link>
+    <description>Projektbeschreibung: Technologie begeistert Sie? Uns auch! Zur Verstärkung unseres Expertenteams bei unserem Kunden aus der Verteidigungsbranche suchen wir einen Senior Electronics Developer - Power Electronics (m/w/x) in Festanstellung bei K-tronik. Wir freuen uns darauf, Sie persönlich kennen zu lernen - und gemeinsam mit Leidenschaft und Teamgeist an spannenden Projekten und zukunftsweisenden T... [Arbeitnow]</description>
+    <pubDate>Thu, 13 Aug 2026 15:30:34 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-electronics-developer-power-electronics-nuremberg-445542</guid>
+  </item>
+  <item>
     <title>Senior Backend Engineer - Fiscalization — SumUp [📍 Berlin, Germany]</title>
     <link>https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-fiscalization-berlin-217053</link>
     <description>About the team SumUp&#x27;s Point-of-Sale (POS) solution empowers cafes, shops, bars, hair salons, and other businesses to operate efficiently and grow. It offers a wide range of features, including product catalogs, inventory management, business analytics, compliance support, and loyalty tools. Our Fiscalization team will accelerate making the following countries fiscally compliant: Italy, Sweden, No... [Arbeitnow]</description>
@@ -82,46 +110,11 @@
     <guid isPermaLink="false">arbeitnow-senior-backend-engineer-fiscalization-berlin-217053</guid>
   </item>
   <item>
-    <title>Global Service Line Lead: Agentic Automation Engineering — roboyo [📍 Europe]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/roboyo/global-service-line-lead-agentic-automation-engineering-europe-378407</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span data-contrast=&amp;quot;none&amp;quot;&amp;gt;Roboyo&amp;amp;nbsp;AI&amp;amp;nbsp;is a category shaper in Applied AI and Agentic Automation.&amp;amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;span data-contrast=&amp;quot;none&amp;quot;&amp;gt;We help leading enterprises move from automation projects and AI experiments into governed, production-grade systems that ex... [Arbeitnow]</description>
-    <pubDate>Thu, 13 Aug 2026 12:55:34 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-global-service-line-lead-agentic-automation-engineering-europe-378407</guid>
-  </item>
-  <item>
-    <title>Football Tracking Systems Operator (RoC) — Hawkeyeinnovations [📍 Basingstoke]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/hawkeyeinnovations/football-tracking-systems-operator-roc-sony-business-europe-viables-industrial-estate-jays-cl-basingstoke-rg22-4sb-111674</link>
-    <description>Location: Basingstoke, Hampshire. This is an in-office role, and as such, will require you to live within a reasonable commute. Contract: Casual hourly contract Working Hours: Shifts typically 10 - 12 hours Hourly Rate: £13.00 - £18.20 Per Hour (exact rate will vary depending on role) Start Date: July/August 2026 Why Hawk-Eye &amp;amp; Why This Role?: We are looking for candidates to play a key part i... [Arbeitnow]</description>
-    <pubDate>Thu, 13 Aug 2026 12:40:15 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-football-tracking-systems-operator-roc-sony-business-europe-viables-industrial-estate-jays-cl-basingstoke-rg22-4sb-111674</guid>
-  </item>
-  <item>
-    <title>Delivery Manager — Hawkeyeinnovations [📍 London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/hawkeyeinnovations/delivery-manager-london-457906</link>
-    <description>Delivery Manager Hybrid Working - 2 Days in the office Location: Either our London, Basingstoke or Bristol office Salary: £34,000 - £48,000 Hi, I&#x27;m Zoe Evans, Senior Delivery Manager at Hawk-Eye Innovations in the Tracking and Auto Officiating Value Stream, and we&#x27;re looking for a Delivery Manager to join our growing technology unit. This is an exciting opportunity to join one of the core pillars ... [Arbeitnow]</description>
-    <pubDate>Thu, 13 Aug 2026 12:40:15 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-delivery-manager-london-457906</guid>
-  </item>
-  <item>
     <title>Product Owner (f/x/m) — spotixx GmbH [📍 Frankfurt am Main]</title>
     <link>https://www.arbeitnow.com/jobs/companies/spotixx-gmbh/product-owner-frankfurt-am-main-204859</link>
     <description>💸 spotixx is a Frankfurt-based European FinTech building technology for the regulated financial sector. Since 2019, we have grown into a team of 60+ professionals with deep roots in the German and European banking landscape, shaped by years of hands-on experience in fraud investigation and financial crime prevention. We specialize in Anti-Money Laundering (AML) and fraud detection, enabling secure... [Arbeitnow]</description>
     <pubDate>Thu, 13 Aug 2026 12:31:06 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-product-owner-frankfurt-am-main-204859</guid>
-  </item>
-  <item>
-    <title>Senior Mechanical Engineer Interceptor C‑UAS (m/f/d) — Quantum-Systems GmbH [📍 Gilching, Bayern, Germany]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-mechanical-engineer-interceptor-cuas-gilching-164411</link>
-    <description>About the Role Build the world’s most advanced interceptor drones &amp;nbsp; We are redefining aerial defense. Our Counter‑UAS interceptor is a rocket‑boosted, all‑electric drone capable of 400 km/h, delivering 10 kW peak power through an in‑house developed powertrain. Designed from day one for mass production at scale, this platform represents a new class of high‑performance, modular UAV systems.&amp;nbs... [Arbeitnow]</description>
-    <pubDate>Thu, 13 Aug 2026 11:30:15 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-mechanical-engineer-interceptor-cuas-gilching-164411</guid>
-  </item>
-  <item>
-    <title>Senior Front End Engineer (Docs) — Proton [📍 London; Geneva]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/proton/senior-front-end-engineer-docs-london-geneva-274952</link>
-    <description>&amp;lt;p class=&amp;quot;Lexical__paragraph&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;strong class=&amp;quot;Lexical__textBold&amp;quot;&amp;gt;Join Proton and build a better internet where privacy is the default&amp;lt;/strong&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;quot;Lexical__paragraph&amp;quot;&amp;gt;At Proton, we believe that privacy is a fundamental human right and the cornerstone of democracy. Since our inception in 2014, founded ... [Arbeitnow]</description>
-    <pubDate>Thu, 13 Aug 2026 09:55:49 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-front-end-engineer-docs-london-geneva-274952</guid>
   </item>
   </channel>
 </rss>
