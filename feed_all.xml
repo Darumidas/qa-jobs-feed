@@ -6,44 +6,37 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 20:02:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 08:23:07 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 17 jobs -->
+    <!-- 20 jobs -->
 
   <item>
     <title>SailPoint: Manager, DevOps</title>
     <link>https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</link>
     <description>Headquarters: Remote (Colorado, USA) URL: http://sailpoint.com About the Team &amp;nbsp; Our CI/CD team sets clear delivery and release standards, providing the necessary tools, systems, and hands-on developer support to safely and securely release software assets for SailPoint&#x27;s SaaS business and supporting functionality. By managing platforms that enable developers to deliver secure code in an incre... [WeWorkRemotely 🌐]</description>
-    <pubDate>Wed, 12 Aug 2026 20:02:15 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 08:23:07 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/sailpoint-manager-devops</guid>
   </item>
   <item>
     <title>PPG: IT Team Manager (DevOps) (m/f/x)</title>
     <link>https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</link>
     <description>Headquarters: POL - Wrocław URL: http://ppg.com As IT Manager, you will define and architect the deployment, automation, and management of our cloud applications portfolio and infrastructure. The DevOps team works closely with platform engineering teams, infrastructure architects, product owners, and stakeholders to establish and maintain efficient CI/CD pipelines, deployments. Supports the DevOps... [WeWorkRemotely 🌐]</description>
-    <pubDate>Wed, 12 Aug 2026 20:02:15 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 08:23:07 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x</guid>
   </item>
   <item>
     <title>QA Engineer</title>
     <link>https://jobicy.com/jobs/149743-qa-engineer-4</link>
     <description>Skylum allows millions of photographers to make incredible images. Our award-winning software automates photo editing with the power of AI yet leaves all the creative control in the hands of... [Jobicy 🌐]</description>
-    <pubDate>Wed, 12 Aug 2026 20:02:15 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 08:23:07 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/149743-qa-engineer-4</guid>
-  </item>
-  <item>
-    <title>Senior QA Engineer /区块链测试工程师</title>
-    <link>https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
-    <description>Who we areMantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines institutional-grade... [Jobicy 🌐]</description>
-    <pubDate>Wed, 12 Aug 2026 20:02:15 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
   </item>
   <item>
     <title>Senior Quality Assurance Automation Engineer</title>
     <link>https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</link>
     <description>Company DescriptionExperian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness,... [Jobicy 🌐]</description>
-    <pubDate>Wed, 12 Aug 2026 20:02:15 GMT</pubDate>
+    <pubDate>Thu, 13 Aug 2026 08:23:07 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/144474-senior-quality-assurance-automation-engineer</guid>
   </item>
   <item>
@@ -68,13 +61,6 @@
     <guid isPermaLink="false">adzuna-5835005478</guid>
   </item>
   <item>
-    <title>Sr Associate Cloud Services Delivery Manager — SAS [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5832767180?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Sr Associate Cloud Services Deliver Manager - Hybr id - Madrid, Spain We’re a leader in data and AI. Through our software and services, we inspire customers around the world to transform data into intelligence - and questions into answers. If you&#x27;re looking for a dynamic, fulfilling career with flexibility and a world-class employee experience, you&#x27;ll find it here. We&#x27;re recognized around the worl... [Adzuna 🔗]</description>
-    <pubDate>Sat, 08 Aug 2026 03:21:58 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5832767180</guid>
-  </item>
-  <item>
     <title>Senior Scrum Master / Delivery Manager — GE Vernova [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5825367377?utm_medium=api&amp;utm_source=521e0734</link>
     <description>Job Description Summary Grid Automation offre à ses clients une gamme complète de produits, systèmes et services innovants couvrant la conception, la fabrication, la mise en service et la maintenance à long terme de solutions de protection et d&#x27;automatisation des postes électriques. Cela inclut, entre autres, les relais de protection, les systèmes de contrôle, les solutions de cybersécurité, la ge... [Adzuna 🔗]</description>
@@ -89,46 +75,81 @@
     <guid isPermaLink="false">adzuna-5819144115</guid>
   </item>
   <item>
-    <title>Growth Marketing Automation Engineer — Globalwebindex [📍 London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/globalwebindex/growth-marketing-automation-engineer-london-4981</link>
-    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Growth Marketing Automation Engineer&amp;amp;nbsp;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Location&amp;lt;/strong&amp;gt;: London&amp;amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Dept&amp;lt;/strong&amp;gt;: Marketing (Growth Marketing)&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Weekly office requirement&amp;lt;/strong&amp;gt;: Hybrid, 2 days/week&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Employment type&amp;lt;/strong&amp;gt... [Arbeitnow]</description>
-    <pubDate>Wed, 12 Aug 2026 18:55:11 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-growth-marketing-automation-engineer-london-4981</guid>
+    <title>QA Engineer (IJ Platform / Remote Development) — jetbrains [📍 Berlin; Munich]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/jetbrains/qa-engineer-ij-platform-remote-development-berlin-munich-214174</link>
+    <description>&amp;lt;p&amp;gt;At JetBrains, we are passionate about building the strongest, most effective developer tools in the world. Our tools are designed to give developers the freedom to grow, discover, and create. Over 15 million users rely on our tools, and 88 of the Fortune Global Top 100 companies are our customers. Our products help our users stay focused on code design and the big picture, allowing them t... [Arbeitnow]</description>
+    <pubDate>Thu, 13 Aug 2026 05:55:24 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-qa-engineer-ij-platform-remote-development-berlin-munich-214174</guid>
   </item>
   <item>
-    <title>C++ Software-Entwickler (m/w/d) — Worldwide Placement Limited [📍 Eggenfelden]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/worldwide-placement-limited/c-software-entwickler-eggenfelden-354222</link>
-    <description>Location: Eggenfelden, Germany (Onsite) Work Policy: 100 % on-site (no remote or home office) Work Experience: 4 to 8 years of experience Language Requirement: English C1, German C2 Employment Type: Full-time Technical Skills Required: Back End Development, Git, C++, SQL Industry: Digital Health/Dental Practice Software Positions Available: 1 Company Mission They are the innovative developer behin... [Arbeitnow]</description>
-    <pubDate>Wed, 12 Aug 2026 16:30:32 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-c-software-entwickler-eggenfelden-354222</guid>
+    <title>(Senior) QA Engineer - AI-Driven Testing (m/f/d) — 1Komma5Grad [📍 Remote]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/1komma5grad/remote-senior-qa-engineer-ai-driven-testing-209817</link>
+    <description>1KOMMA5° At 1KOMMA5° , we pursue a clear vision: Living on wind and sunlight forever for free . To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it? We bring together regional craftsmanship and scalable software: We don&#x27;t think of solar, batteries, heat pumps, and e-mobility as isolated components, but control them as an intelligent, int... [Arbeitnow]</description>
+    <pubDate>Thu, 13 Aug 2026 03:09:29 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-remote-senior-qa-engineer-ai-driven-testing-209817</guid>
   </item>
   <item>
-    <title>Staff Platform Engineer, Fanatics Markets - UK — Fanaticsfbg [📍 Edinburgh; Leeds; London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/fanaticsfbg/staff-platform-engineer-fanatics-markets-uk-edinburgh-leeds-london-267782</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;h2 class=&amp;quot;job-details__description-header text-color-secondary font-family-secondary&amp;quot; data-bind=&amp;quot;i18n: &amp;#39;job-details.employer-description-title&amp;#39;&amp;quot;&amp;gt;About Us&amp;lt;/h2&amp;gt; &amp;lt;div class=&amp;quot;job-details__description-content basic-formatter&amp;quot; data-bind=&amp;quot;html: pageData().job.corporateDescription&amp;quot;&amp;gt; &amp;lt;div&amp;gt;Fan... [Arbeitnow]</description>
-    <pubDate>Wed, 12 Aug 2026 16:15:21 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-staff-platform-engineer-fanatics-markets-uk-edinburgh-leeds-london-267782</guid>
+    <title>AI Data Specialist - German — RWS TrainAI [📍 Berlin]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/rws-trainai/ai-data-specialist-german-berlin-449304</link>
+    <description>We are looking for AI &amp;nbsp; Data Specialists to support the improvement of AI-generated content in German. &amp;nbsp; Job Type: Freelance Location: Work from home Work Schedule:&amp;nbsp; Part-time - 10+ hours per week. Flexible - work whenever you want. Start Date: Immediately Rate: &amp;nbsp;18 USD per hour (rates vary per country. If you are based elsewhere, the rates will be different) &amp;nbsp; Help Shape ... [Arbeitnow]</description>
+    <pubDate>Thu, 13 Aug 2026 02:04:22 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-ai-data-specialist-german-berlin-449304</guid>
   </item>
   <item>
-    <title>Quality Assurance Engineer (m/f/d) — Yalwa GmbH [📍 Wiesbaden]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/yalwa-gmbh/quality-assurance-engineer-wiesbaden-56559</link>
-    <description>Full-Time • Wiesbaden • (m/f/d) At Yalwa, bringing people together is our mission. We strive to make the digital world a place where people build real-life connections. Working at Yalwa means being part of a friendly, passionate team of people from over twenty-five different countries. With the support of your colleagues, you’ll have the opportunity to challenge yourself, evolve, share your knowle... [Arbeitnow]</description>
-    <pubDate>Wed, 12 Aug 2026 15:20:14 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-quality-assurance-engineer-wiesbaden-56559</guid>
+    <title>Quality Assurance Technologist — Irca Group [📍 Peterborough, United Kingdom]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/irca-group/quality-assurance-technologist-peterborough-united-kingdom-359701</link>
+    <description>Company IRCA Group is a leading international B2B provider of semi-finished ingredients for the bakery, pastry and gelato markets, serving independent producers and large food manufacturers. Core products include chocolate, decorations, creams, inclusions, pastry mixes, gelato ingredients, and other bakery/pastry ingredients. &amp;nbsp; Headquartered in Italy, IRCA Group has a strong track record of g... [Arbeitnow]</description>
+    <pubDate>Thu, 13 Aug 2026 00:04:33 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-quality-assurance-technologist-peterborough-united-kingdom-359701</guid>
   </item>
   <item>
-    <title>AI Product Manager — n8n [📍 Berlin Office]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/n8n/ai-product-manager-berlin-169726</link>
-    <description>The AI orchestration of your wildest imagination. n8n is the open workflow orchestration platform built for the new era of AI. We give technical teams the freedom of code with the speed of no-code, so they can automate faster, smarter, and without limits. Backed by a fiercely inventive community and 500+ builder-approved integrations, we’re changing the way people bring systems together and scale ... [Arbeitnow]</description>
-    <pubDate>Wed, 12 Aug 2026 14:40:23 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-ai-product-manager-berlin-169726</guid>
+    <title>Client Delivery Lead (f/m/d) — Kraken [📍 Berlin, Germany]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/kraken/client-delivery-lead-berlin-363708</link>
+    <description>Help us use technology to make a big green dent in the universe! Kraken powers some of the most innovative global developments in energy. We create the technology that redefines utilities and unlocks a new energy system of the future. By optimising renewable generation, building a more intelligent grid, and empowering utilities to deliver an exceptional customer experience, our operating system is... [Arbeitnow]</description>
+    <pubDate>Wed, 12 Aug 2026 23:40:24 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-client-delivery-lead-berlin-363708</guid>
   </item>
   <item>
-    <title>Engineering Compliance and CSV Manager — AMBOSS [📍 Berlin]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/amboss/engineering-compliance-and-csv-manager-berlin-77442</link>
-    <description>Hi! We are AMBOSS, and we&#x27;re looking for someone to take the role of Engineering Compliance Manager and CSV &amp;amp; Process Validation Manager in our medical device team. About AMBOSS AMBOSS is a dynamic learning and clinical decision support tool committed to empowering physicians globally to deliver optimal care. Since our inception in 2012, we&#x27;ve harnessed cutting-edge technology to transform the... [Arbeitnow]</description>
-    <pubDate>Wed, 12 Aug 2026 14:40:07 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-engineering-compliance-and-csv-manager-berlin-77442</guid>
+    <title>Client Data &amp; Analytics Lead (f/m/d) — Kraken [📍 Berlin, Germany]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/kraken/client-data-analytics-lead-berlin-313655</link>
+    <description>Help us use technology to make a big green dent in the universe! Kraken powers some of the most innovative global developments in energy. We create the technology that redefines utilities and unlocks a new energy system of the future. By optimising renewable generation, building a more intelligent grid, and empowering utilities to deliver an exceptional customer experience, our operating system is... [Arbeitnow]</description>
+    <pubDate>Wed, 12 Aug 2026 23:40:24 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-client-data-analytics-lead-berlin-313655</guid>
+  </item>
+  <item>
+    <title>Client Delivery Lead (Fintech/Payments experience preferred) (f/m/d) — Kraken [📍 Berlin, Germany]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/kraken/client-delivery-lead-fintech-payments-experience-preferred-berlin-207378</link>
+    <description>Help us use technology to make a big green dent in the universe! Kraken powers some of the most innovative global developments in energy. We create the technology that redefines utilities and unlocks a new energy system of the future. By optimising renewable generation, building a more intelligent grid, and empowering utilities to deliver an exceptional customer experience, our operating system is... [Arbeitnow]</description>
+    <pubDate>Wed, 12 Aug 2026 23:40:24 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-client-delivery-lead-fintech-payments-experience-preferred-berlin-207378</guid>
+  </item>
+  <item>
+    <title>Senior Product Security Engineer — Blockchain [📍 London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/blockchain/senior-product-security-engineer-london-430003</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Blockchain&amp;lt;/strong&amp;gt; is connecting the world to the future of finance. As the most trusted and fastest-growing global crypto company, it helps millions of people worldwide safely access cryptocurrency. Since its inception in 2011, Blockchain has earned the trust of over 90 million wallet holders and more than 40 million verifie... [Arbeitnow]</description>
+    <pubDate>Wed, 12 Aug 2026 21:55:34 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-product-security-engineer-london-430003</guid>
+  </item>
+  <item>
+    <title>Senior FSQA Manager - PHF (all genders) — hellofresh [📍 Berlin, Berlin]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/hellofresh/senior-fsqa-manager-phf-all-genders-berlin-berlin-5976</link>
+    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span style=&amp;quot;text-decoration: underline;&amp;quot;&amp;gt;About The Team:&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Are you passionate about building food safety standards and driving product quality? We are looking for someone with technical experience to drive food safety and quality compliance.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Our Food Safety &amp;amp;amp; Quality Assurance team is re... [Arbeitnow]</description>
+    <pubDate>Wed, 12 Aug 2026 20:56:01 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-fsqa-manager-phf-all-genders-berlin-berlin-5976</guid>
+  </item>
+  <item>
+    <title>Senior Product Manager — Berlitz [📍 Germany Remote]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/berlitz/remote-senior-product-manager-434795</link>
+    <description>We&#x27;re building a new global Berlitz, and this is your opportunity to help shape it. Nearly 150 years of expertise, meeting the ambition and technology to power a new era of learning. If you are the kind of person who thrives in a fast-paced environment, isn’t afraid of a blank page, and is excited to help shape the future of a global company undergoing a significant transformation, you might belon... [Arbeitnow]</description>
+    <pubDate>Wed, 12 Aug 2026 20:40:10 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-remote-senior-product-manager-434795</guid>
+  </item>
+  <item>
+    <title>Strategy Manager Krankentransport (m/w/d) – Business Development &amp; Go-to-Market, Healthcare SaaS — DMRZ [📍 Düsseldorf]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/dmrz/strategy-manager-krankentransport-business-development-go-to-market-healthcare-saas-dusseldorf-214419</link>
+    <description>Deine Aufgaben Als Strategy Manager Krankentransport (m/w/d) verantwortest du Business Development, Go-to-Market und die Vermarktung unserer Software für Krankentransportdienstleister. Du ergänzt unser Produktteam – zwei erfahrene Product Owner mit tiefer technischer und marktseitiger Expertise – um die Themen Business Development, Go-to-Market und Marketing und übernimmst eigenständig die Schnitt... [Arbeitnow]</description>
+    <pubDate>Wed, 12 Aug 2026 20:09:40 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-strategy-manager-krankentransport-business-development-go-to-market-healthcare-saas-dusseldorf-214419</guid>
   </item>
   </channel>
 </rss>
