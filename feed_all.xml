@@ -6,114 +6,135 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 11:59:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 18:24:37 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 35 jobs -->
+    <!-- 39 jobs -->
 
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Toptal: Tech Lead - Manufacturing Data &amp; AI Platforms - Global Pharmaceutical Company</title>
     <link>https://weworkremotely.com/remote-jobs/toptal-tech-lead-manufacturing-data-ai-platforms-global-pharmaceutical-company</link>
     <description>Headquarters: Summary We are looking for a Tech Lead to take ownership of a delivery portfolio within a Manufacturing Engineering group that builds the data products the plant depends on. This is a hands-on leadership role focused on shipping and operating manufacturing data products in a validated production environment, while applying AI with sound judgment in a regulated context. General inform... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/toptal-tech-lead-manufacturing-data-ai-platforms-global-pharmaceutical-company</guid>
   </item>
   <item>
     <title>Quality Assurance Engineer</title>
     <link>https://jobicy.com/jobs/152329-quality-assurance-engineer-2</link>
     <description>AssetWatch serves global manufacturers by powering manufacturing uptime through the delivery of an unparalleled condition monitoring experience, with a passion to care about the assets our customers care for every... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152329-quality-assurance-engineer-2</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/152325-senior-qa-engineer-2</link>
     <description>Caylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152325-senior-qa-engineer-2</guid>
   </item>
   <item>
     <title>Senior QA Engineer /区块链测试工程师</title>
     <link>https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we areMantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines institutional-grade... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/146187-senior-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
+  </item>
+  <item>
+    <title>Senior Quality Assurance Engineer (Personify team)</title>
+    <link>https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</link>
+    <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
+    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</guid>
+  </item>
+  <item>
+    <title>SDET II, tvScientific</title>
+    <link>https://jobicy.com/jobs/152404-sdet-ii-tvscientific</link>
+    <description>About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At... [Jobicy 🌐]</description>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
+    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152404-sdet-ii-tvscientific</guid>
+  </item>
+  <item>
+    <title>Senior SDET</title>
+    <link>https://jobicy.com/jobs/152400-senior-sdet</link>
+    <description>About Tala Tala is AI-native credit infrastructure for the global majority, combining proprietary risk intelligence with an expanding network of capital and distribution partners to power credit access at scale.... [Jobicy 🌐]</description>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
+    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152400-senior-sdet</guid>
   </item>
   <item>
     <title>QA Engineer 区块链测试工程师</title>
     <link>https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we are Mantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
   </item>
   <item>
     <title>Huntress: Manager, Security Operations Center - EMEA</title>
     <link>https://weworkremotely.com/remote-jobs/huntress-manager-security-operations-center-emea</link>
     <description>Headquarters: Remote Ireland Reports to: Director, Security Operations Center Location: Remote Ireland Compensation Range: €115,200 to €133,000 base plus bonus and equity What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/huntress-manager-security-operations-center-emea</guid>
   </item>
   <item>
     <title>Senior QA Automation Engineer (Boosters)</title>
     <link>https://jobicy.com/jobs/152043-senior-qa-automation-engineer-boosters</link>
     <description>Founded in 2012, Playson is a leading iGaming supplier recognized worldwide. We provide our customers with a high-end micro-service-based platform as a service that aims to process billions of financial... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152043-senior-qa-automation-engineer-boosters</guid>
   </item>
   <item>
     <title>Engineering Manager – EU</title>
     <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
   </item>
   <item>
     <title>Lattice: Engineering Manager, AI</title>
     <link>https://weworkremotely.com/remote-jobs/lattice-engineering-manager-ai-1</link>
     <description>Headquarters: Remote - Canada Location Requirement: This role is open to candidates located in British Columbia or Ontario, Canada. At this time, we are only able to hire employees residing in these provinces. This is Engineering at Lattice Lattice&#x27;s Engineering team is dedicated to building cutting-edge solutions that empower people and organizations to thrive. As AI becomes fundamental to every ... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/lattice-engineering-manager-ai-1</guid>
   </item>
   <item>
     <title>Lattice: Engineering Manager, AI</title>
     <link>https://weworkremotely.com/remote-jobs/lattice-engineering-manager-ai</link>
     <description>Headquarters: Remote - US This is Engineering at Lattice Lattice&#x27;s Engineering team is dedicated to building cutting-edge solutions that empower people and organizations to thrive. As AI becomes fundamental to every product experience, ensuring those systems are trustworthy, measurable, and continuously improving is one of the company&#x27;s most important engineering challenges. The AI Intelligence Qu... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/lattice-engineering-manager-ai</guid>
   </item>
   <item>
     <title>Front End Engineering Manager, Firefox Desktop</title>
     <link>https://jobicy.com/jobs/151502-front-end-engineering-manager-firefox-desktop</link>
     <description>Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded... [Jobicy 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151502-front-end-engineering-manager-firefox-desktop</guid>
   </item>
   <item>
     <title>Toptal: Stibo Sr. Architect/Platform Owner for Global Fortune 500</title>
     <link>https://weworkremotely.com/remote-jobs/toptal-stibo-sr-architect-platform-owner-for-global-fortune-500</link>
     <description>Headquarters: Within the client&#x27;s Global Information Services (GIS) organization is a team of dedicated resources to build a digital center of excellence. This team is made up of diverse skillsets, roles and unique perspectives that allow us to research, design, build and experiment with tools that we hope customers and our internal employees will find useful, usable, and delightful. These digital... [WeWorkRemotely 🌐]</description>
-    <pubDate>Thu, 03 Sep 2026 11:59:43 GMT</pubDate>
+    <pubDate>Thu, 03 Sep 2026 18:24:37 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/toptal-stibo-sr-architect-platform-owner-for-global-fortune-500</guid>
   </item>
   <item>
@@ -215,46 +236,53 @@
     <guid isPermaLink="false">adzuna-5839269349</guid>
   </item>
   <item>
-    <title>Senior Product Desiner (f/m/d) — Justtrack [📍 Hamburg]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/justtrack/senior-product-desiner-hamburg-178660</link>
-    <description>We&#x27;re looking for a Senior Product Designer to join our design team. You&#x27;ll take features end to end, from research and flows through to the finished interface, for an analytics platform that mobile gaming studios use every day to decide where their marketing money goes. You&#x27;ll also own our design system: the components, patterns and documentation that everything else is built from. This is a broa... [Arbeitnow]</description>
-    <pubDate>Thu, 03 Sep 2026 08:40:06 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-product-desiner-hamburg-178660</guid>
+    <title>Service Koordinator und stv. Teamleiter Service (m/w/d) — ATIS systems GmbH [📍 Bad Homburg]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/atis-systems-gmbh/service-koordinator-und-stv-teamleiter-service-bad-homburg-239666</link>
+    <description>Deine Aufgaben Einsatzplanung und Disposition sowie Überwachung von Service- Wartungs- und Projektaufträgen von Servicetechnikern/externen Dienstleister gemäß SLA unter Beachtung von wirtschaftlichen Gesichtspunkten Routiniertes Eskalations- und Reklamationsmanagement als Ansprechpartner des Kunden – Single Point of Contact (SPoC) Unterstützung des Teamleiters Service im Tagesgeschäft Ansprechpart... [Arbeitnow]</description>
+    <pubDate>Thu, 03 Sep 2026 16:00:25 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-service-koordinator-und-stv-teamleiter-service-bad-homburg-239666</guid>
   </item>
   <item>
-    <title>Senior Scrum Master Banking &amp; Insurance (m/w/d) — New Monday GmbH [🌐 Remote]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/new-monday-gmbh/senior-scrum-master-banking-insurance-berlin-193055</link>
-    <description>Remote (Deutschland) · Angestellte/r · Agile / Projektmanagement Für unser sympathisches Team suchen wir eine:n erfahrene:n deutschsprachige:n Senior Scrum Master (m/w/d), die:der agile Entwicklungsteams in unseren Kundenprojekten im Banken- und Versicherungsumfeld begleitet und dafür sorgt, dass Teams auch in großen Konzernstrukturen fokussiert und wirksam arbeiten können. New Monday ist eine Dig... [Arbeitnow]</description>
-    <pubDate>Thu, 03 Sep 2026 08:30:39 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-scrum-master-banking-insurance-berlin-193055</guid>
+    <title>Projekt- und Service Delivery Manager (m/w/d) — ATIS systems GmbH [📍 Bad Homburg]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/atis-systems-gmbh/projekt-und-service-delivery-manager-bad-homburg-105908</link>
+    <description>Deine Aufgaben Als Projekt &amp;#x26; Service Delivery Manager (m/w/d) bist du die Schnittstelle zwischen Kunden, Teams und Partnern. Du planst und steuerst unsere IT-Services , sorgst für Qualität und reibungslose Abläufe und treibst Verbesserungen konsequent voran. Dabei behältst du Termine, Budgets und Prozesse im Blick – und bist gleichzeitig das verlässliche Gesicht unseres Unternehmens für unser... [Arbeitnow]</description>
+    <pubDate>Thu, 03 Sep 2026 16:00:24 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-projekt-und-service-delivery-manager-bad-homburg-105908</guid>
   </item>
   <item>
-    <title>Product Owner (all genders) - Management Suite Tribe — Baramundi Software Ag [📍 Augsburg]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/baramundi-software-ag/product-owner-all-genders-management-suite-tribe-augsburg-67244</link>
-    <description>Welcome to baramundi! “Where security, automation and centralized control come together, modern endpoint management begins.” Do you want to actively shape modern UEM solutions, translate technical complexity into clear product decisions and create real value for IT administrators together with strong development teams? Then become part of our Management Suite Tribe and help drive the further devel... [Arbeitnow]</description>
-    <pubDate>Thu, 03 Sep 2026 08:09:31 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-product-owner-all-genders-management-suite-tribe-augsburg-67244</guid>
+    <title>Cybersecurity Analyst — Janestreet [📍 London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/janestreet/cybersecurity-analyst-london-249291</link>
+    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;About the position&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;We&amp;#39;re looking to add a passionate Cybersecurity Detection and Response Analyst to our London office to help protect Jane Street’s employees, data and infrastructure from the wilds of the internet.&amp;amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;This is not (just) an eyes-on-glass, click ops role—our cybersecurity analysts are also respon... [Arbeitnow]</description>
+    <pubDate>Thu, 03 Sep 2026 15:55:25 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-cybersecurity-analyst-london-249291</guid>
   </item>
   <item>
-    <title>(Senior) IT Product Owner Data Platform (m/w/d) — OXG Glasfaser GmbH [📍 Düsseldorf und Remote]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/oxg-glasfaser-gmbh/remote-senior-it-product-owner-data-platform-473093</link>
-    <description>Was diesen Job so besonders macht? Du analysierst gemeinsam mit den Fachbereichen interne und externe Anforderungen, entwickelst daraus tragfähige technische Lösungskonzepte und berätst die Stakeholder entlang des gesamten Anforderungsprozesses, von der Problemstellung bis zur Erstellung von User Stories. Du bewertest und priorisierst Anforderungen (Demands) hinsichtlich ihrer Dringlichkeit und ih... [Arbeitnow]</description>
-    <pubDate>Thu, 03 Sep 2026 05:09:32 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-remote-senior-it-product-owner-data-platform-473093</guid>
+    <title>UK - London - ADS - Test Engineer — Jobposts [📍 London, Greater London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/jobposts/uk-london-ads-test-engineer-london-greater-london-40082</link>
+    <description>&amp;lt;p&amp;gt;&amp;lt;span class=&amp;quot;author-8908051321 font-color-000000 font-size-medium&amp;quot;&amp;gt;Thank you for your application for a role at Alpha Financial Markets &amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;author-17078097523 font-color-000000 font-size-medium&amp;quot;&amp;gt;C&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;author-8908051321 font-color-000000 font-size-medium&amp;quot;&amp;gt;onsulting.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; Find more E... [Arbeitnow]</description>
+    <pubDate>Thu, 03 Sep 2026 15:55:05 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-uk-london-ads-test-engineer-london-greater-london-40082</guid>
   </item>
   <item>
-    <title>AI Quality Assurance Program Manager — tripadvisor [📍 London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/tripadvisor/ai-quality-assurance-program-manager-london-295649</link>
-    <description>&amp;lt;p&amp;gt;AI Quality Assurance Program Manager I Tripadvisor&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;About Tripadvisor&amp;amp;nbsp;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The Tripadvisor Group connects people to experiences worth sharing, and aims to be the world’s most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners thro... [Arbeitnow]</description>
-    <pubDate>Thu, 03 Sep 2026 00:55:28 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-ai-quality-assurance-program-manager-london-295649</guid>
+    <title>Senior Business Analyst (m/w/d) — adorsys GmbH [📍 Nürnberg]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/adorsys-gmbh/senior-business-analyst-nurnberg-137344</link>
+    <description>What awaits you Analyse, Design und technische Konzeption innovativer IT-Lösungen mit Schwerpunkt: Banking und Zahlungsverkehr Beratung und technische Unterstützung unserer Kunden bei der fachlichen Ideenfindung Beratung unserer Kunden zum Thema Platform-Ökosysteme, Digitalisierung und den Einsatzmöglichkeiten von KI Schnittstelle zwischen Product Ownern (kundenseitig) und Entwicklern (intern) Ers... [Arbeitnow]</description>
+    <pubDate>Thu, 03 Sep 2026 14:09:49 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-business-analyst-nurnberg-137344</guid>
   </item>
   <item>
-    <title>Product Owner - Communications Channels &amp; AI — PHMG Careers [📍 Manchester, England, United Kingdom]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/phmg-careers/product-owner-communications-channels-ai-manchester-177736</link>
-    <description>Role: Product Owner – Communication Channels &amp;amp; AI Location: Manchester Hours: Monday-Friday 8:45am-5:15pm Package: £80k OTE &amp;nbsp; As Product Owner - Technical Products, your role is to own and continuously improve PHMG&#x27;s Technical product portfolio, ensuring Cloud Telephony, AI Receptionist and CCE deliver measurable client value, operational&amp;nbsp;quality&amp;nbsp;and long-term commercial growth.... [Arbeitnow]</description>
-    <pubDate>Wed, 02 Sep 2026 21:45:29 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-product-owner-communications-channels-ai-manchester-177736</guid>
+    <title>Senior Product Owner – CRM (m/f/d) — Dishdigital [📍 Düsseldorf]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/dishdigital/senior-product-owner-crm-dusseldorf-59552</link>
+    <description>Your Contribution As Senior Product Owner – CRM, you drive the evolution of our Odoo-based CRM and ERP platforms and ensure they continuously support our business objectives. You combine product ownership with a strong focus on business process excellence, challenging existing ways of working and identifying opportunities for simplification and automation. Acting as the bridge between business and... [Arbeitnow]</description>
+    <pubDate>Thu, 03 Sep 2026 14:09:10 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-product-owner-crm-dusseldorf-59552</guid>
+  </item>
+  <item>
+    <title>AI Product Owner - Leeds — Legal 500 [📍 Leeds]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/legal-500/ai-product-owner-leeds-148802</link>
+    <description>About Legal 500 Legal 500 is a global legal market research, data and intelligence business. Our research helps corporate clients make informed decisions about legal representation and gives law firms insight into their market position, performance, and clients. Beyond research, we’re building a growing data, benchmarking, market-intelligence and subscription service offering. We bring the legal m... [Arbeitnow]</description>
+    <pubDate>Thu, 03 Sep 2026 12:40:06 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-ai-product-owner-leeds-148802</guid>
   </item>
   </channel>
 </rss>
