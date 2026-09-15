@@ -6,108 +6,122 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 19:45:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 12:31:41 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 34 jobs -->
+    <!-- 35 jobs -->
 
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Confluent: Senior Product Manager, Cluster Linking</title>
     <link>https://weworkremotely.com/remote-jobs/confluent-senior-product-manager-cluster-linking</link>
     <description>Headquarters: Remote, Ontario, Canada We’re not just building better tech. We’re rewriting how data moves and what the world can do with it. With Confluent, data doesn’t sit still. Our platform puts information in motion, streaming in near real-time so companies can react faster, build smarter, and deliver experiences as dynamic as the world around them. It takes a certain kind of person to join t... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/confluent-senior-product-manager-cluster-linking</guid>
+  </item>
+  <item>
+    <title>Engineering Manager – EU</title>
+    <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
+    <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
+    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/152325-senior-qa-engineer-2</link>
     <description>Caylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152325-senior-qa-engineer-2</guid>
   </item>
   <item>
     <title>Senior Quality Assurance Engineer (Personify team)</title>
     <link>https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</link>
     <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</guid>
   </item>
   <item>
     <title>SDET II, tvScientific</title>
     <link>https://jobicy.com/jobs/152404-sdet-ii-tvscientific</link>
     <description>About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152404-sdet-ii-tvscientific</guid>
   </item>
   <item>
     <title>QA Engineer 区块链测试工程师</title>
     <link>https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we are Mantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
   </item>
   <item>
     <title>Huntress: Manager, Security Operations Center - EMEA</title>
     <link>https://weworkremotely.com/remote-jobs/huntress-manager-security-operations-center-emea</link>
     <description>Headquarters: Remote Ireland Reports to: Director, Security Operations Center Location: Remote Ireland Compensation Range: €115,200 to €133,000 base plus bonus and equity What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/huntress-manager-security-operations-center-emea</guid>
   </item>
   <item>
     <title>Senior QA Automation Engineer (Boosters)</title>
     <link>https://jobicy.com/jobs/152043-senior-qa-automation-engineer-boosters</link>
     <description>Founded in 2012, Playson is a leading iGaming supplier recognized worldwide. We provide our customers with a high-end micro-service-based platform as a service that aims to process billions of financial... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152043-senior-qa-automation-engineer-boosters</guid>
-  </item>
-  <item>
-    <title>Engineering Manager – EU</title>
-    <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
-    <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
   </item>
   <item>
     <title>Vonage: AEM Developer</title>
     <link>https://weworkremotely.com/remote-jobs/vonage-aem-developer</link>
     <description>Headquarters: Remote Join Vonage and help us innovate cloud communications for businesses worldwide! Why this role matters: We are seeking an experienced and technically skilled Senior AEM Developer to join our digital engineering team. In this role, you will lead the design, development, and implementation of enterprise-level web applications using Adobe Experience Manager (AEM / AEM as a Cloud S... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/vonage-aem-developer</guid>
   </item>
   <item>
     <title>Discord: Engineering Manager, Notifications</title>
     <link>https://weworkremotely.com/remote-jobs/discord-engineering-manager-notifications</link>
     <description>Headquarters: Remote Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We&#x27;re loo... [WeWorkRemotely 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/discord-engineering-manager-notifications</guid>
   </item>
   <item>
     <title>Front End Engineering Manager, Firefox Desktop</title>
     <link>https://jobicy.com/jobs/151502-front-end-engineering-manager-firefox-desktop</link>
     <description>Why Mozilla? Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded... [Jobicy 🌐]</description>
-    <pubDate>Mon, 14 Sep 2026 19:45:55 GMT</pubDate>
+    <pubDate>Tue, 15 Sep 2026 12:31:41 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151502-front-end-engineering-manager-firefox-desktop</guid>
+  </item>
+  <item>
+    <title>Senior Scrum Master — Colliers International EMEA [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5884461157?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Job Description Purpose of the Position We are looking for an experienced and passionate Senior Scrum Master, reporting to the Manager of Engineering Operations, for our Technology Hub in Madrid. This is a unique opportunity to become part of the founding team that helps shape the culture, practices, and technical direction. Working in a hybrid model (2 days on-site), you will enjoy significant fr... [Adzuna 🔗]</description>
+    <pubDate>Tue, 15 Sep 2026 10:58:01 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5884461157</guid>
+  </item>
+  <item>
+    <title>Engineering Manager — VORTECH PCI GROUP [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5883950201?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>ACERCA DE LA POSICIÓN ENGINEERING MANAGER – DATA PLATFORM AZURE En Vortech PCI Group buscamos incorporar un/a Engineering Manager – Data Platform para liderar un proyecto estratégico de plataforma de datos en entorno Azure para una multinacional líder en software de gestión empresarial. Se trata de un proyecto greenfield , de alcance internacional, orientado a construir desde cero una plataforma d... [Adzuna 🔗]</description>
+    <pubDate>Tue, 15 Sep 2026 00:31:22 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5883950201</guid>
   </item>
   <item>
     <title>Quality Assurance Manager — Tenth Revolution Group [📍 Madrid]</title>
@@ -124,39 +138,11 @@
     <guid isPermaLink="false">adzuna-5882921907</guid>
   </item>
   <item>
-    <title>Service Delivery Manager For Service Desk Spain — Airbus [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5882919079?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Job Description: Responsible for overseeing the effective and efficient delivery of Service Desk service in Spain, ensuring it meets customer expectations and service level agreements (SLAs), while also driving continuous improvement and maintaining strong relationships with stakeholders (Service owners, application managers, end users) Roles &amp; Responsibilities is accountable for the delivery of a... [Adzuna 🔗]</description>
-    <pubDate>Mon, 14 Sep 2026 00:29:39 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5882919079</guid>
-  </item>
-  <item>
     <title>Engineering Manager — Creatio [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5882398663?utm_medium=api&amp;utm_source=521e0734</link>
     <description>Creatio is an AI CRM and workflow platform where people and AI agents work together — with no limits on users, agents, or scale. We help midsize and large organizations run customer workflows in the AI era. With a global team and a large ecosystem of partners, Creatio serves thousands of customers in over 100 countries and automates tens of millions of workflows daily. Genuine care for our clients... [Adzuna 🔗]</description>
     <pubDate>Sun, 13 Sep 2026 10:09:11 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5882398663</guid>
-  </item>
-  <item>
-    <title>Service Delivery Manager — NTT America, Inc. [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5882279066?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Make an impact with NTT DATA Join a company that is pushing the boundaries of what is possible. We are renowned for our technical excellence and leading innovations, and for making a difference to our clients and society. Our workplace embraces diversity and inclusion - it&#x27;s a place where you can grow, belong and thrive. Your day at NTT DATA The Service Delivery Specialist is a seasoned subject ma... [Adzuna 🔗]</description>
-    <pubDate>Sun, 13 Sep 2026 07:50:53 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5882279066</guid>
-  </item>
-  <item>
-    <title>Developer Experience - Engineering Manager — Ebury [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5880760534?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to ... [Adzuna 🔗]</description>
-    <pubDate>Sat, 12 Sep 2026 10:09:17 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5880760534</guid>
-  </item>
-  <item>
-    <title>Scrum Master — Capitole [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5880205447?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Capitole Consulting sigue creciendo ¡y queremos hacerlo contigo! ?Estamos incorporando un/a Senior Scrum Master/PM con más de 7 años de experiencia para liderar equipos Agile en un entorno B2C. Liderarás ceremonias Scrum, gestionarás sprints, backlog, riesgos y stakeholders, coordinarás equipos y recursos, y asegurarás la planificación y entrega de proyectos IT. ¿Qué buscamos? 7 años de experienci... [Adzuna 🔗]</description>
-    <pubDate>Sat, 12 Sep 2026 00:40:08 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5880205447</guid>
   </item>
   <item>
     <title>Engineering Manager TLM Platform — Harper</title>
@@ -187,13 +173,6 @@
     <guid isPermaLink="false">adzuna-5868523476</guid>
   </item>
   <item>
-    <title>Senior Scrum Master — Colliers International EMEA [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5867624608?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Job Description Purpose of the Position We are looking for an experienced and passionate Senior Scrum Master, reporting to the Manager of Engineering Operations, for our Technology Hub in Madrid. This is a unique opportunity to become part of the founding team that helps shape the culture, practices, and technical direction. Working in a hybrid model (2 days on-site), you will enjoy significant fr... [Adzuna 🔗]</description>
-    <pubDate>Wed, 02 Sep 2026 23:33:37 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5867624608</guid>
-  </item>
-  <item>
     <title>Senior QA Engineer (Hybrid) — Colliers International EMEA [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5864095662?utm_medium=api&amp;utm_source=521e0734</link>
     <description>Job Description We are seeking an experienced and passionate Senior QA Engineer for our newly established Technology Hub in Madrid. This is a unique opportunity to become part of the founding team that helps shape the culture, practices, and technical direction. Working in a hybrid model (remote &amp; onsite), you will enjoy significant freedom to innovate and influence the future of one of the world’... [Adzuna 🔗]</description>
@@ -215,13 +194,6 @@
     <guid isPermaLink="false">remotive-2091100</guid>
   </item>
   <item>
-    <title>Scrum Master — Black Pen Recruitment [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5856503569?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Our client, a leading Software, Information and Communication Technologies company, operates internationally (Athens, Brussels, Luxembourg, Copenhagen, Stockholm, London, Nicosia, Hong-Kong, Valetta, etc). Our client is a renowned supplier of IT services to government institutions, multinational corporations, public administrations and multinational companies, research and academic institutes. Rol... [Adzuna 🔗]</description>
-    <pubDate>Wed, 26 Aug 2026 09:11:01 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5856503569</guid>
-  </item>
-  <item>
     <title>Solutions Delivery Manager — Benchling</title>
     <link>https://remoteOK.com/remote-jobs/remote-solutions-delivery-manager-benchling-1136937</link>
     <description>We are rebuilding biotech for the AI era. When a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&amp;amp;D work into years. But that only happens when clean, structured scientific data and AI are built into how scien... [RemoteOK 🌐]</description>
@@ -236,18 +208,53 @@
     <guid isPermaLink="false">remoteok-1136670</guid>
   </item>
   <item>
-    <title>Technischer Product Owner (m/w/d) - KI &amp; Automatisierung — raphael GmbH [📍 Dortmund]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/raphael-gmbh/technischer-product-owner-ki-automatisierung-dortmund-496410</link>
-    <description>Du hast selbst Software gebaut, denkst in Architekturen und kannst trotzdem mit Kunden auf Geschäftsebene reden? Und KI ist für dich kein neues Karrierethema, sondern das, womit du dich ohnehin jeden Tag beschäftigst? Dann lies weiter. Wir sind eine technologiegetriebene Digitalagentur aus Dortmund. Seit vielen Jahren entwickeln wir anspruchsvolle Webanwendungen für Kunden von Mittelstand bis Öffe... [Arbeitnow]</description>
-    <pubDate>Mon, 14 Sep 2026 18:13:31 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-technischer-product-owner-ki-automatisierung-dortmund-496410</guid>
+    <title>Engineering Manager — Cargo One [📍 Remote (EMEA)]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/cargo-one/remote-engineering-manager-361637</link>
+    <description>🏆 What&#x27;s the opportunity? Air freight carries less than 1% of world trade by volume and more than a third of it by value, around $22.7 billion of goods every single day. It&#x27;s how a vaccine reaches a clinic before it spoils, how a semiconductor arrives before the production line stops, and how a retailer restocks a continent away in three days instead of five weeks. When speed is the whole point, f... [Arbeitnow]</description>
+    <pubDate>Tue, 15 Sep 2026 11:40:11 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-remote-engineering-manager-361637</guid>
   </item>
   <item>
-    <title>AI Native - Project Delivery Lead — PALO IT [📍 PALO IT France]</title>
-    <link>https://www.arbeitnow.fr/jobs/companies/palo-it/ai-native-project-delivery-lead-paris-190876</link>
-    <description>About PALO IT At PALO IT , we don’t just build software — we invent the AI-first future of enterprises. As a global technology consultancy, our patented Gen-e²™ methodology puts AI at the core of everything we do, transforming how businesses design, deliver, and evolve digital solutions. We are a diverse collective of 450+ AI-native professionals across 10 countries , united by our commitment to e... [Arbeitnow]</description>
-    <pubDate>Sun, 13 Sep 2026 08:45:07 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-ai-native-project-delivery-lead-paris-190876</guid>
+    <title>Engineering Manager, Global Public Sector — scaleai [📍 London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/scaleai/engineering-manager-global-public-sector-london-302492</link>
+    <description>&amp;lt;p&amp;gt;Scale’s rapidly growing International Public Sector team is focused on using AI to address critical challenges facing the public sector around the world. Our core work consists of:&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Creating custom AI applications that will impact millions of citizens&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Generating high-quality training data for national LLMs&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Upskilling ... [Arbeitnow]</description>
+    <pubDate>Tue, 15 Sep 2026 09:55:07 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-global-public-sector-london-302492</guid>
+  </item>
+  <item>
+    <title>Product Manager — Artificial Labs [📍 London Office]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/artificial-labs/product-manager-london-162217</link>
+    <description>About Artificial Help shape the future of specialty insurance At Artificial, we’re building the next generation of technology for the specialty (re)insurance market. Our mission is to transform how brokers and carriers operate in complex markets by removing operational barriers and enabling smarter, faster decision-making. We use modern technology to solve real challenges for some of the world’s l... [Arbeitnow]</description>
+    <pubDate>Tue, 15 Sep 2026 09:40:04 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-product-manager-london-162217</guid>
+  </item>
+  <item>
+    <title>Senior Network Automation Engineer (EU) — Megaport [📍 United Kingdom]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/megaport/senior-network-automation-engineer-eu-united-kingdom-196633</link>
+    <description>About Megaport We’re not your typical tech company – and we don’t want to be. Megaport is the global leader in Network as a Service (NaaS), and has transformed the way businesses connect to the cloud, data centers, and each other. We’re publicly listed on the Australian Stock Exchange and partnered with the biggest names in tech like Amazon, Microsoft, Google, Oracle, IBM, and more. Headquartered ... [Arbeitnow]</description>
+    <pubDate>Tue, 15 Sep 2026 09:04:42 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-network-automation-engineer-eu-united-kingdom-196633</guid>
+  </item>
+  <item>
+    <title>Engineering Manager - Data Platform — Spotify [📍 London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/spotify/engineering-manager-data-platform-london-391902</link>
+    <description>Within the Data Platform studio, we own two critical pillars: our event delivery platform that collects trillions of events per day from producers to consumers, and another, which handles the pseudonymisation of data so Spotify can use data responsibly and in compliance with privacy regulations. These systems sit at the heart of Spotify&#x27;s data collection and are used by hundreds of teams across th... [Arbeitnow]</description>
+    <pubDate>Tue, 15 Sep 2026 09:04:34 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-data-platform-london-391902</guid>
+  </item>
+  <item>
+    <title>Senior Technical Project Manager — Coveoen [📍 ]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/coveoen/senior-technical-project-manager-476613</link>
+    <description>&amp;lt;h2&amp;gt;&amp;lt;strong&amp;gt;Lead complex digital transformations for some of the world&amp;#39;s most recognized brands.&amp;lt;/strong&amp;gt;&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;Have you ever wondered what it takes to deliver highly technical software implementations at enterprise scale? Join our Professional Services team and help customers unlock the full potential of Coveo&amp;#39;s AI-powered platform.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;With ... [Arbeitnow]</description>
+    <pubDate>Tue, 15 Sep 2026 06:55:17 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-technical-project-manager-476613</guid>
+  </item>
+  <item>
+    <title>Senior Technical Project Manager - VPC — Nebius [📍 London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/nebius/senior-technical-project-manager-vpc-london-344925</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;About Nebius:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-hou... [Arbeitnow]</description>
+    <pubDate>Tue, 15 Sep 2026 06:55:15 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-technical-project-manager-vpc-london-344925</guid>
   </item>
   </channel>
 </rss>
