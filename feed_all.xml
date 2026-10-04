@@ -6,74 +6,11 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 18:34:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 22:14:47 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 66 jobs -->
+    <!-- 50 jobs -->
 
-  <item>
-    <title>QA Engineer 区块链测试工程师</title>
-    <link>https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
-    <description>Who we are Mantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
-  </item>
-  <item>
-    <title>Engineering Manager – EU</title>
-    <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
-    <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
-  </item>
-  <item>
-    <title>Lead Automation Engineer</title>
-    <link>https://jobicy.com/jobs/154027-lead-automation-engineer</link>
-    <description>We’re Capital on Tap 👋💳 Capital on Tap started because small businesses were underserved. Big banks were slow, their products weren’t fit for purpose, and small business owners often couldn’t... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154027-lead-automation-engineer</guid>
-  </item>
-  <item>
-    <title>SDET II, tvScientific</title>
-    <link>https://jobicy.com/jobs/152404-sdet-ii-tvscientific</link>
-    <description>About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152404-sdet-ii-tvscientific</guid>
-  </item>
-  <item>
-    <title>Senior Quality Assurance Engineer (Personify team)</title>
-    <link>https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</link>
-    <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</guid>
-  </item>
-  <item>
-    <title>Engineering Manager – UK</title>
-    <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
-    <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
-  </item>
-  <item>
-    <title>Engineering Manager – Americas</title>
-    <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
-    <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
-  </item>
-  <item>
-    <title>Engineering Manager – Canada</title>
-    <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
-    <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
-  </item>
-  <item>
-    <title>Senior QA Engineer</title>
-    <link>https://jobicy.com/jobs/152325-senior-qa-engineer-2</link>
-    <description>Caylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s... [Jobicy 🌐]</description>
-    <pubDate>Sun, 04 Oct 2026 18:34:28 GMT</pubDate>
-    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152325-senior-qa-engineer-2</guid>
-  </item>
   <item>
     <title>Engineering Manager — Factorial [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5908063998?utm_medium=api&amp;utm_source=521e0734</link>
@@ -271,6 +208,13 @@
     <guid isPermaLink="false">remoteok-1136937</guid>
   </item>
   <item>
+    <title>Automation Engineer (gn) Industrial Robotics &amp; Software Development — Wandelbots GmbH [📍 Dresden]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/wandelbots-gmbh/automation-engineer-gn-industrial-robotics-software-development-dresden-321788</link>
+    <description>Your mission At Wandelbots, we combine modern software development with industrial robotics and automation. With NOVA, we are building a platform that makes the use of industrial robots easier, more flexible, and more software-driven. As an Automation Engineer , you will work right at this intersection: You will commission automation systems and robots, support our teams with your hands-on industr... [Arbeitnow]</description>
+    <pubDate>Sun, 04 Oct 2026 20:09:16 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-automation-engineer-gn-industrial-robotics-software-development-dresden-321788</guid>
+  </item>
+  <item>
     <title>Quality Assurance Rater - German (Germany) — TELUS Digital [🌐 Remote]</title>
     <link>https://www.arbeitnow.com/jobs/companies/telus-digital/quality-assurance-rater-german-germany-berlin-112725</link>
     <description>Join our elite team of Senior Raters as a critical contributor to high-quality validation data that directly influences product development and quality assurance for leading search engines and AI technologies. This flexible, remote opportunity allows you to apply your analytical and research skills to evaluate search results and AI-generated content while contributing to the development of high-qu... [Arbeitnow]</description>
@@ -397,67 +341,11 @@
     <guid isPermaLink="false">arbeitnow-senior-android-engineer-solihull-402381</guid>
   </item>
   <item>
-    <title>Quality Assurance Coordinator - Product Integrity - 12 Month FCT — Gymshark [📍 Solihull]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/gymshark/quality-assurance-coordinator-product-integrity-12-month-fct-solihull-133846</link>
-    <description>&amp;lt;div&amp;gt; &amp;lt;p class=&amp;quot;x_xmsonormal&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span data-olk-copy-source=&amp;quot;MessageBody&amp;quot;&amp;gt;THE ROLE.&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;div&amp;gt; &amp;lt;p&amp;gt;At Gymshark, we&amp;#39;re committed to creating products that perform, fit flawlessly and exceed expectations. As a&amp;amp;nbsp;&amp;lt;strong&amp;gt;Product Integrity Quality Coordinator&amp;lt;/stron... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 12:55:05 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-quality-assurance-coordinator-product-integrity-12-month-fct-solihull-133846</guid>
-  </item>
-  <item>
-    <title>Mobile Engineer - IOS — Gymshark [📍 Solihull]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/gymshark/mobile-engineer-ios-solihull-190296</link>
-    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;OVERVIEW:&amp;lt;br&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;span class=&amp;quot;NormalTextRun SCXW248244708 BCX0&amp;quot;&amp;gt;This role exists to build and &amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;NormalTextRun SCXW248244708 BCX0&amp;quot;&amp;gt;maintain&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;NormalTextRun SCXW248244708 BCX0&amp;quot;&amp;gt; the iOS app that a large share of Gymshark customers &amp;lt;/span&amp;gt;&amp;lt... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 12:55:05 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-mobile-engineer-ios-solihull-190296</guid>
-  </item>
-  <item>
-    <title>Working Student – Community &amp; User Generated Content Operations — Lovehoney Group [📍 Berlin]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/lovehoney-group/working-student-community-user-generated-content-operations-berlin-485653</link>
-    <description>Lovehoney Group is the world’s leading sexual wellbeing company, with the mission to elevate pleasure through innovative technologies, a data-driven approach, and foster creative and fresh perspectives on intimacy. We offer exciting brands with innovative, high-quality sex toys, lingerie, and accessories in a streamlined online shopping experience.&amp;nbsp; &amp;nbsp; At Lovehoney, we employ over 800 pas... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 11:04:58 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-working-student-community-user-generated-content-operations-berlin-485653</guid>
-  </item>
-  <item>
-    <title>QA Engineer Mobile — ScholarshipOwl [🌐 Remote]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/scholarshipowl/remote-qa-engineer-mobile-berlin-166747</link>
-    <description>About ScholarshipOwl ScholarshipOwl is the largest scholarship marketplace in the US, using AI to connect 14 million students who are looking for scholarships with companies that are looking for students. Our mission is to make education financing more accessible and engaging, while giving brands a way to connect with the next generation. We’re powered by AI technology that simplifies scholarship ... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 08:30:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-remote-qa-engineer-mobile-berlin-166747</guid>
-  </item>
-  <item>
-    <title>Senior Collection Specialist Quality (m/w/d) — Pair [📍 Berlin (Hybrid)]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/pair/senior-collection-specialist-quality-berlin-hybrid-463527</link>
-    <description>Are you ready to change the market? PAIR Finance is reimagining debt collection: We&#x27;ve developed the most advanced AI technology in receivables management, fundamentally transforming the entire collections industry. Today, with over 260 employees, 600+ clients, and 10+ European entities, we&#x27;re leading the way in AI-powered receivables management - delivering higher recovery rates while protecting ... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 08:09:16 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-collection-specialist-quality-berlin-hybrid-463527</guid>
-  </item>
-  <item>
     <title>Senior Project Manager (m/f/d) — Arethia [📍 Hybrid]</title>
     <link>https://www.arbeitnow.fr/jobs/companies/arethia/senior-project-manager-hybrid-223640</link>
     <description>Role description As Senior Project Manager, you will join our central Project Management team in Reinbek, which leads the company&#x27;s large and complex cross-functional projects and sets the standards for how projects are run across all of arethia&#x27;s global locations. Join us during a pivotal growth phase and help create the foundations of a team that will drive meaningful transformation across the o... [Arbeitnow]</description>
     <pubDate>Sun, 04 Oct 2026 07:09:16 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-senior-project-manager-hybrid-223640</guid>
-  </item>
-  <item>
-    <title>Scrum Master / Delivery Enabler (m/w/d) - KI-gestützte Softwareentwicklung — Maibornwolff [📍 Augsburg]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/maibornwolff/scrum-master-delivery-enabler-ki-gestutzte-softwareentwicklung-augsburg-336603</link>
-    <description>Du begeisterst dich für agile Delivery und willst die sich wandelnde Rolle des Scrum Masters im KI-Zeitalter aktiv mitgestalten? Und, du bist an vielfältigen Projekten in einem kollegialen Arbeitsumfeld interessiert? Dann schau dir MaibornWolff einmal näher an! Wir bei MaibornWolff sind ein inhabergeführtes, mittelständisches IT-Beratungsunternehmen mit über 30 Jahren Expertise. Mit rund 800 Tech-... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 05:09:37 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-scrum-master-delivery-enabler-ki-gestutzte-softwareentwicklung-augsburg-336603</guid>
-  </item>
-  <item>
-    <title>Scrum Master / Delivery Enabler (m/w/d) - KI-gestützte Softwareentwicklung — Maibornwolff [📍 Bonn]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/maibornwolff/scrum-master-delivery-enabler-ki-gestutzte-softwareentwicklung-bonn-64053</link>
-    <description>Du begeisterst dich für agile Delivery und willst die sich wandelnde Rolle des Scrum Masters im KI-Zeitalter aktiv mitgestalten? Und, du bist an vielfältigen Projekten in einem kollegialen Arbeitsumfeld interessiert? Dann schau dir MaibornWolff einmal näher an! Wir bei MaibornWolff sind ein inhabergeführtes, mittelständisches IT-Beratungsunternehmen mit über 30 Jahren Expertise. Mit rund 800 Tech-... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 05:09:37 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-scrum-master-delivery-enabler-ki-gestutzte-softwareentwicklung-bonn-64053</guid>
-  </item>
-  <item>
-    <title>Scrum Master / Delivery Enabler (m/w/d) - KI-gestützte Softwareentwicklung — Maibornwolff [📍 Leipzig]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/maibornwolff/scrum-master-delivery-enabler-ki-gestutzte-softwareentwicklung-leipzig-399754</link>
-    <description>Du begeisterst dich für agile Delivery und willst die sich wandelnde Rolle des Scrum Masters im KI-Zeitalter aktiv mitgestalten? Und, du bist an vielfältigen Projekten in einem kollegialen Arbeitsumfeld interessiert? Dann schau dir MaibornWolff einmal näher an! Wir bei MaibornWolff sind ein inhabergeführtes, mittelständisches IT-Beratungsunternehmen mit über 30 Jahren Expertise. Mit rund 800 Tech-... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 05:09:37 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-scrum-master-delivery-enabler-ki-gestutzte-softwareentwicklung-leipzig-399754</guid>
   </item>
   <item>
     <title>Telecoms QA Director — netcracker [📍 Belgium, UK, Netherlands, Germany, Italy]</title>
