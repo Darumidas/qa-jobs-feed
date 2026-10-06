@@ -6,58 +6,65 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
     <description>QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote / Madrid</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 15:39:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 00:39:22 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 30 jobs -->
+    <!-- 31 jobs -->
 
   <item>
     <title>Engineering Manager – EU</title>
     <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Mon, 05 Oct 2026 15:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
   </item>
   <item>
     <title>Senior Quality Assurance Engineer (Personify team)</title>
     <link>https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</link>
     <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
-    <pubDate>Mon, 05 Oct 2026 15:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</guid>
   </item>
   <item>
     <title>QA Automation Lead [gn] Data Intelligence</title>
     <link>https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</link>
     <description>The QA Automation Team is the ultimate guardian of our platform’s reliability, scalability, and deployment velocity. In a complex, data-heavy ecosystem, manual testing is a bottleneck; continuous, intelligent, and bulletproof... [Jobicy 🌐]</description>
-    <pubDate>Mon, 05 Oct 2026 15:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</guid>
+  </item>
+  <item>
+    <title>Senior Quality Engineer</title>
+    <link>https://jobicy.com/jobs/154616-senior-quality-engineer-2</link>
+    <description>About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work... [Jobicy 🌐]</description>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154616-senior-quality-engineer-2</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Mon, 05 Oct 2026 15:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Mon, 05 Oct 2026 15:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Mon, 05 Oct 2026 15:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/152325-senior-qa-engineer-2</link>
     <description>Caylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s... [Jobicy 🌐]</description>
-    <pubDate>Mon, 05 Oct 2026 15:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152325-senior-qa-engineer-2</guid>
   </item>
   <item>
@@ -215,11 +222,11 @@
     <guid isPermaLink="false">remoteok-1136937</guid>
   </item>
   <item>
-    <title>Engineering Manager (Subscriptions) — Paddle [📍 UK]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/paddle/engineering-manager-subscriptions-uk-463623</link>
-    <description>What do we do? Paddle offers digital product companies a completely different approach to their payment infrastructure. Instead of assembling and maintaining a complex stack of payments-related apps and services, we’re a Merchant of Record for our customers. That means we take away 100% of the pain of payment fragmentation. It’s faster, safer, cheaper, and, above all, way better. We’re backed by i... [Arbeitnow]</description>
-    <pubDate>Sun, 04 Oct 2026 21:40:10 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-engineering-manager-subscriptions-uk-463623</guid>
+    <title>Service Delivery Manager - Airline Industry Experience is a Must — Mullers Solutions 1 [📍 Paris, France]</title>
+    <link>https://www.arbeitnow.fr/jobs/companies/mullers-solutions-1/service-delivery-manager-airline-industry-experience-is-a-must-paris-414622</link>
+    <description>Müller’s Solutions is a leading technology and consulting company delivering innovative IT solutions and professional services across the EMEA region. We work with organizations to support digital transformation, IT modernization, and high-quality technology service delivery. Job Summary Müller’s Solutions is looking for an experienced Service Delivery Manager with mandatory experience in the Airl... [Arbeitnow]</description>
+    <pubDate>Mon, 05 Oct 2026 16:20:09 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-service-delivery-manager-airline-industry-experience-is-a-must-paris-414622</guid>
   </item>
   </channel>
 </rss>
