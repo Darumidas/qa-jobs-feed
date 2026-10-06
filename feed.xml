@@ -6,66 +6,80 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
     <description>QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote / Madrid</description>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:39:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 14:01:00 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 31 jobs -->
+    <!-- 25 jobs -->
 
   <item>
     <title>Engineering Manager – EU</title>
     <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
+  </item>
+  <item>
+    <title>LaunchDarkly: Engineering Manager, Cloud Engineering</title>
+    <link>https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</link>
+    <description>Headquarters: Remote - US About the Job: We’re looking for an Engineering Manager to lead LaunchDarkly’s Cloud Engineering team, the team responsible for the foundational infrastructure our products and engineering teams depend on. Cloud Engineering owns LaunchDarkly’s AWS accounts and networking, multi-region Kubernetes infrastructure, Terraform and GitOps workflows, CockroachDB operations, disas... [WeWorkRemotely 🌐]</description>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
+    <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</guid>
   </item>
   <item>
     <title>Senior Quality Assurance Engineer (Personify team)</title>
     <link>https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</link>
     <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152406-senior-quality-assurance-engineer-personify-team</guid>
   </item>
   <item>
     <title>QA Automation Lead [gn] Data Intelligence</title>
     <link>https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</link>
     <description>The QA Automation Team is the ultimate guardian of our platform’s reliability, scalability, and deployment velocity. In a complex, data-heavy ecosystem, manual testing is a bottleneck; continuous, intelligent, and bulletproof... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</guid>
   </item>
   <item>
     <title>Senior Quality Engineer</title>
     <link>https://jobicy.com/jobs/154616-senior-quality-engineer-2</link>
     <description>About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154616-senior-quality-engineer-2</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/152325-senior-qa-engineer-2</link>
     <description>Caylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s... [Jobicy 🌐]</description>
-    <pubDate>Tue, 06 Oct 2026 00:39:22 GMT</pubDate>
+    <pubDate>Tue, 06 Oct 2026 14:01:00 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152325-senior-qa-engineer-2</guid>
+  </item>
+  <item>
+    <title>Scrum Master/Delivery Manager — Babel [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5913089984?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>We are One Team. We make it happen. We are Unstoppable. BABEL es una consultora tecnológica multinacional especializada en aplicar sus servicios y conocimiento tecnológico en los procesos de aceleración digital de sus clientes, grandes empresas y organismos públicos. ¿Cuál es nuestro plan estratégico? ¡Miramos hacia el futuro! Nuestro plan estratégico Hiperespacio promete ser un viaje emocionante,... [Adzuna 🔗]</description>
+    <pubDate>Tue, 06 Oct 2026 02:58:56 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5913089984</guid>
   </item>
   <item>
     <title>Quality Lead — Babel [📍 Madrid]</title>
@@ -73,20 +87,6 @@
     <description>We are One Team. We make it happen. We are Unstoppable. BABEL es una consultora tecnológica multinacional especializada en aplicar sus servicios y conocimiento tecnológico en los procesos de aceleración digital de sus clientes, grandes empresas y organismos públicos. ¿Cuál es nuestro plan estratégico? ¡Miramos hacia el futuro! Nuestro plan estratégico Hiperespacio promete ser un viaje emocionante,... [Adzuna 🔗]</description>
     <pubDate>Mon, 05 Oct 2026 02:56:54 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5911932771</guid>
-  </item>
-  <item>
-    <title>Ai Delivery Manager At Itransition — Itransition Group [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5911930871?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>AI Delivery Manager at Itransition in MC, ES This Full time on site position offers great opportunities for career growth. We&#x27;re looking for AI Delivery Manager to join our team and help us find practical, workable solutions to real problems. You&#x27;ll help our clients understand how AI can actually be useful for their business. If you&#x27;re comfortable with the technical side of AI and can explain thin... [Adzuna 🔗]</description>
-    <pubDate>Mon, 05 Oct 2026 02:56:40 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5911930871</guid>
-  </item>
-  <item>
-    <title>Senior QA Engineer — Experis España [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5906637403?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>At Experis, a ManpowerGroup company, we specialise in recruiting the best tech talent and matching them with all kinds of organisations, from large corporations to start-ups. We are a company specialising in IT consultancy and the recruitment of professionals in the technology sector across our three practice areas: Business Transformation, Cloud &amp; Infrastructure, and Enterprise Applications. We h... [Adzuna 🔗]</description>
-    <pubDate>Fri, 02 Oct 2026 03:25:38 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5906637403</guid>
   </item>
   <item>
     <title>Service Delivery Manager — Roche [📍 Madrid]</title>
@@ -101,13 +101,6 @@
     <description>Job Description Summary Responsible for ensuring quality and compliance of activities related to the construction, building and commissioning on customer site, from site mobilization, through civil, erection and commissioning work. This includes maintaining and verifying implementation of the site quality plan to ensure that contractual, legal, and internal requirements are met. Schedules and Cond... [The Muse 🌐]</description>
     <pubDate>Wed, 30 Sep 2026 18:50:21 GMT</pubDate>
     <guid isPermaLink="false">muse-22181242</guid>
-  </item>
-  <item>
-    <title>Engineering Manager - Remarketing — Nextlane [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5902043901?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>About Us At Nextlane , we don’t just develop software solutions – we create the future of the automotive industry. We are a company that combines advanced technology with a clear vision: simplifying and digitizing every step of the automotive customer journey, empowering manufacturers and dealerships to thrive in a constantly evolving market. We believe in the value of every team member, offering ... [Adzuna 🔗]</description>
-    <pubDate>Tue, 29 Sep 2026 03:07:35 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5902043901</guid>
   </item>
   <item>
     <title>Senior Scrum Master - Ecommerce — Knowmad Mood [📍 Madrid]</title>
@@ -138,27 +131,6 @@
     <guid isPermaLink="false">adzuna-5896093659</guid>
   </item>
   <item>
-    <title>QA Lead — Thales Ev [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5896093218?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Location: Madrid, Spain Thales people architect identity management and data protection solutions at the heart of digital security. Business and governments rely on us to bring trust to the billions of digital interactions they have with people. Our technologies and services help banks exchange funds, people cross borders, energy become smarter and much more. More than 30,000 organizations already... [Adzuna 🔗]</description>
-    <pubDate>Thu, 24 Sep 2026 03:42:42 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5896093218</guid>
-  </item>
-  <item>
-    <title>Senior QA Engineer / QA Lead — Idoven [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5896089684?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Description We are looking for a hands-on QA Lead to own quality assurance across Idoven’s Health SaaS platform. This is a deeply technical role — you will be the person who builds the QA framework, drives automated testing strategy, and personally implements the testing infrastructure that keeps our AI-powered cardiology product reliable and safe and user/customer-centric focused. This is not a h... [Adzuna 🔗]</description>
-    <pubDate>Thu, 24 Sep 2026 03:41:58 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5896089684</guid>
-  </item>
-  <item>
-    <title>Senior Scrum Master (100% remoto) — Knowmad Mood [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5896089602?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>We are knowmad mood! Somos una compañía líder en transformación digital, en constante evolución y a la vanguardia de la tecnología. Buscamos un/a Senior Scrum Master para dar soporte a dos equipos especialmente retadores en el área de eCommerce. El objetivo del rol no es la facilitación de ceremonias, sino diseñar y consolidar sistemas de trabajo que permitan a los equipos entregar valor de forma ... [Adzuna 🔗]</description>
-    <pubDate>Thu, 24 Sep 2026 03:41:57 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5896089602</guid>
-  </item>
-  <item>
     <title>QA Test Manager — Knowmad Mood [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5896088351?utm_medium=api&amp;utm_source=521e0734</link>
     <description>We are knowmad mood! Somos una compañía líder en transformación digital, en constante evolución y a la vanguardia de la tecnología. Nacimos para provocar un cambio real a través de la innovación y el desarrollo sostenible, con la misión de aportar valor a los clientes e impulsar nuestro talento. Formado por más de 3.000 personas creativas, digitales e innovadoras conectadas a un propósito y capace... [Adzuna 🔗]</description>
@@ -173,32 +145,11 @@
     <guid isPermaLink="false">adzuna-5896087940</guid>
   </item>
   <item>
-    <title>QA Test Lead — Knowmad Mood [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5896079466?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>We are knowmad mood! Somos una compañía líder en transformación digital, en constante evolución y a la vanguardia de la tecnología. Nacimos para provocar un cambio real a través de la innovación y el desarrollo sostenible, con la misión de aportar valor a los clientes e impulsar nuestro talento. Formado por más de 3.000 personas creativas, digitales e innovadoras conectadas a un propósito y capace... [Adzuna 🔗]</description>
-    <pubDate>Thu, 24 Sep 2026 03:40:06 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5896079466</guid>
-  </item>
-  <item>
     <title>Scrum Master — Irium [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5896071193?utm_medium=api&amp;utm_source=521e0734</link>
     <description>En IRIUM nos preocupamos porque no dejes de perseguir tus sueños. Prepárate para conquistar tus metas y disfruta del camino. Actualmente buscamos un/a Scrum Master / Agile Coach para incorporarse a un proyecto estratégico dentro del sector financiero. El objetivo es coordinar desarrollos en el área de Fábrica Retail para un cliente líder del sector bancario, facilitando ceremonias Agile, gestionan... [Adzuna 🔗]</description>
     <pubDate>Thu, 24 Sep 2026 03:39:00 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5896071193</guid>
-  </item>
-  <item>
-    <title>Senior QA Manager — 2k [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5896070708?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. Senior QA Manager - Madrid - All resumes in English please Role Overview To manage the QA Department for assigned projects &amp; staff: managing test process &amp; submissions, planning of resources intern... [Adzuna 🔗]</description>
-    <pubDate>Thu, 24 Sep 2026 03:38:57 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5896070708</guid>
-  </item>
-  <item>
-    <title>QA Manager — 2k [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5896070512?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Please note that 2K Games and its studios never uses instant messaging apps or personal email accounts to contact prospective employees or conduct interviews and when emailing, only use 2K.com accounts. LI-Onsite QA Manager - Madrid - Please only apply in English with an English Resume. JOIN OUR QA STUDIO IN MADRID! Founded in 2005, 2K Games is a global video game company, publishing titles develo... [Adzuna 🔗]</description>
-    <pubDate>Thu, 24 Sep 2026 03:38:56 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5896070512</guid>
   </item>
   <item>
     <title>Senior Test Lead — Ford Motor Company [📍 Madrid]</title>
@@ -220,6 +171,13 @@
     <description>We are rebuilding biotech for the AI era. When a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&amp;amp;D work into years. But that only happens when clean, structured scientific data and AI are built into how scien... [RemoteOK 🌐]</description>
     <pubDate>Tue, 18 Aug 2026 08:00:07 GMT</pubDate>
     <guid isPermaLink="false">remoteok-1136937</guid>
+  </item>
+  <item>
+    <title>Engineering Manager, Runtime Platform, Robot Software — Wayve [📍 London, United Kingdom]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/wayve/engineering-manager-runtime-platform-robot-software-london-united-kingdom-375280</link>
+    <description>Before the detail, here&#x27;s the challenge you&#x27;d help us solve. We build the embodied intelligence that moves real vehicles safely, and the ecosystem a billion machines will run on in the future. Very few people in AI can say this. Every role here, whatever the team, plugs into that. Here’s what this particular role covers. Engineering Manager, Runtime Platform, Robot Software London, UK or Sunnyvale... [Arbeitnow]</description>
+    <pubDate>Tue, 06 Oct 2026 12:40:07 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-runtime-platform-robot-software-london-united-kingdom-375280</guid>
   </item>
   <item>
     <title>Service Delivery Manager - Airline Industry Experience is a Must — Mullers Solutions 1 [📍 Paris, France]</title>
