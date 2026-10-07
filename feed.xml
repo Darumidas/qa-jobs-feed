@@ -6,65 +6,65 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
     <description>QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote / Madrid</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 14:18:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 20:28:05 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 32 jobs -->
+    <!-- 35 jobs -->
 
   <item>
     <title>Engineering Manager – EU</title>
     <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
   </item>
   <item>
     <title>LaunchDarkly: Engineering Manager, Cloud Engineering</title>
     <link>https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</link>
     <description>Headquarters: Remote - US About the Job: We’re looking for an Engineering Manager to lead LaunchDarkly’s Cloud Engineering team, the team responsible for the foundational infrastructure our products and engineering teams depend on. Cloud Engineering owns LaunchDarkly’s AWS accounts and networking, multi-region Kubernetes infrastructure, Terraform and GitOps workflows, CockroachDB operations, disas... [WeWorkRemotely 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</guid>
   </item>
   <item>
     <title>QA Automation Lead [gn] Data Intelligence</title>
     <link>https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</link>
     <description>The QA Automation Team is the ultimate guardian of our platform’s reliability, scalability, and deployment velocity. In a complex, data-heavy ecosystem, manual testing is a bottleneck; continuous, intelligent, and bulletproof... [Jobicy 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence</guid>
   </item>
   <item>
     <title>Senior Quality Engineer</title>
     <link>https://jobicy.com/jobs/154616-senior-quality-engineer-2</link>
     <description>About Karbon Karbon is the global leader in AI-powered practice management software for accounting firms. We provide an award-winning cloud platform that helps tens of thousands of accounting professionals work... [Jobicy 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154616-senior-quality-engineer-2</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/152325-senior-qa-engineer-2</link>
     <description>Caylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s... [Jobicy 🌐]</description>
-    <pubDate>Wed, 07 Oct 2026 14:18:08 GMT</pubDate>
+    <pubDate>Wed, 07 Oct 2026 20:28:05 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152325-senior-qa-engineer-2</guid>
   </item>
   <item>
@@ -222,18 +222,39 @@
     <guid isPermaLink="false">remoteok-1136937</guid>
   </item>
   <item>
-    <title>Technical Delivery Manager — Cytix [📍 Manchester]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/cytix/technical-delivery-manager-manchester-225234</link>
-    <description>Software never stops changing. Teams ship new code every day, through tickets, pull requests, releases, and increasingly with AI in the mix, but the way security keeps up with all that change hasn&#x27;t really moved on. That&#x27;s the problem we&#x27;re solving. Cytix helps organisations understand which software changes actually matter, what should happen next, and how to prove the right call was made. Securi... [Arbeitnow]</description>
-    <pubDate>Wed, 07 Oct 2026 12:40:05 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-technical-delivery-manager-manchester-225234</guid>
+    <title>Engineering Manager (3 months mission) — Pragmatike [📍 United Kingdom]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/pragmatike/engineering-manager-3-months-mission-united-kingdom-320180</link>
+    <description>Location: Fully Remote Engagement: 3-month renewable consulting mission Start Date: ASAP Compensation: Daily rate. 600 USD/day max Languages: French fluency is mandatory , English is required About the Opportunity Pragmatike is recruiting on behalf of a growing technology company looking for an experienced Engineering Manager to take ownership of its engineering function on a consulting basis. Thi... [Arbeitnow]</description>
+    <pubDate>Wed, 07 Oct 2026 18:40:05 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-3-months-mission-united-kingdom-320180</guid>
   </item>
   <item>
-    <title>Engineering Manager — TrustFlight [📍 London, Greater London, United Kingdom]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/trustflight/engineering-manager-london-149443</link>
-    <description>TrustFlight builds software that aviation operators around the world rely on to keep flying safe, for an international customer base with an unusually varied set of problems. This role exists to build and sustain a high-performing team of six to eight engineers: coaching each individual, holding a consistent standard of performance, and owning the process, testing, tooling and infrastructure the t... [Arbeitnow]</description>
-    <pubDate>Wed, 07 Oct 2026 12:30:02 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-engineering-manager-london-149443</guid>
+    <title>Engineering Manager (Remote - FR speaker) — Pragmatike [📍 United Kingdom]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/pragmatike/engineering-manager-remote-fr-speaker-united-kingdom-45812</link>
+    <description>Location: Fully Remote Engagement: 3-month renewable consulting mission Start Date: ASAP Compensation: Daily rate. 600 USD/day max Languages: French fluency is mandatory , English is required About the Opportunity Pragmatike is recruiting on behalf of a growing technology company looking for an experienced Engineering Manager to take ownership of its engineering function on a consulting basis. Thi... [Arbeitnow]</description>
+    <pubDate>Wed, 07 Oct 2026 18:40:05 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-remote-fr-speaker-united-kingdom-45812</guid>
+  </item>
+  <item>
+    <title>Senior QA Engineer (Berlin, hybrid) — Kittl [📍 Berlin]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/kittl/senior-qa-engineer-berlin-hybrid-138845</link>
+    <description>A little about us What we&#x27;re building: Kittl is becoming the AI-native, operating system for creative businesses. Most businesses don&#x27;t lose on product, they lose on how they show up. We give small brands the creative firepower to look credible and get from idea to launch-ready, with no agency and no design team Rapid growth: 11 million users since 2022 Diverse team: 120+ people from 30+ countries... [Arbeitnow]</description>
+    <pubDate>Wed, 07 Oct 2026 17:00:48 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-qa-engineer-berlin-hybrid-138845</guid>
+  </item>
+  <item>
+    <title>Engineering Manager — prolific [📍 Remote]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/prolific/remote-engineering-manager-86893</link>
+    <description>&amp;lt;h2 style=&amp;quot;text-align: center;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #7e8c8d;&amp;quot;&amp;gt;Engineering Manager&amp;amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/h2&amp;gt; &amp;lt;p style=&amp;quot;text-align: center;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: rgb(126, 140, 141);&amp;quot;&amp;gt;Engineering&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;color: rgb(126, 140, 141);&amp;quot;&amp;gt;&amp;lt;em&amp;gt;&amp;amp;nbsp;&amp;lt;/em&amp;gt;&amp;lt;/span&amp;gt;&amp;lt... [Arbeitnow]</description>
+    <pubDate>Wed, 07 Oct 2026 15:55:07 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-remote-engineering-manager-86893</guid>
+  </item>
+  <item>
+    <title>Remote Engineering Manager (Algorithms Team) (m/f/d) — Roompricegenie [📍 Remote Germany]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/roompricegenie/remote-engineering-manager-algorithms-team-47686</link>
+    <description>About RoomPriceGenie ✨🧞‍♂️ Founded in 2017, RoomPriceGenie is dedicated to helping hoteliers around the globe achieve optimal pricing. 🌍 We understand that many small hotels face challenges with digitalization, making their operations increasingly complex and often resulting in lost revenue. This is where we come in! We have developed a powerful solution that enables hotels to set the right prices... [Arbeitnow]</description>
+    <pubDate>Wed, 07 Oct 2026 14:40:04 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-remote-engineering-manager-algorithms-team-47686</guid>
   </item>
   </channel>
 </rss>
