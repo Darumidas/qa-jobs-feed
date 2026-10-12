@@ -6,122 +6,94 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 19:24:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 16:34:32 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 56 jobs -->
+    <!-- 39 jobs -->
 
   <item>
     <title>QA Engineer 区块链测试工程师</title>
     <link>https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</link>
     <description>Who we are Mantle is the entry point for institutions and traditional finance to access real-world assets on-chain. Backed by the world’s largest community-owned treasury of over $4B, Mantle combines... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152081-qa-engineer-%e5%8c%ba%e5%9d%97%e9%93%be%e6%b5%8b%e8%af%95%e5%b7%a5%e7%a8%8b%e5%b8%88</guid>
   </item>
   <item>
     <title>Engineering Manager – EU</title>
     <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
   </item>
   <item>
     <title>LaunchDarkly: Engineering Manager, Cloud Engineering</title>
     <link>https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</link>
     <description>Headquarters: Remote - US About the Job: We’re looking for an Engineering Manager to lead LaunchDarkly’s Cloud Engineering team, the team responsible for the foundational infrastructure our products and engineering teams depend on. Cloud Engineering owns LaunchDarkly’s AWS accounts and networking, multi-region Kubernetes infrastructure, Terraform and GitOps workflows, CockroachDB operations, disas... [WeWorkRemotely 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</guid>
   </item>
   <item>
     <title>Lead Automation Engineer</title>
     <link>https://jobicy.com/jobs/154027-lead-automation-engineer</link>
     <description>We’re Capital on Tap 👋💳 Capital on Tap started because small businesses were underserved. Big banks were slow, their products weren’t fit for purpose, and small business owners often couldn’t... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154027-lead-automation-engineer</guid>
   </item>
   <item>
     <title>Quality Assurance Engineer II</title>
     <link>https://jobicy.com/jobs/154875-quality-assurance-engineer-ii</link>
     <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154875-quality-assurance-engineer-ii</guid>
   </item>
   <item>
     <title>Software Test Engineer</title>
     <link>https://jobicy.com/jobs/154872-software-test-engineer</link>
     <description>Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154872-software-test-engineer</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/152325-senior-qa-engineer-2</link>
     <description>Caylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s... [Jobicy 🌐]</description>
-    <pubDate>Sun, 11 Oct 2026 19:24:03 GMT</pubDate>
+    <pubDate>Mon, 12 Oct 2026 16:34:32 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/152325-senior-qa-engineer-2</guid>
   </item>
   <item>
-    <title>Engineering Manager — Lynx [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5923027667?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>ACERCA DE LYNX En Lynx Financial Crime Tech S.A. , somos una empresa de software basado en IA especializada en detectar y predecir patrones de comportamiento. Dirigida por un equipo experto del sector financiero y académico , desarrollamos e implementamos tecnologías de IA de vanguardia y autoaprendizaje. Nuestra plataforma destaca en tecnologías de procesamiento de transacciones de baja latencia ... [Adzuna 🔗]</description>
-    <pubDate>Sun, 11 Oct 2026 10:31:52 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5923027667</guid>
+    <title>Learning Delivery Quality Lead (Trainer) — IQVIA [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5923975508?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Stockholm, Sweden Budapest, Hungary Paris, France Sofia, Bulgaria Athens, Greece Ljubljana - Dunajska, Slovenia Madrid, Spain Bucuresti, Romania Lisbon, Portugal Brussels, Brussels-Capital Region, Belgium Riga, Latvia Turku, Finland Prague, Czech Republic Full time R1572955 Overview The Learning Delivery Quality Lead is responsible for delivering onboarding, role-readiness, and capability developm... [Adzuna 🔗]</description>
+    <pubDate>Mon, 12 Oct 2026 07:57:40 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5923975508</guid>
   </item>
   <item>
-    <title>Procurement Delivery Manager - Digital &amp; Tech — Roche [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5922956333?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>At Roche you can show up as yourself, embraced for the unique qualities you bring. Our culture encourages personal expression, open dialogue, and genuine connections, where you are valued, accepted and respected for who you are, allowing you to thrive both personally and professionally. This is how we aim to prevent, stop and cure diseases and ensure everyone has access to healthcare today and for... [Adzuna 🔗]</description>
-    <pubDate>Sun, 11 Oct 2026 07:57:11 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5922956333</guid>
-  </item>
-  <item>
-    <title>Cgt Solution Delivery Manager — Cencora [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5922681912?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>RequirementsEssentialOur team members are at the heart of everything we do. At Cencora, we are united in our responsibility to create healthier futures, and every person here is essential to us being able to deliver on that purpose. If you want to make a difference at the center of health, come join our innovative company and help us improve the lives of people and animals everywhere.Job DetailsTh... [Adzuna 🔗]</description>
-    <pubDate>Sun, 11 Oct 2026 02:59:08 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5922681912</guid>
-  </item>
-  <item>
-    <title>European Payroll Service Delivery Manager — Ramboll [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5922678094?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>European Payroll Service Delivery ManagerLocation - Europe (Hybrid / Remote)Reporting to: Global Head of Payroll &amp; BenefitsAre you motivated by ensuring employees are paid accurately, compliantly, and on time across multiple countries? Are you excited by building scalable payroll service governance, strong vendor partnerships, and technology-enabled ways of working? Are you a collaborative leader ... [Adzuna 🔗]</description>
-    <pubDate>Sun, 11 Oct 2026 02:58:49 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5922678094</guid>
-  </item>
-  <item>
-    <title>Cgt Solution Delivery Manager — Cencora [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5922677916?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>RequirementsEssentialOur team members are at the heart of everything we do. At Cencora, we are united in our responsibility to create healthier futures, and every person here is essential to us being able to deliver on that purpose. If you want to make a difference at the center of health, come join our innovative company and help us improve the lives of people and animals everywhere.Job DetailsTh... [Adzuna 🔗]</description>
-    <pubDate>Sun, 11 Oct 2026 02:58:48 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5922677916</guid>
-  </item>
-  <item>
-    <title>Engineering Manager · Data Platform Azure — VORTECH PCI GROUP [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5922677362?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>About the job Engineering ManagerData Platform Azure ACERCA DE LA POSICIÓN ENGINEERING MANAGER – DATA PLATFORM AZUREEn Vortech PCI Group buscamos incorporar un/a Engineering Manager – Data Platform para liderar un proyecto estratégico de plataforma de datos en entorno Azure para una multinacional líder en software de gestión empresarial.Se trata de un proyecto greenfield, de alcance internacional,... [Adzuna 🔗]</description>
-    <pubDate>Sun, 11 Oct 2026 02:58:46 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5922677362</guid>
+    <title>Service Delivery Manager For Service Desk Spain — Airbus [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5923697624?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Job Descriptionis accountable for the delivery of all services to expected KPIsis responsible for ensuring fulfillment of run operations within national divisional perimeters whilst ensuring cross national harmonised ways of workingfocuses on maintaining Service Level Agreements, ensuring service quality, and managing stakeholders relationships.Is accountable for the delivery and resolution of any... [Adzuna 🔗]</description>
+    <pubDate>Mon, 12 Oct 2026 02:58:43 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5923697624</guid>
   </item>
   <item>
     <title>Scrum Master/Delivery Manager — Babel [📍 Madrid]</title>
@@ -143,13 +115,6 @@
     <description>Job DescriptionAn opportunity for an experienced Scrum Master has arisen within Airbus Helicopters (Albacete, Spain)WHY JOIN USLIFE IN ALBACETE: QUALITY &amp; CONVENIENCE - Forget long commutes. Albacete offers you the great advantage of a &quot;15-minute city&quot;: safe, accessible, comfortable and perfectly connected. Enjoy a premium standard of living at a competitive cost, ensuring you have the perfect bal... [Adzuna 🔗]</description>
     <pubDate>Sun, 11 Oct 2026 02:58:39 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5922676419</guid>
-  </item>
-  <item>
-    <title>Engineering Manager — WorkMotion [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5922675658?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Location: Remote (Within /- 2 hours of CET)Contract type: Full-timeSalary: Range from €60,000 - €100,000 per annum gross, subject to location, skills and experienceNot Your Typical Workplace Tired of the 9-to-5 grind? Imagine a World without borders, where opportunities are endless. That&#x27;s the future of work, and what we are building at WorkMotion. Our remote-first team spans across the world, hel... [Adzuna 🔗]</description>
-    <pubDate>Sun, 11 Oct 2026 02:58:34 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5922675658</guid>
   </item>
   <item>
     <title>Senior Qa Engineer - Madrid — Resident Advisor [📍 Madrid]</title>
@@ -264,11 +229,53 @@
     <guid isPermaLink="false">remoteok-1136937</guid>
   </item>
   <item>
-    <title>Senior Product Manager (all genders) | B2B — Real Digital [📍 Remote oder Köln / Darmstadt / Düsseldorf / Berlin]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/real-digital/remote-senior-product-manager-all-genders-b2b-483533</link>
-    <description>Anstellungsdetails Permanent Contract, Full- or Part-Time, Remote or Cologne / Düsseldorf / Darmstadt / Berlin Info Who we areWe are the tech powerhouse behind Kaufland’s international online marketplaces and a company within the Schwarz Group. Driven by a start-up mentality and working on an equal footing within flat hierarchies, we develop the best marketplace solutions for our customers, seller... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 17:09:33 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-remote-senior-product-manager-all-genders-b2b-483533</guid>
+    <title>Senior Decision Scientist, Revenue — Vinteden [📍 Berlin]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/vinteden/senior-decision-scientist-revenue-berlin-469967</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;h2&amp;gt;&amp;lt;strong&amp;gt;Brief info about Vinted&amp;amp;nbsp;&amp;lt;/strong&amp;gt;&amp;lt;/h2&amp;gt; &amp;lt;p data-renderer-start-pos=&amp;quot;1&amp;quot;&amp;gt;&amp;lt;span data-sheets-root=&amp;quot;1&amp;quot;&amp;gt;Our mission is to make second-hand the first choice, and we&amp;#39;re looking for people who want to help us get there. Every day, we work together to help our members buy and sell pre-l... [Arbeitnow]</description>
+    <pubDate>Mon, 12 Oct 2026 14:55:05 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-decision-scientist-revenue-berlin-469967</guid>
+  </item>
+  <item>
+    <title>Head of Quality Assurance – Industrial Corrosion Protection (w/m/d) — Right Search [📍 Bockenem]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/right-search/head-of-quality-assurance-industrial-corrosion-protection-bockenem-36496</link>
+    <description>Unser Kunde Ein traditionsreiches Unternehmen im industriellen Korrosionsschutz mit über 120 Jahren Erfahrung. Es fertigt und beschichtet Stahl‑ und Edelstahlbehälter sowie Rohrsysteme für die Chemie‑ und Energiebranche und beschäftigt rund 60‑65 Fachkräfte am Standort Bockenem. Das Unternehmen ist Teil einer internationalen Eigentümerstruktur und verfolgt eine wachstumsorientierte Strategie. Waru... [Arbeitnow]</description>
+    <pubDate>Mon, 12 Oct 2026 11:31:06 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-head-of-quality-assurance-industrial-corrosion-protection-bockenem-36496</guid>
+  </item>
+  <item>
+    <title>System Test Engineer (m/f/d) — Quantum-Systems GmbH [📍 Gilching]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/system-test-engineer-gilching-294473</link>
+    <description>As a System Test Engineer (m/f/d), you will play a key role in ensuring the quality, reliability, and operational performance of our unmanned systems (aircraft, vehicle).You will develop a deep understanding of our products, their system &amp;amp; software architecture, hardware components, interfaces, and operational use cases. Based on system and software requirements, you will define effective veri... [Arbeitnow]</description>
+    <pubDate>Mon, 12 Oct 2026 11:20:12 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-system-test-engineer-gilching-294473</guid>
+  </item>
+  <item>
+    <title>Automation Engineer (m/f/d) — Quantum-Systems GmbH [📍 Rostock]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/automation-engineer-rostock-472491</link>
+    <description>Quantum Systems is a leading European deep-tech company for unmanned systems across air, land and maritime domains. We develop and scale integrated hardware, software and AI-powered solutions for mission-critical operations. By combining autonomous platforms with intelligent software and AI, Quantum Systems enables customers to operate, understand and act across domains. What is your Day to Day Mi... [Arbeitnow]</description>
+    <pubDate>Mon, 12 Oct 2026 11:20:12 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-automation-engineer-rostock-472491</guid>
+  </item>
+  <item>
+    <title>Knowledge Management Specialist — Checkout.com [📍 London]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/checkoutcom/knowledge-management-specialist-london-327532</link>
+    <description>Company Description We’re Checkout.com . You might not know our name, but companies like eBay, Spotify, Klarna, Uber, and Sony do, because we’re behind many of the digital experiences you use every day. We are where the world checks out, enabling over 10 billion transactions yearly for more than one billion global shoppers. Whether you want to book a holiday, order food, renew a subscription, or c... [Arbeitnow]</description>
+    <pubDate>Mon, 12 Oct 2026 09:40:10 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-knowledge-management-specialist-london-327532</guid>
+  </item>
+  <item>
+    <title>Analytical Chemistry Specialist - Freelance AI Trainer Project — Jobgether [📍 UK]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/jobgether/analytical-chemistry-specialist-freelance-ai-trainer-project-uk-305440</link>
+    <description>This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for an Analytical Chemistry Specialist – Freelance AI Trainer Project based in United Kingdom. Are you an analytical chemistry expert interested in contributing to the next generation of artificial intelligence? This freelance opportunity allows you to apply your scientific... [Arbeitnow]</description>
+    <pubDate>Mon, 12 Oct 2026 06:25:54 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-analytical-chemistry-specialist-freelance-ai-trainer-project-uk-305440</guid>
+  </item>
+  <item>
+    <title>Engineering Manager, Build — gitlab [📍 Remote]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/gitlab/remote-engineering-manager-build-174866</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more s... [Arbeitnow]</description>
+    <pubDate>Sun, 11 Oct 2026 18:55:13 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-remote-engineering-manager-build-174866</guid>
   </item>
   <item>
     <title>Engineering Manager - Alma Wallet — Alma31 [📍 Paris, Paris]</title>
@@ -276,132 +283,6 @@
     <description>&amp;lt;h3 class=&amp;quot;p1&amp;quot;&amp;gt;🧡&amp;lt;strong&amp;gt; About Alma&amp;lt;/strong&amp;gt;&amp;lt;/h3&amp;gt; &amp;lt;p class=&amp;quot;p2&amp;quot;&amp;gt;At Alma, we believe sustainable commerce depends on fair, well‑balanced trade. Because finance plays a pivotal role in business, our mission is to put it back in its rightful place - serving merchants and consumers. Our installment and deferred payment solutions help merchants boost sa... [Arbeitnow]</description>
     <pubDate>Sun, 11 Oct 2026 13:55:03 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-engineering-manager-alma-wallet-paris-paris-121336</guid>
-  </item>
-  <item>
-    <title>Automation Engineer (m/w/d), n8n und Integrationen — JH Automations [🌐 Remote]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/jh-automations/automation-engineer-n8n-und-integrationen-hannover-344526</link>
-    <description>Über JH Automations JH Automations entwickelt Automatisierungen für den Mittelstand im DACH Raum: digitale Mitarbeiter, Workflows, KI Systeme und eigene Software bis hin zu Dashboards, die im Alltag genutzt werden. Uns geht es um Ergebnisse, die bei Kunden spürbar die Nadel bewegen. Dafür arbeiten wir sauber, dokumentieren alles und lassen nichts halbfertig. Unser Tech Stack ist Enterprise Level u... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 13:01:00 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-automation-engineer-n8n-und-integrationen-hannover-344526</guid>
-  </item>
-  <item>
-    <title>Automation Engineer — Gymshark [📍 Solihull]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/gymshark/automation-engineer-solihull-315390</link>
-    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;OVERVIEW:&amp;lt;br&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;span data-contrast=&amp;quot;auto&amp;quot;&amp;gt;We&amp;#39;re looking for a frontend Automation Engineer to join our Quality Engineering (QE) team for our Mobile apps, helping us build and scale automated testing for our iOS and Android apps. You&amp;#39;ll add to and maintain the automation framework that catch issues before customer... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 12:55:09 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-automation-engineer-solihull-315390</guid>
-  </item>
-  <item>
-    <title>Senior Optics Manager — Infinitesima [📍 Abingdon]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/infinitesima/senior-optics-manager-abingdon-54805</link>
-    <description>&amp;lt;div&amp;gt; &amp;lt;h1&amp;gt;Senior Optics Manager&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Abingdon, Oxfordshire (Hybrid)&amp;lt;/strong&amp;gt; &amp;lt;strong&amp;gt;£65,000 - £83,000 + EMI Share Options + Private Healthcare + 3x Death in Service&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Are you an experienced &amp;lt;strong&amp;gt;Optics Manager, Optical Engineering Manager or Senior Optical Engineer&amp;lt;/strong&amp;gt; looking to lead the deve... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 12:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-optics-manager-abingdon-54805</guid>
-  </item>
-  <item>
-    <title>Engineering Manager, Scientific Software — Infinitesima [📍 Abingdon]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/infinitesima/engineering-manager-scientific-software-abingdon-84406</link>
-    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;span data-contrast=&amp;quot;none&amp;quot;&amp;gt;&amp;lt;span data-ccp-parastyle=&amp;quot;heading 1&amp;quot;&amp;gt;Engineering Manager, Scientific Software&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;span data-ccp-props=&amp;quot;{&amp;amp;quot;335559739&amp;amp;quot;:150}&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;span data-ccp-props=&amp;quot;{&amp;amp;quot;335559739&amp;amp;quot;:150}&amp;quot;&amp;gt;(Senior... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 12:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-engineering-manager-scientific-software-abingdon-84406</guid>
-  </item>
-  <item>
-    <title>Lubricants Senior Technologist — Castrol [📍 ]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/castrol/lubricants-senior-technologist-418726</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;color: rgb(101, 101, 101);&amp;quot;&amp;gt;&amp;lt;span data-ogsc=&amp;quot;rgb(0, 0, 0)&amp;quot; data-olk-copy-source=&amp;quot;MessageBody&amp;quot;&amp;gt;Castrol is one of the world’s leading lubricant brands, serving customers and consumers in the automotive, marine, industrial and energy sectors. Castrol brands are recognised globally for their prem... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 12:55:07 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-lubricants-senior-technologist-418726</guid>
-  </item>
-  <item>
-    <title>Test Manager – Quality Assurance | Europe | Fully Remote — Escapevelocityentertainmentinc [📍 Spain, Czech Republic]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/escapevelocityentertainmentinc/test-manager-quality-assurance-europe-fully-remote-spain-czech-republic-295049</link>
-    <description>&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;What we are looking for:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;We are seeking a highly motivated Test Manager to lead Quality Assurance for a AAA game development team. You will lead embedded testing teams, and partner with cross-functional leadership to balance quality, schedule, and risk in a complex development envir... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 12:55:06 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-test-manager-quality-assurance-europe-fully-remote-spain-czech-republic-295049</guid>
-  </item>
-  <item>
-    <title>Senior Application Consultant - SFMC — Map [📍 London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/map/senior-application-consultant-sfmc-london-437479</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;h4&amp;gt;&amp;lt;strong&amp;gt;Who We Are&amp;lt;/strong&amp;gt;&amp;lt;/h4&amp;gt; &amp;lt;p&amp;gt;MAP | WPP Enterprise Solutions designs, builds, and operates the growth systems that competitive businesses rely on. In a world where Al is reshaping how companies drive growth, we lead clients in business transformation and marketing modernization, connecting strategy directly to execu... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 12:55:03 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-application-consultant-sfmc-london-437479</guid>
-  </item>
-  <item>
-    <title>Technical Product Manager (All Genders) — Skdse [📍 ]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/technical-product-manager-all-genders-436555</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-technical-product-manager-all-genders-436555</guid>
-  </item>
-  <item>
-    <title>Team Lead Operations Automation &amp; AI (All genders) — Skdse [📍 Munich, Bavaria]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/team-lead-operations-automation-ai-all-genders-munich-bavaria-183739</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-team-lead-operations-automation-ai-all-genders-munich-bavaria-183739</guid>
-  </item>
-  <item>
-    <title>Systems Integration &amp; QA Engineer (All Genders) — Skdse [📍 ]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/systems-integration-qa-engineer-all-genders-197131</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-systems-integration-qa-engineer-all-genders-197131</guid>
-  </item>
-  <item>
-    <title>Senior Ground Test Engineer (All Genders) — Skdse [📍 ]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/senior-ground-test-engineer-all-genders-306728</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-ground-test-engineer-all-genders-306728</guid>
-  </item>
-  <item>
-    <title>Senior Embedded Systems Test Engineer (All Genders) — Skdse [📍 ]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/senior-embedded-systems-test-engineer-all-genders-97430</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-embedded-systems-test-engineer-all-genders-97430</guid>
-  </item>
-  <item>
-    <title>Lead Flight Test Engineer (All Genders) — Skdse [📍 ]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/lead-flight-test-engineer-all-genders-236728</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-lead-flight-test-engineer-all-genders-236728</guid>
-  </item>
-  <item>
-    <title>Head of Flight Test Engineering (All Genders) — Skdse [📍 ]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/head-of-flight-test-engineering-all-genders-105601</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-head-of-flight-test-engineering-all-genders-105601</guid>
-  </item>
-  <item>
-    <title>Flight Test Engineer (All Genders) — Skdse [📍 Munich, Bavaria]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/flight-test-engineer-all-genders-munich-bavaria-396545</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-flight-test-engineer-all-genders-munich-bavaria-396545</guid>
-  </item>
-  <item>
-    <title>Automation Engineer (All Genders) — Skdse [📍 Munich, Bavaria]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/automation-engineer-all-genders-munich-bavaria-59281</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 10pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 11:55:08 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-automation-engineer-all-genders-munich-bavaria-59281</guid>
-  </item>
-  <item>
-    <title>Reliability Engineer — hellofresh [📍 Derby]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/hellofresh/reliability-engineer-derby-418217</link>
-    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Job Title: &amp;lt;/strong&amp;gt;Reliability Engineer&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Location: &amp;lt;/strong&amp;gt;Smart parc, Spondon, Derby DE21 7HW&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Shift:&amp;amp;nbsp;&amp;lt;/strong&amp;gt;Monday to Friday, 40hrs.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Let&amp;#39;s Discuss What&amp;#39;s On The Table For You:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;● 70% off HelloFresh or Green... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 09:55:09 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-reliability-engineer-derby-418217</guid>
-  </item>
-  <item>
-    <title>QA Engineer — Artificial Labs [📍 London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/artificial-labs/qa-engineer-london-196348</link>
-    <description>About Artificial Help shape the future of specialty insurance At Artificial, we’re building the next generation of technology for the specialty (re)insurance market. Our mission is to transform how brokers and carriers operate in complex markets by removing operational barriers and enabling smarter, faster decision-making. We use modern technology to solve real challenges for some of the world’s l... [Arbeitnow]</description>
-    <pubDate>Sun, 11 Oct 2026 09:40:12 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-qa-engineer-london-196348</guid>
   </item>
   </channel>
 </rss>
