@@ -6,107 +6,114 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 14:54:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 20:49:14 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 37 jobs -->
+    <!-- 42 jobs -->
 
   <item>
     <title>Databricks: Deployment Strategist</title>
     <link>https://weworkremotely.com/remote-jobs/databricks-deployment-strategist</link>
     <description>Headquarters: Remote - India About the Team The FDE (Forward Deployed Engineering) team is a new, strategic initiative sponsored from the CEO and Founders down. Our mission is to win C-suite-sponsored, high-value AI opportunities by selling and delivering outcomes , not just a platform. You will be part of the founding team, embedded with our most strategic customers from the very first sales call... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/databricks-deployment-strategist</guid>
   </item>
   <item>
     <title>Engineering Manager</title>
     <link>https://jobicy.com/jobs/157337-engineering-manager-13</link>
     <description>Hi, I’m Paul, VP of Engineering at Customer.io. We’re always looking for thoughtful, driven Engineering Managers to add to our org. Some of our teams are building customer-facing product and... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/157337-engineering-manager-13</guid>
   </item>
   <item>
     <title>LaunchDarkly: Engineering Manager, Cloud Engineering</title>
     <link>https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</link>
     <description>Headquarters: Remote - US About the Job: We’re looking for an Engineering Manager to lead LaunchDarkly’s Cloud Engineering team, the team responsible for the foundational infrastructure our products and engineering teams depend on. Cloud Engineering owns LaunchDarkly’s AWS accounts and networking, multi-region Kubernetes infrastructure, Terraform and GitOps workflows, CockroachDB operations, disas... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</guid>
+  </item>
+  <item>
+    <title>Medify: Engineering Manager</title>
+    <link>https://weworkremotely.com/remote-jobs/medify-engineering-manager</link>
+    <description>Headquarters: London URL: http://www.medify.co.uk Remote | Full-Time | UK&amp;nbsp; About Us At Medify, we’re on a mission to widen access to medicine and healthcare careers through world-class digital learning experiences. Since 2009, we’ve helped thousands of students prepare for high-stakes admissions tests, and we’re continuing to invest in our technology to build innovative, scalable products tha... [WeWorkRemotely 🌐]</description>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
+    <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/medify-engineering-manager</guid>
   </item>
   <item>
     <title>Quality Assurance Engineer II</title>
     <link>https://jobicy.com/jobs/154875-quality-assurance-engineer-ii</link>
     <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154875-quality-assurance-engineer-ii</guid>
   </item>
   <item>
     <title>Abnormal: Director of Security Engineering</title>
     <link>https://weworkremotely.com/remote-jobs/abnormal-director-of-security-engineering</link>
     <description>Headquarters: Remote - USA About the Role Abnormal AI protects organizations from the most sophisticated email and collaboration attacks using behavioral AI. Security is not a bolt-on at Abnormal; it is core to the product we sell and the trust our customers place in us. Our security organization operates a commercial cloud environment and a separate FedRAMP-authorized environment, and we are purs... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/abnormal-director-of-security-engineering</guid>
   </item>
   <item>
     <title>Lead Automation Engineer</title>
     <link>https://jobicy.com/jobs/154027-lead-automation-engineer</link>
     <description>We’re Capital on Tap 👋💳 Capital on Tap started because small businesses were underserved. Big banks were slow, their products weren’t fit for purpose, and small business owners often couldn’t... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154027-lead-automation-engineer</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/155766-senior-qa-engineer-3</link>
     <description>About us: Airtm is a financial-infrastructure company building the future of the online-work economy. We are on a mission to empower the world’s growing number of Digital Entrepreneurs in the... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/155766-senior-qa-engineer-3</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Aquifer: Development Manager</title>
     <link>https://weworkremotely.com/remote-jobs/aquifer-development-manager</link>
     <description>Headquarters: New Hampshire URL: https://aquifer.org/ Summary The Development Manager reports into the Chief Technology Officer and owns the engineering capacity, delivery commitments, and technical execution quality across Aquifer&#x27;s development pods. Directly manages all engineers, including the pod tech leads and a technical architect, with full people-management responsibility. The Development ... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/aquifer-development-manager</guid>
   </item>
   <item>
     <title>Discord: Engineering Manager, Platform Security</title>
     <link>https://weworkremotely.com/remote-jobs/discord-engineering-manager-platform-security</link>
     <description>Headquarters: Remote (West Coast) Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing gam... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/discord-engineering-manager-platform-security</guid>
   </item>
   <item>
     <title>Engineering Manager</title>
     <link>https://jobicy.com/jobs/156493-engineering-manager-11</link>
     <description>About Tekmetric Tekmetric is the all-in-one, cloud-based software helping auto repair shops run smarter, grow faster, and serve customers better. Built by a shop owner and shaped by the needs... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/156493-engineering-manager-11</guid>
   </item>
   <item>
     <title>Engineering Manager – EU</title>
     <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 20:49:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
   </item>
   <item>
@@ -208,6 +215,76 @@
     <guid isPermaLink="false">remoteok-1137434</guid>
   </item>
   <item>
+    <title>Solutions Delivery Manager — Benchling</title>
+    <link>https://remoteOK.com/remote-jobs/remote-solutions-delivery-manager-benchling-1136937</link>
+    <description>We are rebuilding biotech for the AI era. When a breakthrough is delayed, the world waits. Getting a molecule from discovery to patients, or a crop from lab to field, involves thousands of slow, manual, disconnected steps. AI has the potential to change this, compressing decades of R&amp;amp;D work into years. But that only happens when clean, structured scientific data and AI are built into how scien... [RemoteOK 🌐]</description>
+    <pubDate>Tue, 18 Aug 2026 08:00:07 GMT</pubDate>
+    <guid isPermaLink="false">remoteok-1136937</guid>
+  </item>
+  <item>
+    <title>Senior Engineering Manager — Monzo [📍 Cardiff]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/monzo/senior-engineering-manager-cardiff-84564</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;🚀 We’re on a mission to make money work for everyone.&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;We’re waving goodbye to the complicated and confusing ways of traditional banking.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as&amp;amp;nbsp;... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 18:55:31 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-engineering-manager-cardiff-84564</guid>
+  </item>
+  <item>
+    <title>Data Science Manager,  Financial Crime — Monzo [📍 Cardiff]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/monzo/data-science-manager-financial-crime-cardiff-141658</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;🚀 We’re on a mission to make money work for everyone.&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;We’re waving goodbye to the complicated and confusing ways of traditional banking.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as&amp;amp;nbsp;... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 18:55:31 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-data-science-manager-financial-crime-cardiff-141658</guid>
+  </item>
+  <item>
+    <title>Engineering Manager, Alwin Agent Runtime — Datasnipper [📍 Amsterdam]</title>
+    <link>https://www.arbeitnow.nl/jobs/companies/datasnipper/engineering-manager-alwin-agent-runtime-amsterdam-136828</link>
+    <description>We are looking for a skilled and passionate Engineering Manager to join our Alwin Agents Runtime Team in the Amsterdam office. Working in a bootstrapped and profitable scaleup, you&#x27;ll have the unique opportunity to lead a team building the intelligence layer that automates the assurance lifecycle and brings AI directly into the workflows of auditors worldwide. Why DataSnipper? The hardest AI probl... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 18:40:36 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-alwin-agent-runtime-amsterdam-136828</guid>
+  </item>
+  <item>
+    <title>Test Engineer (f/m/d) — Think Cell [📍 ]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/think-cell/test-engineer-324787</link>
+    <description>&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;About us&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;thinkcell provides &amp;lt;a href=&amp;quot;https://www.notion.so/%7b%7b%20site:locale%20%7d%7d/product&amp;quot;&amp;gt;graphics software&amp;lt;/a&amp;gt; that performs most of the painstaking work of creating data-driven slides for professional Excel and PowerPoint users. The testing department makes sure that new features are technically sound and work... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 15:55:21 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-test-engineer-324787</guid>
+  </item>
+  <item>
+    <title>Engineering Manager — Fullenrich [📍 France]</title>
+    <link>https://www.arbeitnow.fr/jobs/companies/fullenrich/engineering-manager-france-194166</link>
+    <description>Engineering Manager Location: Remote - Europe (CET ±2 hours) About FullEnrich: Every go-to-market motion runs on data, but no single provider has ever had complete coverage. We solve that problem: instead of relying on a single data source, we orchestrate 20+ premium providers around the world, automatically querying them and verifying data in real-time until we find the best available contact inf... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 15:40:34 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-france-194166</guid>
+  </item>
+  <item>
+    <title>Senior/Staff - Go Backend Engineer - remote friendly — Qonto [📍 Paris, France]</title>
+    <link>https://www.arbeitnow.fr/jobs/companies/qonto/senior-staff-go-backend-engineer-remote-friendly-paris-435366</link>
+    <description>[OUR MISSION AND CUSTOMERS] We are creating the freedom for SMEs to succeed by delivering Europe&#x27;s leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.7 on Trustpilot, based on 60,000 reviews. Our culture puts customer satisfaction at the core of what we do (more about our culture here ). [OUR JOURNEY] Founded in 2016 and launched in 2017 by... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 15:40:34 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-staff-go-backend-engineer-remote-friendly-paris-435366</guid>
+  </item>
+  <item>
+    <title>Engineering Manager - Accounting — Qonto [📍 Paris, France]</title>
+    <link>https://www.arbeitnow.fr/jobs/companies/qonto/engineering-manager-accounting-paris-178470</link>
+    <description>[OUR MISSION AND CUSTOMERS] We are creating the freedom for SMEs to succeed by delivering Europe&#x27;s leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.7 on Trustpilot, based on 60,000 reviews. Our culture puts customer satisfaction at the core of what we do (more about our culture here ). [OUR JOURNEY] Founded in 2016 and launched in 2017 by... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 15:40:34 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-accounting-paris-178470</guid>
+  </item>
+  <item>
+    <title>Senior Control Engineer — Eh Energy [📍 Nyon]</title>
+    <link>https://www.arbeitnow.ch/jobs/companies/eh-energy/senior-control-engineer-nyon-66979</link>
+    <description>About EH Energy EH Energy is developing cutting-edge fuel cell technology for heavy duty mobility and large-scale stationary power applications. Our uniquely redesigned product is a significantly more compact fuel cell with high power density and lower costs of production. Faced with the challenges of climate change and the transition to a decentralised energy system, EHG seeks to provide high per... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 15:40:34 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-control-engineer-nyon-66979</guid>
+  </item>
+  <item>
+    <title>Working Student Data Operations &amp; Process Support — Linehub [📍 Oldenburg]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/linehub/working-student-data-operations-process-support-oldenburg-450740</link>
+    <description>Have you ever found a voucher in a box from one of your online orders? Then you may have already met us without even knowing it! For more than 15 years, we’ve been connecting e-commerce brands such as Outfittery, Wolt, UberEats, Mister Spex and MediaMarkt with their target audiences. Under our two brands, Affiliprint and ParcelDealz, we deliver targeted parcel insert and door-to-door mailing campa... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 14:20:12 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-working-student-data-operations-process-support-oldenburg-450740</guid>
+  </item>
+  <item>
     <title>Senior Projectmanager — CCS Connects [📍 Woerden, Utrecht, Nederland]</title>
     <link>https://www.arbeitnow.nl/jobs/companies/ccs-connects/senior-projectmanager-woerden-217856</link>
     <description>Jouw Missie bij CCS Geen dag is hetzelfde in deze rol. Samen met je collega’s zorg je ervoor dat wij succesvol onze softwareoplossingen bij klanten implementeren en dat onze klanten een excellente dienstverlening krijgen! Voor deze complexe systeemimplementaties en integratieprojecten zoeken we een zeer ervaren projectmanager. Je leert de verzekeringsbranche kennen en klanten helpen. Dat doe je ni... [Arbeitnow]</description>
@@ -222,53 +299,11 @@
     <guid isPermaLink="false">arbeitnow-product-owner-gemeentepas-gouda-69328</guid>
   </item>
   <item>
-    <title>Linguist - German - Remote — LILT (Production) [📍 Germany (Remote)]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/lilt-production/linguist-german-remote-berlin-218034</link>
-    <description>About The Opportunity Are you a talented linguist with a love for language and cutting-edge technology? We want YOU to join our dynamic translation pool! We&#x27;re on the lookout for experts across a range of exciting fields — including Life Sciences, IT, Marketing, Legal, Finance, – but don&#x27;t let that limit you. Whatever your specialization, we&#x27;d love to hear from you! What You’ll Deliver Translate c... [Arbeitnow]</description>
-    <pubDate>Tue, 03 Nov 2026 09:40:17 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-linguist-german-remote-berlin-218034</guid>
-  </item>
-  <item>
     <title>Senior Testmanager / Test Engineer (m/w/d) - Katalon Studio (60-100%) (Ref.Nr.: 48146) — Wavestone Germany AG [📍 Zürich]</title>
     <link>https://www.arbeitnow.ch/jobs/companies/wavestone-germany-ag/senior-testmanager-test-engineer-katalon-studio-60-100-refnr-48146-zurich-142827</link>
     <description>Für ein spannendes Projekt bei unserem Kunden in Zürich (Remote-Anteil nur innerhalb der Schweiz möglich) suchen wir einen Senior Testmanager / Test Engineer (m/w/d) - Katalon Studio. Key Facts Start: 23.11.2026 Dauer: 7 Monate / Auslastung: 100 % Einsatzart: Einsatzort: Zürich Einsatzland: Schweiz Ihre Aufgaben • Das Testmanagement für vier Fachapplikationen übernehmen und die Übergabe durch die ... [Arbeitnow]</description>
     <pubDate>Mon, 02 Nov 2026 17:30:44 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-senior-testmanager-test-engineer-katalon-studio-60-100-refnr-48146-zurich-142827</guid>
-  </item>
-  <item>
-    <title>Professional ICT Test Manager (m/w/d) - SIP / VISO / Test Automation (60-80%) (Ref.Nr.: 47713) — Wavestone Germany AG [📍 Bern]</title>
-    <link>https://www.arbeitnow.ch/jobs/companies/wavestone-germany-ag/professional-ict-test-manager-sip-viso-test-automation-60-80-refnr-47713-bern-391249</link>
-    <description>Für ein langfristiges Projekt bei unserem Kunden in Bern (mit Remote-Anteil), suchen wir einen Professional ICT Test Manager (m/w/d) - SIP / VISO / Test Automation. Key Facts Start: 23.11.2026 Dauer: 15 Monate / Auslastung: 80 % Einsatzart: Einsatzort: Bern Einsatzland: Schweiz Ihre Aufgaben • Selbstständiges Erstellen von Testspezifikationen sowie Test- und Testablaufplänen • Kontinuierliche Opti... [Arbeitnow]</description>
-    <pubDate>Mon, 02 Nov 2026 15:01:06 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-professional-ict-test-manager-sip-viso-test-automation-60-80-refnr-47713-bern-391249</guid>
-  </item>
-  <item>
-    <title>Automation Engineer - GMP Pharma &amp; Biotech — agap2 - HIQ Consulting [📍 Basel]</title>
-    <link>https://www.arbeitnow.ch/jobs/companies/agap2-hiq-consulting/automation-engineer-gmp-pharma-biotech-basel-65474</link>
-    <description>agap2 is a European engineering and operational consulting group founded in 2005 and specialized in the industry. We work in the Pharma, Biotechnology, Medical Devices, Energy, Infrastructure, Transportation, Chemicals, and Information Technology sectors. As a consultant, you will have to support our clients in the realization of their projects on site by bringing your expertise and your skills. Y... [Arbeitnow]</description>
-    <pubDate>Mon, 02 Nov 2026 08:00:50 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-automation-engineer-gmp-pharma-biotech-basel-65474</guid>
-  </item>
-  <item>
-    <title>Mechatronic Design &amp; Test Engineer — Wingtra 2 [📍 Zürich]</title>
-    <link>https://www.arbeitnow.ch/jobs/companies/wingtra-2/mechatronic-design-test-engineer-zurich-385014</link>
-    <description>Join the Wingtra team and become part of this venture-backed robotics scaleup with a global and international team of 125+ dedicated Wingtranauts who want to see their actions have a positive and lasting impact on the world. Founded more than 8 years ago at ETH Zurich, Europe’s leading robotics university, our goal is to build the best aerial robots to digitize the world at the push of a button an... [Arbeitnow]</description>
-    <pubDate>Mon, 02 Nov 2026 03:27:31 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-mechatronic-design-test-engineer-zurich-385014</guid>
-  </item>
-  <item>
-    <title>Senior business analyst - deadline 03/11/2026 — AlmavivA de Belgique [📍 Amsterdam, Noord-Holland, Netherlands]</title>
-    <link>https://www.arbeitnow.nl/jobs/companies/almaviva-de-belgique/senior-business-analyst-deadline-03-11-2026-amsterdam-275939</link>
-    <description>Job description : We are looking for an experienced Business Analyst to work closely with Product Owners, business stakeholders, Subject Matter Experts (SMEs), and technical teams to analyze business needs, define requirements, and ensure successful delivery of features within an Agile/SAFe environment. The role involves managing the product backlog, preparing and refining user stories, facilitati... [Arbeitnow]</description>
-    <pubDate>Sun, 01 Nov 2026 06:31:50 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-business-analyst-deadline-03-11-2026-amsterdam-275939</guid>
-  </item>
-  <item>
-    <title>Engineering Manager — Finom [📍 Netherlands]</title>
-    <link>https://www.arbeitnow.nl/jobs/companies/finom/engineering-manager-netherlands-239043</link>
-    <description>Finom is a fast-growing European tech startup, headquartered in Amsterdam, on a mission to revolutionize the financial landscape for entrepreneurs globally. We are developing an all-in-one financial B2B solution that seamlessly integrates banking functions, accounting, financial management, and invoicing into a mobile-first platform. &amp;nbsp; Following a significant €115 million Series C equity roun... [Arbeitnow]</description>
-    <pubDate>Sun, 01 Nov 2026 06:06:51 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-engineering-manager-netherlands-239043</guid>
   </item>
   </channel>
 </rss>
