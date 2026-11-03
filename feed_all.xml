@@ -6,108 +6,129 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed_all.xml" rel="self" type="application/rss+xml"/>
     <description>All QA · Agile · Testing · Automation remote jobs — broad market view</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 01:28:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 14:54:14 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 41 jobs -->
+    <!-- 37 jobs -->
 
   <item>
     <title>Databricks: Deployment Strategist</title>
     <link>https://weworkremotely.com/remote-jobs/databricks-deployment-strategist</link>
     <description>Headquarters: Remote - India About the Team The FDE (Forward Deployed Engineering) team is a new, strategic initiative sponsored from the CEO and Founders down. Our mission is to win C-suite-sponsored, high-value AI opportunities by selling and delivering outcomes , not just a platform. You will be part of the founding team, embedded with our most strategic customers from the very first sales call... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/databricks-deployment-strategist</guid>
   </item>
   <item>
     <title>Engineering Manager</title>
     <link>https://jobicy.com/jobs/157337-engineering-manager-13</link>
     <description>Hi, I’m Paul, VP of Engineering at Customer.io. We’re always looking for thoughtful, driven Engineering Managers to add to our org. Some of our teams are building customer-facing product and... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/157337-engineering-manager-13</guid>
   </item>
   <item>
     <title>LaunchDarkly: Engineering Manager, Cloud Engineering</title>
     <link>https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</link>
     <description>Headquarters: Remote - US About the Job: We’re looking for an Engineering Manager to lead LaunchDarkly’s Cloud Engineering team, the team responsible for the foundational infrastructure our products and engineering teams depend on. Cloud Engineering owns LaunchDarkly’s AWS accounts and networking, multi-region Kubernetes infrastructure, Terraform and GitOps workflows, CockroachDB operations, disas... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/launchdarkly-engineering-manager-cloud-engineering</guid>
   </item>
   <item>
     <title>Quality Assurance Engineer II</title>
     <link>https://jobicy.com/jobs/154875-quality-assurance-engineer-ii</link>
     <description>Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We’re taking... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154875-quality-assurance-engineer-ii</guid>
   </item>
   <item>
     <title>Abnormal: Director of Security Engineering</title>
     <link>https://weworkremotely.com/remote-jobs/abnormal-director-of-security-engineering</link>
     <description>Headquarters: Remote - USA About the Role Abnormal AI protects organizations from the most sophisticated email and collaboration attacks using behavioral AI. Security is not a bolt-on at Abnormal; it is core to the product we sell and the trust our customers place in us. Our security organization operates a commercial cloud environment and a separate FedRAMP-authorized environment, and we are purs... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/abnormal-director-of-security-engineering</guid>
   </item>
   <item>
     <title>Lead Automation Engineer</title>
     <link>https://jobicy.com/jobs/154027-lead-automation-engineer</link>
     <description>We’re Capital on Tap 👋💳 Capital on Tap started because small businesses were underserved. Big banks were slow, their products weren’t fit for purpose, and small business owners often couldn’t... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/154027-lead-automation-engineer</guid>
   </item>
   <item>
     <title>Senior QA Engineer</title>
     <link>https://jobicy.com/jobs/155766-senior-qa-engineer-3</link>
     <description>About us: Airtm is a financial-infrastructure company building the future of the online-work economy. We are on a mission to empower the world’s growing number of Digital Entrepreneurs in the... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/155766-senior-qa-engineer-3</guid>
   </item>
   <item>
     <title>Engineering Manager – Canada</title>
     <link>https://jobicy.com/jobs/151633-engineering-manager-canada</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151633-engineering-manager-canada</guid>
   </item>
   <item>
     <title>Engineering Manager – UK</title>
     <link>https://jobicy.com/jobs/151620-engineering-manager-uk</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151620-engineering-manager-uk</guid>
   </item>
   <item>
     <title>Engineering Manager – Americas</title>
     <link>https://jobicy.com/jobs/151638-engineering-manager-americas</link>
     <description>Hi 👋🏾, I’m Abhik, Ashby’s Co-Founder and VP of Engineering. We’re looking for a great (former) engineer who built impressive products and now builds teams of great engineers. Ashby’s success... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/151638-engineering-manager-americas</guid>
   </item>
   <item>
     <title>Aquifer: Development Manager</title>
     <link>https://weworkremotely.com/remote-jobs/aquifer-development-manager</link>
     <description>Headquarters: New Hampshire URL: https://aquifer.org/ Summary The Development Manager reports into the Chief Technology Officer and owns the engineering capacity, delivery commitments, and technical execution quality across Aquifer&#x27;s development pods. Directly manages all engineers, including the pod tech leads and a technical architect, with full people-management responsibility. The Development ... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/aquifer-development-manager</guid>
   </item>
   <item>
     <title>Discord: Engineering Manager, Platform Security</title>
     <link>https://weworkremotely.com/remote-jobs/discord-engineering-manager-platform-security</link>
     <description>Headquarters: Remote (West Coast) Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing gam... [WeWorkRemotely 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/discord-engineering-manager-platform-security</guid>
   </item>
   <item>
     <title>Engineering Manager</title>
     <link>https://jobicy.com/jobs/156493-engineering-manager-11</link>
     <description>About Tekmetric Tekmetric is the all-in-one, cloud-based software helping auto repair shops run smarter, grow faster, and serve customers better. Built by a shop owner and shaped by the needs... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/156493-engineering-manager-11</guid>
   </item>
   <item>
     <title>Engineering Manager – EU</title>
     <link>https://jobicy.com/jobs/150687-engineering-manager-eu</link>
     <description>Hi 👋 I’m Colin, Director of Engineering, Europe. How do you feel about software engineers writing product specs, making product decisions, and not breaking down projects into individual tickets? If... [Jobicy 🌐]</description>
-    <pubDate>Tue, 03 Nov 2026 01:28:45 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2026 14:54:14 GMT</pubDate>
     <guid isPermaLink="false">jobicy-https://jobicy.com/jobs/150687-engineering-manager-eu</guid>
+  </item>
+  <item>
+    <title>Senior Qa Engineer / Qa Engineering Lead — Babel [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5951080728?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Senior QA Engineer / QA Engineering Lead¿Qué buscamos? Buscamos un/a Senior QA Engineer / QA Engineering Lead con una sólida base técnica y experiencia en automatización de pruebas, capaz de impulsar la evolución de la estrategia de calidad del software. No buscamos un perfil de QA tradicional centrado únicamente en testing manual o coordinación. Queremos una persona con visión de ingeniería, capa... [Adzuna 🔗]</description>
+    <pubDate>Tue, 03 Nov 2026 03:00:41 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5951080728</guid>
+  </item>
+  <item>
+    <title>Field Delivery Manager - Ac Power — Vertiv [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5951080694?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>JOB DESCRIPTIONThe Manager for Field Service Engineers plays a pivotal role in leading a team of engineers responsible for the installation, repair, and maintenance of Vertiv and legacy company equipment at customer sites across the EMEA region. This role ensures operational excellence, team performance, and customer satisfaction through effective leadership and strategic oversightSummaryThe Manag... [Adzuna 🔗]</description>
+    <pubDate>Tue, 03 Nov 2026 03:00:41 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5951080694</guid>
+  </item>
+  <item>
+    <title>Senior Engineering Manager, Infrastructure (All Genders) — Distribusion Technologies [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5951080846?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>About usDistribusion is the world&#x27;s leading ground transportation marketplace and gives travellers seamless access to ground transportation online, from search to ticket purchase. We have built a cutting-edge B2B technology platform that connects bus, rail and ferry operators in 70 countries with the biggest online retailers including Google Maps and Booking.com.We are shaping the future of travel... [Adzuna 🔗]</description>
+    <pubDate>Tue, 03 Nov 2026 03:00:41 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5951080846</guid>
   </item>
   <item>
     <title>Delivery Manager - RDT Global Products &amp; GPS — Roche [📍 Madrid]</title>
@@ -115,13 +136,6 @@
     <description>At Roche you can show up as yourself, embraced for the unique qualities you bring. Our culture encourages personal expression, open dialogue, and genuine connections, where you are valued, accepted and respected for who you are, allowing you to thrive both personally and professionally. This is how we aim to prevent, stop and cure diseases and ensure everyone has access to healthcare today and for... [Adzuna 🔗]</description>
     <pubDate>Sun, 01 Nov 2026 07:16:23 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5948739179</guid>
-  </item>
-  <item>
-    <title>Grid Delivery Manager, Infra Energy Team — Amazon [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5948738302?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Description The AWS Infrastructure Energy Team (IET) is seeking a results-oriented Grid Delivery Manager to join our growing team. In this role, you will be the single-threaded owner for delivering large-scale, high-voltage grid interconnection projects that connect the electrical grid to AWS data centres - directly enabling cloud capacity growth. You will manage the full lifecycle of grid connect... [Adzuna 🔗]</description>
-    <pubDate>Sun, 01 Nov 2026 07:16:05 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5948738302</guid>
   </item>
   <item>
     <title>Scrum Master | Sector Ferroviario — Expleo [📍 Madrid]</title>
@@ -138,32 +152,11 @@
     <guid isPermaLink="false">remoteok-1137609</guid>
   </item>
   <item>
-    <title>Grid Delivery Manager, Infra Energy Team — Amazon Data Services Spain, S.L.U. [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5947970197?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>The AWS Infrastructure Energy Team (IET) is seeking a results-oriented Grid Delivery Manager to join our growing team. In this role, you will be the single-threaded owner for delivering large-scale, high-voltage grid interconnection projects that connect the electrical grid to AWS data centres — directly enabling cloud capacity growth. You will manage the full lifecycle of grid connection delivery... [Adzuna 🔗]</description>
-    <pubDate>Sat, 31 Oct 2026 13:02:40 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5947970197</guid>
-  </item>
-  <item>
     <title>Engineering Manager - Lending — Ebury [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5947799420?utm_medium=api&amp;utm_source=521e0734</link>
     <description>Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to ... [Adzuna 🔗]</description>
     <pubDate>Sat, 31 Oct 2026 09:25:58 GMT</pubDate>
     <guid isPermaLink="false">adzuna-5947799420</guid>
-  </item>
-  <item>
-    <title>Project Manager Middle (Scrum Master) At Itransition — Itransition Group [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5947366870?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>Project Manager Middle (Scrum Master) at Itransition in MC, ES. Full time on site position offers great opportunities for career growth. We are looking for experienced project managers who are able to run projects within the chosen scope of methodologies, as well as successfully achieving project outcomes.office remote European UnionGeorgiaKazakhstanUzbekistanRequirements 2 years of experienceUnde... [Adzuna 🔗]</description>
-    <pubDate>Sat, 31 Oct 2026 02:39:20 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5947366870</guid>
-  </item>
-  <item>
-    <title>Engineering Manager Lead — K-LAGAN [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5947366741?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>I agree to receive commercial information, including by emailDATA PROTECTION INFORMATION. Responsible for the treatment: K-LAGAN ESPAÑA, S.L.Purposes: Respond to your job application and send you commercial information about our products and services, including by e-mail if the interested party authorizes it.Legitimation: Consent of the interested party. Retention periods: The data will be kept fo... [Adzuna 🔗]</description>
-    <pubDate>Sat, 31 Oct 2026 02:39:19 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5947366741</guid>
   </item>
   <item>
     <title>Senior QA Engineer / QA Engineering Lead — Babel [📍 Madrid]</title>
@@ -215,39 +208,25 @@
     <guid isPermaLink="false">remoteok-1137434</guid>
   </item>
   <item>
-    <title>Senior Engineering Manager — Fundingcircle [📍 London]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/fundingcircle/senior-engineering-manager-london-29211</link>
-    <description>We’re on a mission to back the UK’s small businesses like no one else 🚀 Small businesses are the backbone of the economy, and we’re here to help them win. We’ve built a platform that uses clever data to get them the funding they need in minutes, not weeks. At Funding Circle, we have the restless energy of a fintech start-up with the stability of a public company. It’s a unique mix that gives Circl... [Arbeitnow]</description>
-    <pubDate>Tue, 03 Nov 2026 00:40:14 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-senior-engineering-manager-london-29211</guid>
+    <title>Senior Projectmanager — CCS Connects [📍 Woerden, Utrecht, Nederland]</title>
+    <link>https://www.arbeitnow.nl/jobs/companies/ccs-connects/senior-projectmanager-woerden-217856</link>
+    <description>Jouw Missie bij CCS Geen dag is hetzelfde in deze rol. Samen met je collega’s zorg je ervoor dat wij succesvol onze softwareoplossingen bij klanten implementeren en dat onze klanten een excellente dienstverlening krijgen! Voor deze complexe systeemimplementaties en integratieprojecten zoeken we een zeer ervaren projectmanager. Je leert de verzekeringsbranche kennen en klanten helpen. Dat doe je ni... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 12:31:43 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-senior-projectmanager-woerden-217856</guid>
   </item>
   <item>
-    <title>Automation Engineer (All genders) — Skdse [📍 Munich, Bavaria]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/skdse/automation-engineer-all-genders-munich-bavaria-116743</link>
-    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size: 12pt; font-family: helvetica, arial, sans-serif;&amp;quot;&amp;gt;At Stark, we forge the future of European and national security through cutting-edge, AI-driven technology and unmatched engineering precision. As a premier defence technology company, our mission is clear: to equip NATO Allies and their partners &amp;amp;nbsp;w... [Arbeitnow]</description>
-    <pubDate>Mon, 02 Nov 2026 21:55:21 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-automation-engineer-all-genders-munich-bavaria-116743</guid>
+    <title>Product Owner Gemeentepas — Centric [📍 Gouda, Zuid-Holland, Nederland]</title>
+    <link>https://www.arbeitnow.nl/jobs/companies/centric/product-owner-gemeentepas-gouda-69328</link>
+    <description>Wil jij maximale waarde creëren voor gemeenten, aanbieders en eindgebruikers met de Gemeentepas? Het kan als Product Owner. Je vormt de spil tussen business, technologie en operatie en is in staat om de strategische doelen van de organisiatie te vertalen naar tactische doelen en het opzetten van een duidelijke productvisie, roadmap en backlog. Wat jij doet Als Product Owner ontwikkel en onderhoud ... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 12:31:43 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-product-owner-gemeentepas-gouda-69328</guid>
   </item>
   <item>
-    <title>Associate Delivery Engineer — hyperexponential [📍 London (hybrid)]</title>
-    <link>https://www.arbeitnow.co.uk/jobs/companies/hyperexponential/associate-delivery-engineer-london-258543</link>
-    <description>About hyperexponential (hx) At hyperexponential, we’re building the AI-powered platform that enables the world’s most critical decisions in a $7 trillion industry - which risks to take, and how to price them. These are the decisions that shape real-world outcomes: whether rockets successfully launch into space, autonomous vehicles make it to market, or communities recover after major storms. Until... [Arbeitnow]</description>
-    <pubDate>Mon, 02 Nov 2026 21:40:14 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-associate-delivery-engineer-london-258543</guid>
-  </item>
-  <item>
-    <title>Technical Product Owner — Odaseva [📍 Paris]</title>
-    <link>https://www.arbeitnow.fr/jobs/companies/odaseva/technical-product-owner-paris-438940</link>
-    <description>Odaseva provides enterprise data management and security solutions that help organizations exercise sovereignty over their critical data. Companies representing 10% of global market capitalization trust Odaseva, including Schneider Electric, Volkswagen and Robert Half. Its Excalibur Data Platform enables customers to protect, secure, move, and use data and code independently of application vendors... [Arbeitnow]</description>
-    <pubDate>Mon, 02 Nov 2026 21:08:03 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-technical-product-owner-paris-438940</guid>
-  </item>
-  <item>
-    <title>Responsable d&#x27;équipe Brand Support - Marketplace  H/F/X CDI — Veepee [📍 Saint-Denis]</title>
-    <link>https://www.arbeitnow.fr/jobs/companies/veepee/responsable-dequipe-brand-support-marketplace-cdi-saint-denis-460517</link>
-    <description>Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 millia... [Arbeitnow]</description>
-    <pubDate>Mon, 02 Nov 2026 21:08:02 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-responsable-dequipe-brand-support-marketplace-cdi-saint-denis-460517</guid>
+    <title>Linguist - German - Remote — LILT (Production) [📍 Germany (Remote)]</title>
+    <link>https://www.arbeitnow.com/jobs/companies/lilt-production/linguist-german-remote-berlin-218034</link>
+    <description>About The Opportunity Are you a talented linguist with a love for language and cutting-edge technology? We want YOU to join our dynamic translation pool! We&#x27;re on the lookout for experts across a range of exciting fields — including Life Sciences, IT, Marketing, Legal, Finance, – but don&#x27;t let that limit you. Whatever your specialization, we&#x27;d love to hear from you! What You’ll Deliver Translate c... [Arbeitnow]</description>
+    <pubDate>Tue, 03 Nov 2026 09:40:17 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-linguist-german-remote-berlin-218034</guid>
   </item>
   <item>
     <title>Senior Testmanager / Test Engineer (m/w/d) - Katalon Studio (60-100%) (Ref.Nr.: 48146) — Wavestone Germany AG [📍 Zürich]</title>
@@ -290,13 +269,6 @@
     <description>Finom is a fast-growing European tech startup, headquartered in Amsterdam, on a mission to revolutionize the financial landscape for entrepreneurs globally. We are developing an all-in-one financial B2B solution that seamlessly integrates banking functions, accounting, financial management, and invoicing into a mobile-first platform. &amp;nbsp; Following a significant €115 million Series C equity roun... [Arbeitnow]</description>
     <pubDate>Sun, 01 Nov 2026 06:06:51 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-engineering-manager-netherlands-239043</guid>
-  </item>
-  <item>
-    <title>Team Lead - Invoices — BLP Digital AG [📍 Zurich]</title>
-    <link>https://www.arbeitnow.ch/jobs/companies/blp-digital-ag/team-lead-invoices-zurich-420009</link>
-    <description>Join BLP and help make the world’s business processes autonomous! Our agentic platform helps finance and operations teams worldwide remove manual work from their core business processes, so work runs end-to-end with greater control and significant productivity gains. Today, over 550 enterprise customers use BLP across 1,300+ deployed projects. In the processes we automate, customers achieve produc... [Arbeitnow]</description>
-    <pubDate>Sat, 31 Oct 2026 03:40:28 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-team-lead-invoices-zurich-420009</guid>
   </item>
   </channel>
 </rss>
