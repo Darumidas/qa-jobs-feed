@@ -6,11 +6,39 @@
     <atom:link href="https://darumidas.github.io/qa-jobs-feed/feed.xml" rel="self" type="application/rss+xml"/>
     <description>QA Lead · Test Lead · Test Manager · Scrum Master · Senior QA — Remote / Madrid</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 00:02:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 19:02:29 GMT</lastBuildDate>
     <ttl>240</ttl>
     <generator>JoseAI JobFeed v2.0</generator>
-    <!-- 26 jobs -->
+    <!-- 30 jobs -->
 
+  <item>
+    <title>Reddit: Engineering Manager, Ranking Platform</title>
+    <link>https://weworkremotely.com/remote-jobs/reddit-engineering-manager-ranking-platform</link>
+    <description>Headquarters: Remote - United States Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the... [WeWorkRemotely 🌐]</description>
+    <pubDate>Mon, 23 Nov 2026 19:02:29 GMT</pubDate>
+    <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/reddit-engineering-manager-ranking-platform</guid>
+  </item>
+  <item>
+    <title>Grafana Labs: Engineering Manager - Grafana Infrastructure (Remote, Ireland)</title>
+    <link>https://weworkremotely.com/remote-jobs/grafana-labs-engineering-manager-grafana-infrastructure-remote-ireland</link>
+    <description>Headquarters: Republic of Ireland (Remote) Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and obser... [WeWorkRemotely 🌐]</description>
+    <pubDate>Mon, 23 Nov 2026 19:02:29 GMT</pubDate>
+    <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/grafana-labs-engineering-manager-grafana-infrastructure-remote-ireland</guid>
+  </item>
+  <item>
+    <title>Grafana Labs: Engineering Manager - Grafana Infrastructure (Remote, Canada)</title>
+    <link>https://weworkremotely.com/remote-jobs/grafana-labs-engineering-manager-grafana-infrastructure-remote-canada</link>
+    <description>Headquarters: Canada (Remote) Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to A... [WeWorkRemotely 🌐]</description>
+    <pubDate>Mon, 23 Nov 2026 19:02:29 GMT</pubDate>
+    <guid isPermaLink="false">wwr-https://weworkremotely.com/remote-jobs/grafana-labs-engineering-manager-grafana-infrastructure-remote-canada</guid>
+  </item>
+  <item>
+    <title>QA Lead — Allfunds [📍 Madrid]</title>
+    <link>https://www.adzuna.es/details/5976243779?utm_medium=api&amp;utm_source=521e0734</link>
+    <description>Allfunds is a leading global dealing and distribution platform in the wealth management industry. Distinguished by its buy-free model, the breadth of its distribution network, strong global and local execution capabilities, and value-added services, Allfunds has a longstanding track record of delivering growth, with AuA at a historic high of €1.76 trillion (as of 31 December 2025). Allfunds seamle... [Adzuna 🔗]</description>
+    <pubDate>Mon, 23 Nov 2026 16:58:58 GMT</pubDate>
+    <guid isPermaLink="false">adzuna-5976243779</guid>
+  </item>
   <item>
     <title>SAP Consultant with Scrum Master Skills (m/f/d) — T-Systems [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5974308970?utm_medium=api&amp;utm_source=521e0734</link>
@@ -152,13 +180,6 @@
     <guid isPermaLink="false">adzuna-5954173392</guid>
   </item>
   <item>
-    <title>QA Lead Corporativo — El Corte Inglés [📍 Madrid]</title>
-    <link>https://www.adzuna.es/details/5954162827?utm_medium=api&amp;utm_source=521e0734</link>
-    <description>¿Buscas desarrollar tu talento y un lugar dónde tu esfuerzo sea reconocido? Te ofrecemos un entorno dinámico, cercano y de futuro. Aquí, cada día es una nueva oportunidad para aprender, crecer y brillar. Imagina formar parte de un equipo diverso, donde la evolución y el servicio al cliente son nuestra prioridad. En El Corte Inglés, nuestro trabajo es una pasión compartida. El proyecto que te esper... [Adzuna 🔗]</description>
-    <pubDate>Thu, 05 Nov 2026 13:11:35 GMT</pubDate>
-    <guid isPermaLink="false">adzuna-5954162827</guid>
-  </item>
-  <item>
     <title>Test Lead Sap — Accenture España [📍 Madrid]</title>
     <link>https://www.adzuna.es/details/5954154059?utm_medium=api&amp;utm_source=521e0734</link>
     <description>Accenture, reconocida como Great Place To Work®, una compañía líder mundial en servicios profesionales que ayuda a las principales empresas, administraciones públicas y otras organizaciones del mundo a desarrollar su core digital, optimizar sus operaciones, acelerar el crecimiento de sus ingresos y mejorar los servicios para los ciudadanos, creando valor tangible a velocidad y escala. Buscamos un ... [Adzuna 🔗]</description>
@@ -166,11 +187,25 @@
     <guid isPermaLink="false">adzuna-5954154059</guid>
   </item>
   <item>
-    <title>Engineering Manager EU/UK (m/f/x) — Makersite GmbH [🌐 Remote]</title>
-    <link>https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-engineering-manager-eu-uk-berlin-491641</link>
-    <description>Engineering Manager (m/f/x)&amp;nbsp; Location: EU/UK (Remote)&amp;nbsp; &amp;nbsp; Who You’ll Work For : &amp;nbsp; &amp;nbsp; At Makersite, we&#x27;re pioneering the future of sustainable product development and digital collaboration. As a leading platform for product lifecycle management (PLM), we empower companies to make smarter, more sustainable decisions across their entire supply chain. Our cutting-edge software e... [Arbeitnow]</description>
-    <pubDate>Sun, 22 Nov 2026 15:31:28 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-remote-engineering-manager-eu-uk-berlin-491641</guid>
+    <title>Engineering Manager, AI CICD — chainguard [📍 ]</title>
+    <link>https://www.arbeitnow.co.uk/jobs/companies/chainguard/engineering-manager-ai-cicd-468359</link>
+    <description>&amp;lt;div class=&amp;quot;content-intro&amp;quot;&amp;gt;&amp;lt;p&amp;gt;Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk.&amp;amp;nbsp;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Our customers include Fortune 500 enterprises and global indust... [Arbeitnow]</description>
+    <pubDate>Mon, 23 Nov 2026 15:55:27 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-ai-cicd-468359</guid>
+  </item>
+  <item>
+    <title>Engineering Manager - AI platform — DiliTrust [📍 Paris - La Défense]</title>
+    <link>https://www.arbeitnow.fr/jobs/companies/dilitrust/engineering-manager-ai-platform-paris-la-defense-312019</link>
+    <description>Ready to be part of the Legal Tech revolution? Vision : As a leading software-as-a-service (SaaS) provider, DiliTrust is a global company dedicated to offering an integrated suite of legal and governance products. Our vision is to digitize legal departments worldwide. With an annual growth rate of over 40% since 2020, our ambition is to become the world&#x27;s leading Legal Tech company, aiming for a v... [Arbeitnow]</description>
+    <pubDate>Mon, 23 Nov 2026 06:26:58 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-ai-platform-paris-la-defense-312019</guid>
+  </item>
+  <item>
+    <title>Engineering Manager - Spain 🇪🇸 — Doctrine [📍 Paris]</title>
+    <link>https://www.arbeitnow.fr/jobs/companies/doctrine/engineering-manager-spain-paris-44591</link>
+    <description>Notre mission ⚖️ Chez Doctrine, nous construisons le leader de l’IA juridique en Europe. Notre conviction ? Le droit ne doit pas être ralenti par des tâches répétitives. Il doit être augmenté par une IA spécialisée, conçue pour comprendre, analyser et produire du raisonnement juridique avec un haut niveau d’exigence. Notre ambition ? Permettre aux professionnels du droit de gagner en fiabilité, en... [Arbeitnow]</description>
+    <pubDate>Mon, 23 Nov 2026 00:07:18 GMT</pubDate>
+    <guid isPermaLink="false">arbeitnow-engineering-manager-spain-paris-44591</guid>
   </item>
   <item>
     <title>Sr. Engineering Manager — Mytomorrows [📍 Amsterdam HQ]</title>
@@ -185,13 +220,6 @@
     <description>&amp;lt;p&amp;gt;We’re on a mission to become the go-to destination for students across Europe to find a trusted home away from home. We make every step of the rental journey simple and seamless, so students can focus on what really matters: studying, exploring, and growing.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;With HousingAnywhere, Kamernet, and Studapart under our roof, we’re Europe’s largest student rental platform. You... [Arbeitnow]</description>
     <pubDate>Sat, 21 Nov 2026 15:55:31 GMT</pubDate>
     <guid isPermaLink="false">arbeitnow-engineering-manager-rotterdam-173959</guid>
-  </item>
-  <item>
-    <title>Engineering Manager — HousingAnywhere Group [📍 Rotterdam, Zuid-Holland, Netherlands]</title>
-    <link>https://www.arbeitnow.nl/jobs/companies/housinganywhere-group/engineering-manager-rotterdam-82636</link>
-    <description>We&#x27;re on a mission to become the go-to destination for students across Europe to find a trusted home away from home. We make every step of the rental journey simple and seamless, so students can focus on what really matters: studying, exploring, and growing. With HousingAnywhere, Kamernet, and Studapart under our roof, we&#x27;re Europe&#x27;s largest student rental platform. You&#x27;ll find us in Rotterdam, Pa... [Arbeitnow]</description>
-    <pubDate>Fri, 20 Nov 2026 18:45:34 GMT</pubDate>
-    <guid isPermaLink="false">arbeitnow-engineering-manager-rotterdam-82636</guid>
   </item>
   </channel>
 </rss>
